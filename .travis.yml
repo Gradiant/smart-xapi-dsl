@@ -1,0 +1,20 @@
+language: node_js
+cache:
+  directories:
+  - ~/.npm
+notifications:
+  email: false
+node_js:
+- '10'
+- '9'
+- '8'
+
+script: npm run ci
+
+# TODO: semantic-release when the package can be published to npm
+#
+#after_success:
+#- npx travis-deploy-once " semantic-release"
+#branches:
+#  except:
+#  - /^v\d+\.\d+\.\d+$/

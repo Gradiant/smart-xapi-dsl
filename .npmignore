@@ -1,0 +1,10 @@
+/.idea
+/docs
+/node_modules
+/reports
+/tests
+/.gitignore
+/.prettierignore
+/.travis.yml
+/tsconfig.test.json
+/tslint.json

@@ -1,0 +1,38 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "encoding": true,
+    "indent": [true, "spaces", 2],
+    "linebreak-style": [true, "LF"],
+    "max-classes-per-file": [true, 1],
+    "max-line-length": [true, 140],
+    "no-duplicate-variable": true,
+    "no-unused-expression": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "prefer-const": [true, { "destructuring": "all" }],
+    "quotemark": [true, "single", "avoid-escape"],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+  },
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "encoding": true,
+    "indent": [true, "spaces", 2],
+    "interface-name": [true, "never-prefix"],
+    "linebreak-style": [true, "LF"],
+    "max-classes-per-file": [true, 1],
+    "max-line-length": [true, 140],
+    "member-access": [true, "no-public"],
+    "no-duplicate-variable": true,
+    "no-namespace": false,
+    "no-unused-expression": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "prefer-const": [true, { "destructuring": "all" }],
+    "quotemark": [true, "single", "avoid-escape"],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+  },
+  "rulesDirectory": []
+}

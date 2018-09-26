@@ -1,0 +1,104 @@
+{
+  "name": "@gradiant/smart-xapi-dsl",
+  "version": "1.0.0",
+  "description": "Smart XAPI DSL",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "UNLICENSED",
+  "author": "Lorens León <lleon@gradiant.org>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gradiant/smart-xapi-dsl"
+  },
+  "dependencies": {
+    "@gradiant/xapi-dsl": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.5",
+    "@types/faker": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "faker": "^4.1.0",
+    "husky": "^1.0.0",
+    "lint-staged": "^7.3.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "prettier": "1.14.3",
+    "semantic-release": "^15.9.16",
+    "travis-deploy-once": "^5.0.8",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typedoc": "^0.12.0",
+    "typedoc-plugin-markdown": "^1.1.15",
+    "typescript": "^3.0.3"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rm -rf build reports",
+    "test": "mocha --require tests/entry 'tests/**/*.test.ts'",
+    "ci": "npm run lint && npm test",
+    "cover": "nyc npm test",
+    "lint": "tslint '{src,tests}/**/*.{js,ts}' && prettier -l '{src,tests}/**/*.{js,ts}'",
+    "lint:fix": "prettier --write '{src,tests}/**/*.{js,ts}' && tslint --fix '{src,tests}/**/*.{js,ts}'",
+    "predocs": "rm -rf docs",
+    "docs": "typedoc --tsconfig tsconfig.docs.json --out docs --mode file --readme none --hideGenerator --excludePrivate --includeDeclarations --excludeNotExported --name 'SMART xAPI DSL'",
+    "docs:md": "npm run docs -- --theme markdown --mdEngine github"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run docs:md && git add docs",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "{src,test}/**/*.{js,ts}": [
+        "prettier --write",
+        "tslint --fix",
+        "git add"
+      ],
+      "*.{md,json}": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "package.json",
+      "tsconfig.json"
+    ]
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [
+      "**/*.d.ts",
+      "build/**",
+      "tests/**",
+      "node_modules/**"
+    ],
+    "reporter": [
+      "clover",
+      "cobertura",
+      "html",
+      "json",
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "clean": true,
+    "tempDirectory": "reports/.nyc_ouptut",
+    "reportDir": "reports/coverage",
+    "all": true
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 140,
+    "tabWidth": 2
+  }
+}

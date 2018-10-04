@@ -22,7 +22,7 @@
 
 **● audioVideo**: *"https://w3id.org/xapi/smart/activity/recipe/audio_video"* =  categoryIdentifiers.smart.recipeAudioVideo
 
-*Defined in [src/recipes/recipes.ts:6](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/recipes/recipes.ts#L6)*
+*Defined in [src/recipes/recipes.ts:6](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/recipes/recipes.ts#L6)*
 
 ___
 <a id="closedresponse"></a>
@@ -31,7 +31,7 @@ ___
 
 **● closedResponse**: *"https://w3id.org/xapi/smart/activity/recipe/closed_response"* =  categoryIdentifiers.smart.recipeClosedResponse
 
-*Defined in [src/recipes/recipes.ts:5](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/recipes/recipes.ts#L5)*
+*Defined in [src/recipes/recipes.ts:5](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/recipes/recipes.ts#L5)*
 
 ___
 <a id="discussion"></a>
@@ -40,7 +40,7 @@ ___
 
 **● discussion**: *"https://w3id.org/xapi/smart/activity/recipe/discussion"* =  categoryIdentifiers.smart.recipeDiscussion
 
-*Defined in [src/recipes/recipes.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/recipes/recipes.ts#L7)*
+*Defined in [src/recipes/recipes.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/recipes/recipes.ts#L7)*
 
 ___
 <a id="noninteractive"></a>
@@ -49,7 +49,7 @@ ___
 
 **● nonInteractive**: *"https://w3id.org/xapi/smart/activity/recipe/no_interactive"* =  categoryIdentifiers.smart.recipeNoInteractive
 
-*Defined in [src/recipes/recipes.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/recipes/recipes.ts#L8)*
+*Defined in [src/recipes/recipes.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/recipes/recipes.ts#L8)*
 
 ___
 <a id="openanswer"></a>
@@ -58,7 +58,7 @@ ___
 
 **● openAnswer**: *"https://w3id.org/xapi/smart/activity/recipe/open_answer"* =  categoryIdentifiers.smart.recipeOpenAnswer
 
-*Defined in [src/recipes/recipes.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/recipes/recipes.ts#L4)*
+*Defined in [src/recipes/recipes.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/recipes/recipes.ts#L4)*
 
 ___
 

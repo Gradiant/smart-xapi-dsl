@@ -5,7 +5,6 @@ import { activityTypes as types } from '@gradiant/xapi-dsl/dsl';
  */
 export namespace openAnswerTypes {
   export const essay = types.smart.essay;
-  export const fillInTheGaps = types.smart.fillInTheGaps;
   export const genericOpenAnswer = types.smart.openAnswer;
 }
 
@@ -73,7 +72,6 @@ export const activityTypes = {
  * Set of activity types that are considered assessabled
  *
  * - {@link openAnswerTypes.essay}
- * - {@link openAnswerTypes.fillInTheGaps}
  * - {@link openAnswerTypes.genericOpenAnswer}
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}

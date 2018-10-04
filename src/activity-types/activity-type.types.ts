@@ -2,7 +2,7 @@ import { audioVideoTypes, closedResponseTypes, discussionTypes, nonInteractiveTy
 
 export type EssayActivityType = typeof openAnswerTypes.essay;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
-export type OpenAnswerType = EssayActivityType | FillInTheGapsActivityType | GenericOpenAnswerActivityType;
+export type OpenAnswerType = EssayActivityType | GenericOpenAnswerActivityType;
 
 export type DropDownChoiceActivityType = typeof closedResponseTypes.dropDownChoice;
 export type FillInTheGapsActivityType = typeof closedResponseTypes.fillInTheGaps;

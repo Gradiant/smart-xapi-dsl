@@ -99,10 +99,9 @@ export const isGenericOpenAnswer = isActivityType(openAnswerTypes.genericOpenAns
  * Check if the given activity type if an open answer type:
  *
  * - {@link openAnswerTypes.essay}
- * - {@link openAnswerTypes.fillInTheGaps}
  * - {@link openAnswerTypes.genericOpenAnswer}
  */
-export const isOpenAnswer: ActivityTypeChecker = anyPass([isEssay, isFillInTheGaps, isGenericOpenAnswer]);
+export const isOpenAnswer: ActivityTypeChecker = anyPass([isEssay, isGenericOpenAnswer]);
 
 // Discussion
 // ----------
@@ -205,7 +204,6 @@ export const isBookContainer: ActivityTypeChecker = anyPass([isBook, isUnit, isL
  * - {@link closedResponseTypes.wordsBank}
  *
  * - {@link openAnswerTypes.essay}
- * - {@link openAnswerTypes.fillInTheGaps}
  * - {@link openAnswerTypes.genericOpenAnswer}
  *
  * - {@link audioVideoTypes.audio}

@@ -9,7 +9,6 @@ Activity types for open answer recipe
 ### Variables
 
 * [essay](openanswertypes.md#essay)
-* [fillInTheGaps](openanswertypes.md#fillinthegaps)
 * [genericOpenAnswer](openanswertypes.md#genericopenanswer)
 
 ---
@@ -22,16 +21,7 @@ Activity types for open answer recipe
 
 **● essay**: *"https://w3id.org/xapi/smart/activity/essay"* =  types.smart.essay
 
-*Defined in [src/activity-types/activity-types.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/b227d0f/src/activity-types/activity-types.ts#L7)*
-
-___
-<a id="fillinthegaps"></a>
-
-### `<Const>` fillInTheGaps
-
-**● fillInTheGaps**: *"https://w3id.org/xapi/smart/activity/fill-in-the-gaps"* =  types.smart.fillInTheGaps
-
-*Defined in [src/activity-types/activity-types.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/b227d0f/src/activity-types/activity-types.ts#L8)*
+*Defined in [src/activity-types/activity-types.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/152db5c/src/activity-types/activity-types.ts#L7)*
 
 ___
 <a id="genericopenanswer"></a>
@@ -40,7 +30,7 @@ ___
 
 **● genericOpenAnswer**: *"https://w3id.org/xapi/smart/activity/open-answer"* =  types.smart.openAnswer
 
-*Defined in [src/activity-types/activity-types.ts:9](https://github.com/Gradiant/smart-xapi-dsl/blob/b227d0f/src/activity-types/activity-types.ts#L9)*
+*Defined in [src/activity-types/activity-types.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/152db5c/src/activity-types/activity-types.ts#L8)*
 
 ___
 

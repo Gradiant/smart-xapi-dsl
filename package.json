@@ -14,23 +14,23 @@
     "@gradiant/xapi-dsl": "^1.0.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.5",
+    "@types/chai": "^4.1.6",
     "@types/faker": "^4.1.4",
     "@types/mocha": "^5.2.5",
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "faker": "^4.1.0",
-    "husky": "^1.0.0",
+    "husky": "^1.1.0",
     "lint-staged": "^7.3.0",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1",
     "prettier": "1.14.3",
-    "semantic-release": "^15.9.16",
-    "travis-deploy-once": "^5.0.8",
+    "semantic-release": "^15.9.17",
+    "travis-deploy-once": "^5.0.9",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "typedoc": "^0.12.0",
-    "typedoc-plugin-markdown": "^1.1.15",
-    "typescript": "^3.0.3"
+    "typedoc-plugin-markdown": "^1.1.16",
+    "typescript": "^3.1.1"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -42,7 +42,7 @@
     "cover": "nyc npm test",
     "lint": "tslint '{src,tests}/**/*.{js,ts}' && prettier -l '{src,tests}/**/*.{js,ts}'",
     "lint:fix": "prettier --write '{src,tests}/**/*.{js,ts}' && tslint --fix '{src,tests}/**/*.{js,ts}'",
-    "predocs": "rm -rf docs",
+    "predocs": "rm -rf docs node_modules/typedoc/node_modules/typescript",
     "docs": "typedoc --tsconfig tsconfig.docs.json --out docs --mode file --readme none --hideGenerator --excludePrivate --includeDeclarations --excludeNotExported --name 'SMART xAPI DSL'",
     "docs:md": "npm run docs -- --theme markdown --mdEngine github"
   },

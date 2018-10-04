@@ -18,7 +18,7 @@
 
 **● recipe**: *"https://w3id.org/xapi/smart/activity/recipe"* =  activityTypes.smart.recipe
 
-*Defined in [src/categories/categories.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/152db5c/src/categories/categories.ts#L4)*
+*Defined in [src/categories/categories.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/53fbdb9/src/categories/categories.ts#L4)*
 
 ___
 

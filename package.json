@@ -14,23 +14,23 @@
     "@gradiant/xapi-dsl": "^1.0.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.6",
+    "@types/chai": "^4.1.7",
     "@types/faker": "^4.1.4",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
     "faker": "^4.1.0",
-    "husky": "^1.1.0",
-    "lint-staged": "^7.3.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
-    "prettier": "1.14.3",
-    "semantic-release": "^15.9.17",
+    "nyc": "^13.1.0",
+    "prettier": "1.15.2",
+    "semantic-release": "^15.12.1",
     "travis-deploy-once": "^5.0.9",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
-    "typedoc": "^0.12.0",
-    "typedoc-plugin-markdown": "^1.1.16",
-    "typescript": "^3.1.1"
+    "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.19",
+    "typescript": "^3.1.6"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -93,8 +93,8 @@
       "text-summary"
     ],
     "clean": true,
-    "tempDirectory": "reports/.nyc_ouptut",
-    "reportDir": "reports/coverage",
+    "temp-dir": "reports/.nyc_ouptut",
+    "report-dir": "reports/coverage",
     "all": true
   },
   "prettier": {

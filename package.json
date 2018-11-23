@@ -3,6 +3,8 @@
   "version": "2.0.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
+  "module": "es/index.js",
+  "browser": "dist/smart-xapi-dsl.min.js",
   "types": "index.d.ts",
   "license": "UNLICENSED",
   "author": "Lorens León <lleon@gradiant.org>",
@@ -10,6 +12,14 @@
     "type": "git",
     "url": "https://github.com/Gradiant/smart-xapi-dsl"
   },
+  "files": [
+    "dist",
+    "esm",
+    "build",
+    "src",
+    "index.js",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@gradiant/xapi-dsl": "^1.0.0"
   },
@@ -18,11 +28,13 @@
     "@types/faker": "^4.1.4",
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
+    "concurrently": "^4.1.0",
     "faker": "^4.1.0",
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
+    "parcel-bundler": "^1.10.3",
     "prettier": "1.15.2",
     "semantic-release": "^15.12.1",
     "travis-deploy-once": "^5.0.9",
@@ -35,8 +47,11 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
-    "build": "tsc",
-    "clean": "rm -rf build reports",
+    "build:esm": "tsc --outDir esm --module es2015",
+    "build:browser": "parcel build --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
+    "build:commonjs": "tsc",
+    "build": "concurrently 'npm:build:*'",
+    "clean": "rm -rf build reports .cache dist esm",
     "test": "mocha --require tests/entry 'tests/**/*.test.ts'",
     "ci": "npm run lint && npm test",
     "cover": "nyc npm test",

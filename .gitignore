@@ -3,3 +3,6 @@
 /node_modules
 /docs/**/*.html
 /docs/assets
+/esm
+/dist
+/.cache

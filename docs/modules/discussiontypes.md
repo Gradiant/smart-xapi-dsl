@@ -8,6 +8,7 @@ Activity types for discussion recipe
 
 ### Variables
 
+* [debate](discussiontypes.md#debate)
 * [discussion](discussiontypes.md#discussion)
 * [forumReply](discussiontypes.md#forumreply)
 * [forumTopic](discussiontypes.md#forumtopic)
@@ -16,6 +17,15 @@ Activity types for discussion recipe
 
 ## Variables
 
+<a id="debate"></a>
+
+### `<Const>` debate
+
+**● debate**: *"https://w3id.org/xapi/smart/activity/discussion"* =  types.smart.discussion
+
+*Defined in [src/activity-types/activity-types.ts:32](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L32)*
+
+___
 <a id="discussion"></a>
 
 ### `<Const>` discussion

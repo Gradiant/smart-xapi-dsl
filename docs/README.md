@@ -153,6 +153,7 @@
 * [isClosedResponseRecipe](#isclosedresponserecipe)
 * [isCompleted](#iscompleted)
 * [isCompletedVerb](#iscompletedverb)
+* [isDdebate](#isddebate)
 * [isDeleted](#isdeleted)
 * [isDeletedVerb](#isdeletedverb)
 * [isDisabled](#isdisabled)
@@ -797,7 +798,7 @@ ___
   closedResponseTypes.fillInTheGaps
 ])
 
-*Defined in [src/activity-types/activity-types.ts:85](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L85)*
+*Defined in [src/activity-types/activity-types.ts:86](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L86)*
 
 Set of activity types that are considered assessabled
 
@@ -888,7 +889,7 @@ ___
 
 **● isAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.attempt)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:151](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L151)*
+*Defined in [src/activity-types/activity-types.checkers.ts:156](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L156)*
 
 Check if the given activity type if [nonInteractiveTypes.attempt](modules/noninteractivetypes.md#attempt)
 
@@ -910,7 +911,7 @@ ___
 
 **● isAudio**: *`function`* =  isActivityType(audioVideoTypes.audio)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:130](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L130)*
+*Defined in [src/activity-types/activity-types.checkers.ts:135](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L135)*
 
 Check if the given activity type if [audioVideoTypes.audio](modules/audiovideotypes.md#audio)
 
@@ -932,7 +933,7 @@ ___
 
 **● isAudioVideo**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAudio, isVideo])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:143](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L143)*
+*Defined in [src/activity-types/activity-types.checkers.ts:148](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L148)*
 
 Check if the given activity type if a audio/video:
 
@@ -990,7 +991,7 @@ ___
 
 **● isBook**: *`function`* =  isActivityType(bookTypes.book)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:172](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L172)*
+*Defined in [src/activity-types/activity-types.checkers.ts:177](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L177)*
 
 Check if the given activity type if [bookTypes.book](modules/booktypes.md#book)
 
@@ -1012,7 +1013,7 @@ ___
 
 **● isBookContainer**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isBook, isUnit, isLesson])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:191](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L191)*
+*Defined in [src/activity-types/activity-types.checkers.ts:196](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L196)*
 
 Check if the given activity type if a book container types:
 
@@ -1115,6 +1116,28 @@ Check if the given verb object is [verbs.completed](modules/verbs.md#completed)
 | Name | Type |
 | ------ | ------ |
 | verbId | `T` |
+
+**Returns:** `boolean`
+
+___
+<a id="isddebate"></a>
+
+### `<Const>` isDdebate
+
+**● isDdebate**: *`function`* =  isActivityType(discussionTypes.debate)
+
+*Defined in [src/activity-types/activity-types.checkers.ts:127](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L127)*
+
+Check if the given activity type if [discussionTypes.debate](modules/discussiontypes.md#debate)
+
+#### Type declaration
+▸(activityType: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| activityType | `string` |
 
 **Returns:** `boolean`
 
@@ -1652,7 +1675,7 @@ ___
 
 **● isLaeProcessable**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isOpenAnswer, isClosedResponse, isAudioVideo])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:212](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L212)*
+*Defined in [src/activity-types/activity-types.checkers.ts:217](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L217)*
 
 Check if the given activity type if a book container types:
 
@@ -1680,7 +1703,7 @@ ___
 
 **● isLesson**: *`function`* =  isActivityType(bookTypes.lesson)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:182](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L182)*
+*Defined in [src/activity-types/activity-types.checkers.ts:187](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L187)*
 
 Check if the given activity type if [bookTypes.lesson](modules/booktypes.md#lesson)
 
@@ -1840,7 +1863,7 @@ ___
 
 **● isNonInteractive**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAttempt, isNonInteractiveAttempt])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:164](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L164)*
+*Defined in [src/activity-types/activity-types.checkers.ts:169](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L169)*
 
 Check if the given activity type if a non interactive type:
 
@@ -1854,7 +1877,7 @@ ___
 
 **● isNonInteractiveAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.nonInteractive)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:156](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L156)*
+*Defined in [src/activity-types/activity-types.checkers.ts:161](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L161)*
 
 Check if the given activity type if [nonInteractiveTypes.nonInteractive](modules/noninteractivetypes.md#noninteractive)
 
@@ -2285,7 +2308,7 @@ ___
 
 **● isUnit**: *`function`* =  isActivityType(bookTypes.unit)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:177](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L177)*
+*Defined in [src/activity-types/activity-types.checkers.ts:182](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L182)*
 
 Check if the given activity type if [bookTypes.unit](modules/booktypes.md#unit)
 
@@ -2307,7 +2330,7 @@ ___
 
 **● isVideo**: *`function`* =  isActivityType(audioVideoTypes.video)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:135](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L135)*
+*Defined in [src/activity-types/activity-types.checkers.ts:140](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L140)*
 
 Check if the given activity type if {@link discussionTypes.video}
 
@@ -2550,7 +2573,7 @@ ___
 
 ▸ **isAssessable**(activityType: *`string`*): `boolean`
 
-*Defined in [src/activity-types/activity-types.checkers.ts:231](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L231)*
+*Defined in [src/activity-types/activity-types.checkers.ts:236](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L236)*
 
 Check if the given activity type is one of:
 
@@ -2660,7 +2683,7 @@ ___
 
 **activityTypes**: *`object`*
 
-*Defined in [src/activity-types/activity-types.ts:62](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L62)*
+*Defined in [src/activity-types/activity-types.ts:63](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L63)*
 
 Every activity type combined into a single object
 

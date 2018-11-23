@@ -29,6 +29,7 @@ export namespace discussionTypes {
   export const discussion = types.tincan.discussion;
   export const forumReply = types.tincan.forumReply;
   export const forumTopic = types.tincan.forumTopic;
+  export const debate = types.smart.discussion;
 }
 
 /**

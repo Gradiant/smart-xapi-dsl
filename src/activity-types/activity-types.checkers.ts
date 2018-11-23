@@ -121,6 +121,11 @@ export const isForumReply = isActivityType(discussionTypes.forumReply);
  */
 export const isForumTopic = isActivityType(discussionTypes.forumTopic);
 
+/**
+ * Check if the given activity type if {@link discussionTypes.debate}
+ */
+export const isDdebate = isActivityType(discussionTypes.debate);
+
 // Audio/Video
 // -----------
 

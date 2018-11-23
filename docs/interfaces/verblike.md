@@ -22,7 +22,7 @@
 
 **● id**: *`string`*
 
-*Defined in [src/verbs/verbs.types.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/4ed8f5c/src/verbs/verbs.types.ts#L4)*
+*Defined in [src/verbs/verbs.types.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.types.ts#L4)*
 
 ___
 

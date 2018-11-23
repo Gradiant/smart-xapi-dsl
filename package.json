@@ -44,7 +44,8 @@
     "lint:fix": "prettier --write '{src,tests}/**/*.{js,ts}' && tslint --fix '{src,tests}/**/*.{js,ts}'",
     "predocs": "rm -rf docs node_modules/typedoc/node_modules/typescript",
     "docs": "typedoc --tsconfig tsconfig.docs.json --out docs --mode file --readme none --hideGenerator --excludePrivate --includeDeclarations --excludeNotExported --name 'SMART xAPI DSL'",
-    "docs:md": "npm run docs -- --theme markdown --mdEngine github"
+    "docs:md": "npm run docs -- --theme markdown --mdEngine github",
+    "postdocs:md": "find docs/ -type f | xargs -i sed -i -E 's|/blob/[^/]*/|/blob/master/|g' '{}'"
   },
   "husky": {
     "hooks": {

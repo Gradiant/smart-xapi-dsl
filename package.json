@@ -3,7 +3,7 @@
   "version": "2.2.1",
   "description": "Smart XAPI DSL",
   "main": "index.js",
-  "module": "es/index.js",
+  "module": "esm/index.js",
   "browser": "dist/smart-xapi-dsl.min.js",
   "types": "index.d.ts",
   "license": "UNLICENSED",

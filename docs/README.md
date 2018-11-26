@@ -154,7 +154,7 @@
 * [isClosedResponseRecipe](#isclosedresponserecipe)
 * [isCompleted](#iscompleted)
 * [isCompletedVerb](#iscompletedverb)
-* [isDdebate](#isddebate)
+* [isDebate](#isdebate)
 * [isDeleted](#isdeleted)
 * [isDeletedVerb](#isdeletedverb)
 * [isDisabled](#isdisabled)
@@ -1130,11 +1130,11 @@ Check if the given verb object is [verbs.completed](modules/verbs.md#completed)
 **Returns:** `boolean`
 
 ___
-<a id="isddebate"></a>
+<a id="isdebate"></a>
 
-### `<Const>` isDdebate
+### `<Const>` isDebate
 
-**● isDdebate**: *`function`* =  isActivityType(discussionTypes.debate)
+**● isDebate**: *`function`* =  isActivityType(discussionTypes.debate)
 
 *Defined in [src/activity-types/activity-types.checkers.ts:127](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L127)*
 

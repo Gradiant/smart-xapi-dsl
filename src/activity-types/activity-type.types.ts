@@ -27,6 +27,7 @@ export type AudioVideoType = AudioActivityType | VideoActivityType;
 export type DiscussionActivityType = typeof discussionTypes.discussion;
 export type ForumReplyActivityType = typeof discussionTypes.forumReply;
 export type ForumTopicActivityType = typeof discussionTypes.forumTopic;
+export type DebateActivityType = typeof discussionTypes.debate;
 
 export type AttemptActivityType = typeof nonInteractiveTypes.attempt;
 export type NonInteractiveAttemptActivityType = typeof nonInteractiveTypes.nonInteractive;

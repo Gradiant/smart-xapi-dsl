@@ -96,6 +96,7 @@
 * [AudioActivityType](#audioactivitytype)
 * [AudioVideoType](#audiovideotype)
 * [ClosedResponseType](#closedresponsetype)
+* [DebateActivityType](#debateactivitytype)
 * [DiscussionActivityType](#discussionactivitytype)
 * [DropDownChoiceActivityType](#dropdownchoiceactivitytype)
 * [Duration](#duration)
@@ -305,7 +306,7 @@ ___
 
 **Ƭ AttemptActivityType**: *"https://w3id.org/xapi/smart/activity/attempt"*
 
-*Defined in [src/activity-types/activity-type.types.ts:31](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L31)*
+*Defined in [src/activity-types/activity-type.types.ts:32](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L32)*
 
 ___
 <a id="audioactivitytype"></a>
@@ -335,6 +336,15 @@ ___
 *
 
 *Defined in [src/activity-types/activity-type.types.ts:14](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L14)*
+
+___
+<a id="debateactivitytype"></a>
+
+###  DebateActivityType
+
+**Ƭ DebateActivityType**: *"https://w3id.org/xapi/smart/activity/discussion"*
+
+*Defined in [src/activity-types/activity-type.types.ts:30](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L30)*
 
 ___
 <a id="discussionactivitytype"></a>
@@ -575,7 +585,7 @@ ___
 
 **Ƭ NonInteractiveAttemptActivityType**: *"https://w3id.org/xapi/smart/activity/no-interactive"*
 
-*Defined in [src/activity-types/activity-type.types.ts:32](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L32)*
+*Defined in [src/activity-types/activity-type.types.ts:33](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L33)*
 
 ___
 <a id="noninteractivetype"></a>
@@ -585,7 +595,7 @@ ___
 **Ƭ NonInteractiveType**: * [AttemptActivityType](#attemptactivitytype) &#124; [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)
 *
 
-*Defined in [src/activity-types/activity-type.types.ts:33](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L33)*
+*Defined in [src/activity-types/activity-type.types.ts:34](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L34)*
 
 ___
 <a id="object"></a>
@@ -617,7 +627,7 @@ ___
 **Ƭ ProcessableActivityType**: * [OpenAnswerType](#openanswertype) &#124; [ClosedResponseType](#closedresponsetype) &#124; [AudioVideoType](#audiovideotype)
 *
 
-*Defined in [src/activity-types/activity-type.types.ts:35](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L35)*
+*Defined in [src/activity-types/activity-type.types.ts:36](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L36)*
 
 ___
 <a id="recipechecker"></a>

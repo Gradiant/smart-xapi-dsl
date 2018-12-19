@@ -12,4 +12,5 @@ export namespace extensions {
   export const discussionMessage = resultExtensions.smart.discussionMessage;
   export const userData = contextExtensions.smart.extendedUserData;
   export const userAction = resultExtensions.smart.userAction;
+  export const questions = objectExtensions.smart.questions;
 }

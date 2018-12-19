@@ -46,4 +46,8 @@ describe('Extensions', () => {
   it('should include `userAction`', () => {
     expect(extensions.userAction).to.be.equal(resultExtensions.smart.userAction);
   });
+
+  it('should include `questions`', () => {
+    expect(extensions.questions).to.be.equal(objectExtensions.smart.questions);
+  });
 });

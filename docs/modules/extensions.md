@@ -13,6 +13,7 @@
 * [endingPoint](extensions.md#endingpoint)
 * [evaluationFeedback](extensions.md#evaluationfeedback)
 * [interactionContext](extensions.md#interactioncontext)
+* [questions](extensions.md#questions)
 * [startingPoint](extensions.md#startingpoint)
 * [studentResponse](extensions.md#studentresponse)
 * [userAction](extensions.md#useraction)
@@ -83,6 +84,15 @@ ___
 **● interactionContext**: *"https://w3id.org/xapi/smart/extension/context/interaction-context"* =  contextExtensions.smart.interactionContext
 
 *Defined in [src/extensions/extensions.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L4)*
+
+___
+<a id="questions"></a>
+
+### `<Const>` questions
+
+**● questions**: *"https://w3id.org/xapi/smart/extension/object/questions"* =  objectExtensions.smart.questions
+
+*Defined in [src/extensions/extensions.ts:15](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L15)*
 
 ___
 <a id="startingpoint"></a>

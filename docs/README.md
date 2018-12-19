@@ -2673,7 +2673,7 @@ Returns true if the specified object property is equal, false otherwise
 
 **Type parameters:**
 
-#### T :  `any`
+#### T :  `object`
 **Parameters:**
 
 | Name | Type |

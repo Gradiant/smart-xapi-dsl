@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.2.2...v2.3.0) (2018-12-19)
+
+
+### Features
+
+* add questions extension ([0992cbd](https://github.com/Gradiant/smart-xapi-dsl/commit/0992cbd))
+* add quiz activity type ([ca16e16](https://github.com/Gradiant/smart-xapi-dsl/commit/ca16e16))
+
+
+
 <a name="2.2.2"></a>
 ## [2.2.2](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.2.1...v2.2.2) (2018-11-26)
 

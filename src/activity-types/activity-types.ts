@@ -58,6 +58,13 @@ export namespace audioVideoTypes {
 }
 
 /**
+ * Activity types that does not belong to any category listed above
+ */
+export namespace otherTypes {
+  export const quiz = types.smart.quiz;
+}
+
+/**
  * Every activity type combined into a single object
  */
 export const activityTypes = {
@@ -66,7 +73,8 @@ export const activityTypes = {
   ...audioVideoTypes,
   ...discussionTypes,
   ...nonInteractiveTypes,
-  ...bookTypes
+  ...bookTypes,
+  ...otherTypes
 };
 
 /**

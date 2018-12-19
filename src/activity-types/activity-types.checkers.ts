@@ -6,7 +6,8 @@ import {
   closedResponseTypes,
   discussionTypes,
   nonInteractiveTypes,
-  openAnswerTypes
+  openAnswerTypes,
+  otherTypes
 } from './activity-types';
 
 export type ActivityTypeChecker = (activityType: string) => boolean;
@@ -185,6 +186,14 @@ export const isUnit = isActivityType(bookTypes.unit);
  * Check if the given activity type if {@link bookTypes.lesson}
  */
 export const isLesson = isActivityType(bookTypes.lesson);
+
+// Other activities
+// ----------------
+
+/**
+ * Check if the given activity type if {@link otherTypes.quiz}
+ */
+export const isQuiz = isActivityType(otherTypes.quiz);
 
 /**
  * Check if the given activity type if a book container types:

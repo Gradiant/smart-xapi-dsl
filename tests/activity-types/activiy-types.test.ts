@@ -7,7 +7,7 @@ import {
   closedResponseTypes,
   discussionTypes,
   nonInteractiveTypes,
-  openAnswerTypes
+  openAnswerTypes, otherTypes
 } from '../../src/activity-types';
 
 describe('Activity Types', () => {
@@ -80,7 +80,8 @@ describe('Activity Types', () => {
       ...audioVideoTypes,
       ...nonInteractiveTypes,
       ...discussionTypes,
-      ...bookTypes
+      ...bookTypes,
+      ...otherTypes
     });
   });
 });

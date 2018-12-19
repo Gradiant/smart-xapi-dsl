@@ -7,7 +7,8 @@ import {
   closedResponseTypes,
   discussionTypes,
   nonInteractiveTypes,
-  openAnswerTypes, otherTypes
+  openAnswerTypes,
+  otherTypes
 } from '../../src/activity-types';
 
 describe('Activity Types', () => {

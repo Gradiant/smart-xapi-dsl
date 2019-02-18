@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.4.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.3.0...v2.4.0) (2019-02-18)
+
+
+### Features
+
+* **verbs:** add activity stream access verb ([ecf3eb2](https://github.com/Gradiant/smart-xapi-dsl/commit/ecf3eb2))
+
+
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.2.2...v2.3.0) (2018-12-19)
 

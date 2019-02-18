@@ -71,8 +71,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Matching](../enums/interactiontype.md#matching) &#124; "matching"
-*
+**● interactionType**: *[Matching](../enums/interactiontype.md#matching) \| "matching"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

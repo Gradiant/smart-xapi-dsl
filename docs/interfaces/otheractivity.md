@@ -63,8 +63,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Other](../enums/interactiontype.md#other) &#124; "other"
-*
+**● interactionType**: *[Other](../enums/interactiontype.md#other) \| "other"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/other-activity.d.ts:5*
 
@@ -73,8 +72,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

@@ -64,8 +64,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Likert](../enums/interactiontype.md#likert) &#124; "likert"
-*
+**● interactionType**: *[Likert](../enums/interactiontype.md#likert) \| "likert"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/likert-activity.d.ts:5*
 
@@ -74,8 +73,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

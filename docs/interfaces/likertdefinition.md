@@ -70,8 +70,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Likert](../enums/interactiontype.md#likert) &#124; "likert"
-*
+**● interactionType**: *[Likert](../enums/interactiontype.md#likert) \| "likert"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

@@ -6,6 +6,7 @@
 
 ### Variables
 
+* [accessed](verbs.md#accessed)
 * [answered](verbs.md#answered)
 * [completed](verbs.md#completed)
 * [deleted](verbs.md#deleted)
@@ -32,6 +33,15 @@
 
 ## Variables
 
+<a id="accessed"></a>
+
+### `<Const>` accessed
+
+**● accessed**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.activityStream.v1.accessed
+
+*Defined in [src/verbs/verbs.ts:25](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L25)*
+
+___
 <a id="answered"></a>
 
 ### `<Const>` answered

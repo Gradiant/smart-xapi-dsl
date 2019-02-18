@@ -45,8 +45,7 @@ ___
 
 ### `<Optional>` name
 
-**● name**: * `undefined` &#124; `string`
-*
+**● name**: *`undefined` \| `string`*
 
 *Overrides [BaseActor](baseactor.md).[name](baseactor.md#name)*
 

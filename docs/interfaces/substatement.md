@@ -70,8 +70,7 @@ ___
 
 ###  object
 
-**● object**: * [ActorObject](../#actorobject) &#124; [Activity](../#activity) &#124; [StatementRef](statementref.md)
-*
+**● object**: *[ActorObject](../#actorobject) \| [Activity](../#activity) \| [StatementRef](statementref.md)*
 
 *Overrides [BaseStatement](basestatement.md).[object](basestatement.md#object)*
 

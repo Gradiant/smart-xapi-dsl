@@ -25,8 +25,7 @@
 
 ### `<Optional>` name
 
-**● name**: * `undefined` &#124; `string`
-*
+**● name**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
 
@@ -37,8 +36,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * "Agent" &#124; "Group"
-*
+**● objectType**: *"Agent" \| "Group"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:5*
 

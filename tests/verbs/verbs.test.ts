@@ -86,4 +86,8 @@ describe('Verbs', () => {
   it('should include reported', () => {
     expect(verbs.reported).to.be.equal(xapiVerbs.activityStream.v1.flagAsInappropriate);
   });
+
+  it('should include accessed', () => {
+    expect(verbs.accessed).to.be.equal(xapiVerbs.activityStream.v1.accessed);
+  });
 });

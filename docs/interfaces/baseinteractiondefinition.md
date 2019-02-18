@@ -85,8 +85,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [InteractionType](../enums/interactiontype.md) &#124; "true-false" &#124; "choice" &#124; "fill-in" &#124; "long-fill-in" &#124; "matching" &#124; "performance" &#124; "sequencing" &#124; "likert" &#124; "numeric" &#124; "other"
-*
+**● interactionType**: *[InteractionType](../enums/interactiontype.md) \| "true-false" \| "choice" \| "fill-in" \| "long-fill-in" \| "matching" \| "performance" \| "sequencing" \| "likert" \| "numeric" \| "other"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/base-interaction-definition.d.ts:17*
 

@@ -75,8 +75,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Sequencing](../enums/interactiontype.md#sequencing) &#124; "sequencing"
-*
+**● interactionType**: *[Sequencing](../enums/interactiontype.md#sequencing) \| "sequencing"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/sequence-activity.d.ts:5*
 
@@ -85,8 +84,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

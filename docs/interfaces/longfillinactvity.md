@@ -63,8 +63,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [LongFillIn](../enums/interactiontype.md#longfillin) &#124; "long-fill-in"
-*
+**● interactionType**: *[LongFillIn](../enums/interactiontype.md#longfillin) \| "long-fill-in"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/long-fill-in-actvity.d.ts:5*
 
@@ -73,8 +72,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

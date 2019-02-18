@@ -70,8 +70,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Performance](../enums/interactiontype.md#performance) &#124; "performance"
-*
+**● interactionType**: *[Performance](../enums/interactiontype.md#performance) \| "performance"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

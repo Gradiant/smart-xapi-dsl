@@ -69,8 +69,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [FillIn](../enums/interactiontype.md#fillin) &#124; "fill-in"
-*
+**● interactionType**: *[FillIn](../enums/interactiontype.md#fillin) \| "fill-in"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

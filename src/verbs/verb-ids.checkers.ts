@@ -112,3 +112,8 @@ export const isVotedDown = isVerbId(verbs.votedDown.id);
  * Check if the given verb identifier is {@link verbs.reported}
  */
 export const isReported = isVerbId(verbs.reported.id);
+
+/**
+ * Check if the given verb identifier is {@link verbs.accessed}
+ */
+export const isAccessed = isVerbId(verbs.accessed.id);

@@ -63,8 +63,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [FillIn](../enums/interactiontype.md#fillin) &#124; "fill-in"
-*
+**● interactionType**: *[FillIn](../enums/interactiontype.md#fillin) \| "fill-in"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/fill-in-activity.d.ts:5*
 
@@ -73,8 +72,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

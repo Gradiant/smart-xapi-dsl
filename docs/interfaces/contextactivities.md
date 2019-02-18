@@ -23,8 +23,7 @@
 
 ### `<Optional>` category
 
-**● category**: * [Activity](../#activity) &#124; [Activity](../#activity)[]
-*
+**● category**: *[Activity](../#activity) \| [Activity](../#activity)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/activities/context-activities.d.ts:5*
 
@@ -33,8 +32,7 @@ ___
 
 ### `<Optional>` grouping
 
-**● grouping**: * [Activity](../#activity) &#124; [Activity](../#activity)[]
-*
+**● grouping**: *[Activity](../#activity) \| [Activity](../#activity)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/activities/context-activities.d.ts:4*
 
@@ -43,8 +41,7 @@ ___
 
 ### `<Optional>` other
 
-**● other**: * [Activity](../#activity) &#124; [Activity](../#activity)[]
-*
+**● other**: *[Activity](../#activity) \| [Activity](../#activity)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/activities/context-activities.d.ts:6*
 
@@ -53,8 +50,7 @@ ___
 
 ### `<Optional>` parent
 
-**● parent**: * [Activity](../#activity) &#124; [Activity](../#activity)[]
-*
+**● parent**: *[Activity](../#activity) \| [Activity](../#activity)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/activities/context-activities.d.ts:3*
 

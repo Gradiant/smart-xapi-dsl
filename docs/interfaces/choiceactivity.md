@@ -75,8 +75,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Choice](../enums/interactiontype.md#choice) &#124; "choice"
-*
+**● interactionType**: *[Choice](../enums/interactiontype.md#choice) \| "choice"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/choice-activity.d.ts:5*
 
@@ -85,8 +84,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

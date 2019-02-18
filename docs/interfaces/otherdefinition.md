@@ -69,8 +69,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Other](../enums/interactiontype.md#other) &#124; "other"
-*
+**● interactionType**: *[Other](../enums/interactiontype.md#other) \| "other"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

@@ -69,8 +69,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Numeric](../enums/interactiontype.md#numeric) &#124; "numeric"
-*
+**● interactionType**: *[Numeric](../enums/interactiontype.md#numeric) \| "numeric"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

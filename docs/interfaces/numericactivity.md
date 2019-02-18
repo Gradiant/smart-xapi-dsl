@@ -63,8 +63,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Numeric](../enums/interactiontype.md#numeric) &#124; "numeric"
-*
+**● interactionType**: *[Numeric](../enums/interactiontype.md#numeric) \| "numeric"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/numeric-activity.d.ts:5*
 
@@ -73,8 +72,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

@@ -31,8 +31,7 @@
 
 ### `<Optional>` name
 
-**● name**: * `undefined` &#124; `string`
-*
+**● name**: *`undefined` \| `string`*
 
 *Inherited from [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
@@ -45,8 +44,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Agent"
-*
+**● objectType**: *`undefined` \| "Agent"*
 
 *Overrides [BaseActor](baseactor.md).[objectType](baseactor.md#objecttype)*
 

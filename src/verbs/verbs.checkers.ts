@@ -112,3 +112,8 @@ export const isVotedDownVerb = isVerb(verbs.votedDown);
  * Check if the given verb object is {@link verbs.reported}
  */
 export const isReportedVerb = isVerb(verbs.reported);
+
+/**
+ * Check if the given verb object is {@link verbs.accessed}
+ */
+export const isAccessedVerb = isVerb(verbs.accessed);

@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import faker from 'faker';
 import {
+  isAccessedVerb,
   isAnsweredVerb,
   isCompletedVerb,
   isDeletedVerb,
@@ -296,6 +297,18 @@ describe('Verb Checkers', () => {
     it('should return `false` for any other verb', () => {
       getDifference(verbs.reported).forEach(verb => {
         expect(isReportedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isAccessedVerb()', () => {
+    it('should return `true` for reported', () => {
+      expect(isAccessedVerb(verbs.accessed)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.accessed).forEach(verb => {
+        expect(isAccessedVerb(verb)).to.be.false;
       });
     });
   });

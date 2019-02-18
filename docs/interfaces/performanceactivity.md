@@ -64,8 +64,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Performance](../enums/interactiontype.md#performance) &#124; "performance"
-*
+**● interactionType**: *[Performance](../enums/interactiontype.md#performance) \| "performance"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/performance-activity.d.ts:5*
 
@@ -74,8 +73,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

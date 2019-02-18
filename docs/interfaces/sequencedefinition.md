@@ -81,8 +81,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Sequencing](../enums/interactiontype.md#sequencing) &#124; "sequencing"
-*
+**● interactionType**: *[Sequencing](../enums/interactiontype.md#sequencing) \| "sequencing"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

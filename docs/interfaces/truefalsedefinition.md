@@ -30,8 +30,7 @@ An interaction with two possible responses: `true` or `false`
 
 ### `<Optional>` correctResponsesPattern
 
-**● correctResponsesPattern**: * ["true"] &#124; ["false"]
-*
+**● correctResponsesPattern**: *["true"] \| ["false"]*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[correctResponsesPattern](baseinteractiondefinition.md#correctresponsespattern)*
 
@@ -70,8 +69,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [TrueFalse](../enums/interactiontype.md#truefalse) &#124; "true-false"
-*
+**● interactionType**: *[TrueFalse](../enums/interactiontype.md#truefalse) \| "true-false"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

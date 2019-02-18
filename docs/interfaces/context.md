@@ -70,8 +70,7 @@ ___
 
 ### `<Optional>` language
 
-**● language**: * `undefined` &#124; `string`
-*
+**● language**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/context.d.ts:47*
 
@@ -84,8 +83,7 @@ ___
 
 ### `<Optional>` platform
 
-**● platform**: * `undefined` &#124; `string`
-*
+**● platform**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/context.d.ts:41*
 
@@ -107,8 +105,7 @@ ___
 
 ### `<Optional>` revision
 
-**● revision**: * `undefined` &#124; `string`
-*
+**● revision**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/context/context.d.ts:37*
 

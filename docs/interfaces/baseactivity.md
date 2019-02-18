@@ -66,8 +66,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
 

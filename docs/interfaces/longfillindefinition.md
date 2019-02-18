@@ -69,8 +69,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [LongFillIn](../enums/interactiontype.md#longfillin) &#124; "long-fill-in"
-*
+**● interactionType**: *[LongFillIn](../enums/interactiontype.md#longfillin) \| "long-fill-in"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

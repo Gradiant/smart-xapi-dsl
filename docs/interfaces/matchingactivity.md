@@ -65,8 +65,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Matching](../enums/interactiontype.md#matching) &#124; "matching"
-*
+**● interactionType**: *[Matching](../enums/interactiontype.md#matching) \| "matching"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/matching-activity.d.ts:5*
 
@@ -75,8 +74,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

@@ -25,8 +25,7 @@ An optional property that represents the outcome of a graded Activity achieved b
 
 ### `<Optional>` max
 
-**● max**: * `undefined` &#124; `number`
-*
+**● max**: *`undefined` \| `number`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/score/score.d.ts:28*
 
@@ -39,8 +38,7 @@ ___
 
 ### `<Optional>` min
 
-**● min**: * `undefined` &#124; `number`
-*
+**● min**: *`undefined` \| `number`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/score/score.d.ts:22*
 
@@ -53,8 +51,7 @@ ___
 
 ### `<Optional>` raw
 
-**● raw**: * `undefined` &#124; `number`
-*
+**● raw**: *`undefined` \| `number`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/score/score.d.ts:16*
 
@@ -67,8 +64,7 @@ ___
 
 ### `<Optional>` scaled
 
-**● scaled**: * `undefined` &#124; `number`
-*
+**● scaled**: *`undefined` \| `number`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/score/score.d.ts:10*
 

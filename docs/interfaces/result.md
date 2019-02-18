@@ -27,8 +27,7 @@ An optional property that represents a measured outcome related to the Statement
 
 ### `<Optional>` completion
 
-**● completion**: * `undefined` &#124; `false` &#124; `true`
-*
+**● completion**: *`undefined` \| `false` \| `true`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:19*
 
@@ -61,8 +60,7 @@ ___
 
 ### `<Optional>` response
 
-**● response**: * `undefined` &#124; `string`
-*
+**● response**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:23*
 
@@ -84,8 +82,7 @@ ___
 
 ### `<Optional>` success
 
-**● success**: * `undefined` &#124; `false` &#124; `true`
-*
+**● success**: *`undefined` \| `false` \| `true`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:15*
 

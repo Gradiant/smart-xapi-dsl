@@ -22,4 +22,5 @@ export namespace verbs {
   export const votedUp = xapiVerbs.tincan.votedUp;
   export const votedDown = xapiVerbs.tincan.votedDown;
   export const reported = xapiVerbs.activityStream.v1.flagAsInappropriate;
+  export const accessed = xapiVerbs.activityStream.v1.accessed;
 }

@@ -81,8 +81,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [Choice](../enums/interactiontype.md#choice) &#124; "choice"
-*
+**● interactionType**: *[Choice](../enums/interactiontype.md#choice) \| "choice"*
 
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[interactionType](baseinteractiondefinition.md#interactiontype)*
 

@@ -26,8 +26,7 @@
 
 ###  correctResponsesPattern
 
-**● correctResponsesPattern**: * ["true"] &#124; ["false"]
-*
+**● correctResponsesPattern**: *["true"] \| ["false"]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/true-false-activity.d.ts:9*
 
@@ -64,8 +63,7 @@ ___
 
 ###  interactionType
 
-**● interactionType**: * [TrueFalse](../enums/interactiontype.md#truefalse) &#124; "true-false"
-*
+**● interactionType**: *[TrueFalse](../enums/interactiontype.md#truefalse) \| "true-false"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/true-false-activity.d.ts:5*
 
@@ -74,8 +72,7 @@ ___
 
 ### `<Optional>` objectType
 
-**● objectType**: * `undefined` &#124; "Activity"
-*
+**● objectType**: *`undefined` \| "Activity"*
 
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 

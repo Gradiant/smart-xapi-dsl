@@ -53,8 +53,7 @@ ___
 
 ### `<Optional>` name
 
-**● name**: * `undefined` &#124; `string`
-*
+**● name**: *`undefined` \| `string`*
 
 *Inherited from [BaseGroup](basegroup.md).[name](basegroup.md#name)*
 

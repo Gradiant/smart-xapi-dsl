@@ -142,6 +142,8 @@
 * [assessableTypes](#assessabletypes)
 * [dsl](#dsl)
 * [ids](#ids)
+* [isAccessed](#isaccessed)
+* [isAccessedVerb](#isaccessedverb)
 * [isAnswered](#isanswered)
 * [isAnsweredVerb](#isansweredverb)
 * [isAttempt](#isattempt)
@@ -234,8 +236,7 @@
 
 ###  Activity
 
-**Ƭ Activity**: * [BaseActivity](interfaces/baseactivity.md) &#124; [InteractionActivity](#interactionactivity)
-*
+**Ƭ Activity**: *[BaseActivity](interfaces/baseactivity.md) \| [InteractionActivity](#interactionactivity)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity.d.ts:9*
 
@@ -266,8 +267,7 @@ ___
 
 ###  Actor
 
-**Ƭ Actor**: * [Agent](#agent) &#124; [Group](#group)
-*
+**Ƭ Actor**: *[Agent](#agent) \| [Group](#group)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/actor.d.ts:6*
 
@@ -278,8 +278,7 @@ ___
 
 ###  ActorObject
 
-**Ƭ ActorObject**: * [Actor](#actor) & `object`
-*
+**Ƭ ActorObject**: *[Actor](#actor) & `object`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/actor-object.d.ts:5*
 
@@ -290,8 +289,7 @@ ___
 
 ###  Agent
 
-**Ƭ Agent**: * [AccountAgent](interfaces/accountagent.md) &#124; [MboxAgent](interfaces/mboxagent.md) &#124; [OpenIdAgent](interfaces/openidagent.md) &#124; [MboxSha1SumAgent](interfaces/mboxsha1sumagent.md)
-*
+**Ƭ Agent**: *[AccountAgent](interfaces/accountagent.md) \| [MboxAgent](interfaces/mboxagent.md) \| [OpenIdAgent](interfaces/openidagent.md) \| [MboxSha1SumAgent](interfaces/mboxsha1sumagent.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/agent/agent.d.ts:12*
 
@@ -324,8 +322,7 @@ ___
 
 ###  AudioVideoType
 
-**Ƭ AudioVideoType**: * [AudioActivityType](#audioactivitytype) &#124; [VideoActivityType](#videoactivitytype)
-*
+**Ƭ AudioVideoType**: *[AudioActivityType](#audioactivitytype) \| [VideoActivityType](#videoactivitytype)*
 
 *Defined in [src/activity-types/activity-type.types.ts:25](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L25)*
 
@@ -334,8 +331,7 @@ ___
 
 ###  ClosedResponseType
 
-**Ƭ ClosedResponseType**: * [DropDownChoiceActivityType](#dropdownchoiceactivitytype) &#124; [FillInTheGapsActivityType](#fillinthegapsactivitytype) &#124; [GenericClosedResponseActivityType](#genericclosedresponseactivitytype) &#124; [MatchingPairsActivityType](#matchingpairsactivitytype) &#124; [MultipleChoiceActivityType](#multiplechoiceactivitytype) &#124; [SingleChoiceActivityType](#singlechoiceactivitytype) &#124; [WordsBankActivityType](#wordsbankactivitytype)
-*
+**Ƭ ClosedResponseType**: *[DropDownChoiceActivityType](#dropdownchoiceactivitytype) \| [FillInTheGapsActivityType](#fillinthegapsactivitytype) \| [GenericClosedResponseActivityType](#genericclosedresponseactivitytype) \| [MatchingPairsActivityType](#matchingpairsactivitytype) \| [MultipleChoiceActivityType](#multiplechoiceactivitytype) \| [SingleChoiceActivityType](#singlechoiceactivitytype) \| [WordsBankActivityType](#wordsbankactivitytype)*
 
 *Defined in [src/activity-types/activity-type.types.ts:14](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L14)*
 
@@ -383,7 +379,7 @@ Durations are strings representing the amount of time something took.
 *   On receiving a Duration with more than 0.01 second precision, the LRS SHOULD\* NOT reject the request but MAY truncate the "duration" property to 0.01 second precision.
 *   When comparing Durations, any precision beyond 0.01 second precision SHOULD\* NOT be included in the comparison.
 
-| Example | Explanation | PT4H35M59.14S | Four hours, thirty five minutes and 59.14 seconds. | P16559.14S | The same time period as above represented in seconds. (Note: if the time period in question contained a leap second,this conversion would be inaccurate) | P3Y1M29DT4H35M59.14S | A Duration also including years, months and days. | P3Y | Approximately three years e.g. completion of a qualification. | P4W | Four weeks. Note that weeks cannot be combined with other time periods. 'P4W1D' is not valid.
+\| Example \| Explanation \| PT4H35M59.14S \| Four hours, thirty five minutes and 59.14 seconds. \| P16559.14S \| The same time period as above represented in seconds. (Note: if the time period in question contained a leap second,this conversion would be inaccurate) \| P3Y1M29DT4H35M59.14S \| A Duration also including years, months and days. \| P3Y \| Approximately three years e.g. completion of a qualification. \| P4W \| Four weeks. Note that weeks cannot be combined with other time periods. 'P4W1D' is not valid.
 
 ___
 <a id="essayactivitytype"></a>
@@ -444,8 +440,7 @@ ___
 
 ###  Group
 
-**Ƭ Group**: * [AnonymousGroup](interfaces/anonymousgroup.md) &#124; [IdentifiedGroup](#identifiedgroup)
-*
+**Ƭ Group**: *[AnonymousGroup](interfaces/anonymousgroup.md) \| [IdentifiedGroup](#identifiedgroup)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/group.d.ts:15*
 
@@ -483,8 +478,7 @@ ___
 
 ###  IdentifiedGroup
 
-**Ƭ IdentifiedGroup**: * [AccountGroup](interfaces/accountgroup.md) &#124; [MboxGroup](interfaces/mboxgroup.md) &#124; [MboxSha1SumGroup](interfaces/mboxsha1sumgroup.md) &#124; [OpenIdGroup](interfaces/openidgroup.md)
-*
+**Ƭ IdentifiedGroup**: *[AccountGroup](interfaces/accountgroup.md) \| [MboxGroup](interfaces/mboxgroup.md) \| [MboxSha1SumGroup](interfaces/mboxsha1sumgroup.md) \| [OpenIdGroup](interfaces/openidgroup.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/identified-group.d.ts:13*
 
@@ -509,8 +503,7 @@ ___
 
 ###  InteractionActivity
 
-**Ƭ InteractionActivity**: * [TrueFalseActivity](interfaces/truefalseactivity.md) &#124; [ChoiceActivity](interfaces/choiceactivity.md) &#124; [FillInActivity](interfaces/fillinactivity.md) &#124; [LongFillInActvity](interfaces/longfillinactvity.md) &#124; [MatchingActivity](interfaces/matchingactivity.md) &#124; [PerformanceActivity](interfaces/performanceactivity.md) &#124; [SequenceActivity](interfaces/sequenceactivity.md) &#124; [LikertActivity](interfaces/likertactivity.md) &#124; [NumericActivity](interfaces/numericactivity.md) &#124; [OtherActivity](interfaces/otheractivity.md)
-*
+**Ƭ InteractionActivity**: *[TrueFalseActivity](interfaces/truefalseactivity.md) \| [ChoiceActivity](interfaces/choiceactivity.md) \| [FillInActivity](interfaces/fillinactivity.md) \| [LongFillInActvity](interfaces/longfillinactvity.md) \| [MatchingActivity](interfaces/matchingactivity.md) \| [PerformanceActivity](interfaces/performanceactivity.md) \| [SequenceActivity](interfaces/sequenceactivity.md) \| [LikertActivity](interfaces/likertactivity.md) \| [NumericActivity](interfaces/numericactivity.md) \| [OtherActivity](interfaces/otheractivity.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction-activity.d.ts:23*
 
@@ -525,8 +518,7 @@ ___
 
 ###  InteractionDefinition
 
-**Ƭ InteractionDefinition**: * [ChoiceDefinition](interfaces/choicedefinition.md) &#124; [FillInDefinition](interfaces/fillindefinition.md) &#124; [LikertDefinition](interfaces/likertdefinition.md) &#124; [LongFillInDefinition](interfaces/longfillindefinition.md) &#124; [MatchingDefinition](interfaces/matchingdefinition.md) &#124; [NumericDefinition](interfaces/numericdefinition.md) &#124; [OtherDefinition](interfaces/otherdefinition.md) &#124; [PerformanceDefinition](interfaces/performancedefinition.md) &#124; [SequenceDefinition](interfaces/sequencedefinition.md) &#124; [TrueFalseDefinition](interfaces/truefalsedefinition.md)
-*
+**Ƭ InteractionDefinition**: *[ChoiceDefinition](interfaces/choicedefinition.md) \| [FillInDefinition](interfaces/fillindefinition.md) \| [LikertDefinition](interfaces/likertdefinition.md) \| [LongFillInDefinition](interfaces/longfillindefinition.md) \| [MatchingDefinition](interfaces/matchingdefinition.md) \| [NumericDefinition](interfaces/numericdefinition.md) \| [OtherDefinition](interfaces/otherdefinition.md) \| [PerformanceDefinition](interfaces/performancedefinition.md) \| [SequenceDefinition](interfaces/sequencedefinition.md) \| [TrueFalseDefinition](interfaces/truefalsedefinition.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/interaction-definition.d.ts:11*
 
@@ -544,8 +536,7 @@ ___
 
 ###  InverseFunctionalIdentifier
 
-**Ƭ InverseFunctionalIdentifier**: * [MboxIdentifier](interfaces/mboxidentifier.md) &#124; [MboxSha1SumIdentifier](interfaces/mboxsha1sumidentifier.md) &#124; [OpenIdIdentifier](interfaces/openididentifier.md) &#124; [AccountIdentifier](interfaces/accountidentifier.md)
-*
+**Ƭ InverseFunctionalIdentifier**: *[MboxIdentifier](interfaces/mboxidentifier.md) \| [MboxSha1SumIdentifier](interfaces/mboxsha1sumidentifier.md) \| [OpenIdIdentifier](interfaces/openididentifier.md) \| [AccountIdentifier](interfaces/accountidentifier.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/ifi.d.ts:12*
 
@@ -594,8 +585,7 @@ ___
 
 ###  NonInteractiveType
 
-**Ƭ NonInteractiveType**: * [AttemptActivityType](#attemptactivitytype) &#124; [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)
-*
+**Ƭ NonInteractiveType**: *[AttemptActivityType](#attemptactivitytype) \| [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)*
 
 *Defined in [src/activity-types/activity-type.types.ts:34](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L34)*
 
@@ -604,8 +594,7 @@ ___
 
 ###  Object
 
-**Ƭ Object**: * [Activity](#activity) &#124; [StatementRef](interfaces/statementref.md) &#124; [SubStatement](interfaces/substatement.md) &#124; [ActorObject](#actorobject)
-*
+**Ƭ Object**: *[Activity](#activity) \| [StatementRef](interfaces/statementref.md) \| [SubStatement](interfaces/substatement.md) \| [ActorObject](#actorobject)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/object.d.ts:10*
 
@@ -616,8 +605,7 @@ ___
 
 ###  OpenAnswerType
 
-**Ƭ OpenAnswerType**: * [EssayActivityType](#essayactivitytype) &#124; [GenericOpenAnswerActivityType](#genericopenansweractivitytype)
-*
+**Ƭ OpenAnswerType**: *[EssayActivityType](#essayactivitytype) \| [GenericOpenAnswerActivityType](#genericopenansweractivitytype)*
 
 *Defined in [src/activity-types/activity-type.types.ts:5](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L5)*
 
@@ -626,8 +614,7 @@ ___
 
 ###  ProcessableActivityType
 
-**Ƭ ProcessableActivityType**: * [OpenAnswerType](#openanswertype) &#124; [ClosedResponseType](#closedresponsetype) &#124; [AudioVideoType](#audiovideotype)
-*
+**Ƭ ProcessableActivityType**: *[OpenAnswerType](#openanswertype) \| [ClosedResponseType](#closedresponsetype) \| [AudioVideoType](#audiovideotype)*
 
 *Defined in [src/activity-types/activity-type.types.ts:36](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L36)*
 
@@ -846,6 +833,53 @@ ___
 *Defined in node_modules/@gradiant/xapi-dsl/dsl/verbs/ids/index.d.ts:9*
 
 #### Type declaration
+
+___
+<a id="isaccessed"></a>
+
+### `<Const>` isAccessed
+
+**● isAccessed**: *`function`* =  isVerbId(verbs.accessed.id)
+
+*Defined in [src/verbs/verb-ids.checkers.ts:119](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verb-ids.checkers.ts#L119)*
+
+Check if the given verb identifier is [verbs.accessed](modules/verbs.md#accessed)
+
+#### Type declaration
+▸(verbId: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="isaccessedverb"></a>
+
+### `<Const>` isAccessedVerb
+
+**● isAccessedVerb**: *`function`* =  isVerb(verbs.accessed)
+
+*Defined in [src/verbs/verbs.checkers.ts:119](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L119)*
+
+Check if the given verb object is [verbs.accessed](modules/verbs.md#accessed)
+
+#### Type declaration
+▸<`T`>(verbId: *`T`*): `boolean`
+
+**Type parameters:**
+
+#### T :  [VerbLike](interfaces/verblike.md)
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `T` |
+
+**Returns:** `boolean`
 
 ___
 <a id="isanswered"></a>

@@ -16,6 +16,7 @@
 * [questions](extensions.md#questions)
 * [startingPoint](extensions.md#startingpoint)
 * [studentResponse](extensions.md#studentresponse)
+* [supplementalInfo](extensions.md#supplementalinfo)
 * [userAction](extensions.md#useraction)
 * [userData](extensions.md#userdata)
 
@@ -111,6 +112,15 @@ ___
 **● studentResponse**: *"https://w3id.org/xapi/smart/extension/object/student-response"* =  objectExtensions.smart.studentResponse
 
 *Defined in [src/extensions/extensions.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L7)*
+
+___
+<a id="supplementalinfo"></a>
+
+### `<Const>` supplementalInfo
+
+**● supplementalInfo**: *"https://w3id.org/xapi/acrossx/extensions/supplemental-info"* =  objectExtensions.acrossx.supplementalInfo
+
+*Defined in [src/extensions/extensions.ts:16](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L16)*
 
 ___
 <a id="useraction"></a>

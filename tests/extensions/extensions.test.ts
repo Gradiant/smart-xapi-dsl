@@ -50,4 +50,8 @@ describe('Extensions', () => {
   it('should include `questions`', () => {
     expect(extensions.questions).to.be.equal(objectExtensions.smart.questions);
   });
+
+  it('should include `supplementalInfo`', () => {
+    expect(extensions.supplementalInfo).to.be.equal(objectExtensions.acrossx.supplementalInfo);
+  });
 });

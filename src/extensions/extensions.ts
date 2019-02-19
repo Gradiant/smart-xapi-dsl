@@ -13,4 +13,5 @@ export namespace extensions {
   export const userData = contextExtensions.smart.extendedUserData;
   export const userAction = resultExtensions.smart.userAction;
   export const questions = objectExtensions.smart.questions;
+  export const supplementalInfo = objectExtensions.acrossx.supplementalInfo;
 }

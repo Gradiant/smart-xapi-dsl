@@ -157,6 +157,8 @@
 * [isClosedResponseRecipe](#isclosedresponserecipe)
 * [isCompleted](#iscompleted)
 * [isCompletedVerb](#iscompletedverb)
+* [isCreated](#iscreated)
+* [isCreatedVerb](#iscreatedverb)
 * [isDebate](#isdebate)
 * [isDeleted](#isdeleted)
 * [isDeletedVerb](#isdeletedverb)
@@ -165,6 +167,8 @@
 * [isDiscussion](#isdiscussion)
 * [isDiscussionRecipe](#isdiscussionrecipe)
 * [isDropDownChoice](#isdropdownchoice)
+* [isEdited](#isedited)
+* [isEditedVerb](#iseditedverb)
 * [isEnabled](#isenabled)
 * [isEnabledVerb](#isenabledverb)
 * [isEssay](#isessay)
@@ -181,6 +185,8 @@
 * [isInitializedVerb](#isinitializedverb)
 * [isInteracted](#isinteracted)
 * [isInteractedVerb](#isinteractedverb)
+* [isJoined](#isjoined)
+* [isJoinedVerb](#isjoinedverb)
 * [isLaeProcessable](#islaeprocessable)
 * [isLesson](#islesson)
 * [isLiked](#isliked)
@@ -1166,6 +1172,53 @@ Check if the given verb object is [verbs.completed](modules/verbs.md#completed)
 **Returns:** `boolean`
 
 ___
+<a id="iscreated"></a>
+
+### `<Const>` isCreated
+
+**● isCreated**: *`function`* =  isVerbId(verbs.created.id)
+
+*Defined in [src/verbs/verb-ids.checkers.ts:124](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verb-ids.checkers.ts#L124)*
+
+Check if the given verb identifier is [verbs.created](modules/verbs.md#created)
+
+#### Type declaration
+▸(verbId: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="iscreatedverb"></a>
+
+### `<Const>` isCreatedVerb
+
+**● isCreatedVerb**: *`function`* =  isVerb(verbs.created)
+
+*Defined in [src/verbs/verbs.checkers.ts:124](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L124)*
+
+Check if the given verb object is [verbs.created](modules/verbs.md#created)
+
+#### Type declaration
+▸<`T`>(verbId: *`T`*): `boolean`
+
+**Type parameters:**
+
+#### T :  [VerbLike](interfaces/verblike.md)
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `T` |
+
+**Returns:** `boolean`
+
+___
 <a id="isdebate"></a>
 
 ### `<Const>` isDebate
@@ -1344,6 +1397,53 @@ Check if the given activity type is [closedResponseTypes.dropDownChoice](modules
 | Name | Type |
 | ------ | ------ |
 | activityType | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="isedited"></a>
+
+### `<Const>` isEdited
+
+**● isEdited**: *`function`* =  isVerbId(verbs.edited.id)
+
+*Defined in [src/verbs/verb-ids.checkers.ts:134](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verb-ids.checkers.ts#L134)*
+
+Check if the given verb identifier is [verbs.edited](modules/verbs.md#edited)
+
+#### Type declaration
+▸(verbId: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="iseditedverb"></a>
+
+### `<Const>` isEditedVerb
+
+**● isEditedVerb**: *`function`* =  isVerb(verbs.edited)
+
+*Defined in [src/verbs/verbs.checkers.ts:134](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L134)*
+
+Check if the given verb object is [verbs.edited](modules/verbs.md#edited)
+
+#### Type declaration
+▸<`T`>(verbId: *`T`*): `boolean`
+
+**Type parameters:**
+
+#### T :  [VerbLike](interfaces/verblike.md)
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `T` |
 
 **Returns:** `boolean`
 
@@ -1699,6 +1799,53 @@ ___
 *Defined in [src/verbs/verbs.checkers.ts:39](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L39)*
 
 Check if the given verb object is [verbs.interacted](modules/verbs.md#interacted)
+
+#### Type declaration
+▸<`T`>(verbId: *`T`*): `boolean`
+
+**Type parameters:**
+
+#### T :  [VerbLike](interfaces/verblike.md)
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `T` |
+
+**Returns:** `boolean`
+
+___
+<a id="isjoined"></a>
+
+### `<Const>` isJoined
+
+**● isJoined**: *`function`* =  isVerbId(verbs.joined.id)
+
+*Defined in [src/verbs/verb-ids.checkers.ts:129](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verb-ids.checkers.ts#L129)*
+
+Check if the given verb identifier is [verbs.joined](modules/verbs.md#joined)
+
+#### Type declaration
+▸(verbId: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="isjoinedverb"></a>
+
+### `<Const>` isJoinedVerb
+
+**● isJoinedVerb**: *`function`* =  isVerb(verbs.joined)
+
+*Defined in [src/verbs/verbs.checkers.ts:129](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L129)*
+
+Check if the given verb object is [verbs.joined](modules/verbs.md#joined)
 
 #### Type declaration
 ▸<`T`>(verbId: *`T`*): `boolean`

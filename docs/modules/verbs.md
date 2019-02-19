@@ -9,13 +9,16 @@
 * [accessed](verbs.md#accessed)
 * [answered](verbs.md#answered)
 * [completed](verbs.md#completed)
+* [created](verbs.md#created)
 * [deleted](verbs.md#deleted)
 * [disabled](verbs.md#disabled)
+* [edited](verbs.md#edited)
 * [enabled](verbs.md#enabled)
 * [evaluated](verbs.md#evaluated)
 * [failed](verbs.md#failed)
 * [initialized](verbs.md#initialized)
 * [interacted](verbs.md#interacted)
+* [joined](verbs.md#joined)
 * [liked](verbs.md#liked)
 * [listen](verbs.md#listen)
 * [passed](verbs.md#passed)
@@ -60,6 +63,15 @@ ___
 *Defined in [src/verbs/verbs.ts:15](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L15)*
 
 ___
+<a id="created"></a>
+
+### `<Const>` created
+
+**● created**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.activityStream.v1.created
+
+*Defined in [src/verbs/verbs.ts:26](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L26)*
+
+___
 <a id="deleted"></a>
 
 ### `<Const>` deleted
@@ -76,6 +88,15 @@ ___
 **● disabled**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.tincan.disabled
 
 *Defined in [src/verbs/verbs.ts:17](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L17)*
+
+___
+<a id="edited"></a>
+
+### `<Const>` edited
+
+**● edited**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.acrossx.edited
+
+*Defined in [src/verbs/verbs.ts:28](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L28)*
 
 ___
 <a id="enabled"></a>
@@ -121,6 +142,15 @@ ___
 **● interacted**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.adl.interacted
 
 *Defined in [src/verbs/verbs.ts:9](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L9)*
+
+___
+<a id="joined"></a>
+
+### `<Const>` joined
+
+**● joined**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.activityStream.v1.joined
+
+*Defined in [src/verbs/verbs.ts:27](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L27)*
 
 ___
 <a id="liked"></a>

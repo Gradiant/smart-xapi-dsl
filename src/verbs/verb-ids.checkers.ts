@@ -117,3 +117,18 @@ export const isReported = isVerbId(verbs.reported.id);
  * Check if the given verb identifier is {@link verbs.accessed}
  */
 export const isAccessed = isVerbId(verbs.accessed.id);
+
+/**
+ * Check if the given verb identifier is {@link verbs.created}
+ */
+export const isCreated = isVerbId(verbs.created.id);
+
+/**
+ * Check if the given verb identifier is {@link verbs.joined}
+ */
+export const isJoined = isVerbId(verbs.joined.id);
+
+/**
+ * Check if the given verb identifier is {@link verbs.edited}
+ */
+export const isEdited = isVerbId(verbs.edited.id);

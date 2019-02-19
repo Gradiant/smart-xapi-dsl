@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "^1.2.0"
+    "@gradiant/xapi-dsl": "^1.3.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -32,7 +32,7 @@
     "faker": "^4.1.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.4",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.0",
     "nyc": "^13.3.0",
     "parcel-bundler": "^1.11.0",
     "prettier": "1.16.4",

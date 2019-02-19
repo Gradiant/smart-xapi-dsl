@@ -117,3 +117,18 @@ export const isReportedVerb = isVerb(verbs.reported);
  * Check if the given verb object is {@link verbs.accessed}
  */
 export const isAccessedVerb = isVerb(verbs.accessed);
+
+/**
+ * Check if the given verb object is {@link verbs.created}
+ */
+export const isCreatedVerb = isVerb(verbs.created);
+
+/**
+ * Check if the given verb object is {@link verbs.joined}
+ */
+export const isJoinedVerb = isVerb(verbs.joined);
+
+/**
+ * Check if the given verb object is {@link verbs.edited}
+ */
+export const isEditedVerb = isVerb(verbs.edited);

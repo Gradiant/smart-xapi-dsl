@@ -90,4 +90,16 @@ describe('Verbs', () => {
   it('should include accessed', () => {
     expect(verbs.accessed).to.be.equal(xapiVerbs.activityStream.v1.accessed);
   });
+
+  it('should include created', () => {
+    expect(verbs.created).to.be.equal(xapiVerbs.activityStream.v1.created);
+  });
+
+  it('should include joined', () => {
+    expect(verbs.joined).to.be.equal(xapiVerbs.activityStream.v1.joined);
+  });
+
+  it('should include edited', () => {
+    expect(verbs.edited).to.be.equal(xapiVerbs.acrossx.edited);
+  });
 });

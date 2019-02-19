@@ -4,6 +4,7 @@ import {
   isAccessedVerb,
   isAnsweredVerb,
   isCompletedVerb,
+  isCreatedVerb,
   isDeletedVerb,
   isDisabledVerb,
   isEnabledVerb,
@@ -11,6 +12,7 @@ import {
   isFailedVerb,
   isInitializedVerb,
   isInteractedVerb,
+  isJoinedVerb,
   isLikedVerb,
   isListenedVerb,
   isPassedVerb,
@@ -309,6 +311,42 @@ describe('Verb Checkers', () => {
     it('should return `false` for any other verb', () => {
       getDifference(verbs.accessed).forEach(verb => {
         expect(isAccessedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isCreatedVerb()', () => {
+    it('should return `true` for reported', () => {
+      expect(isCreatedVerb(verbs.created)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.created).forEach(verb => {
+        expect(isCreatedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isJoinedVerb()', () => {
+    it('should return `true` for reported', () => {
+      expect(isJoinedVerb(verbs.joined)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.joined).forEach(verb => {
+        expect(isJoinedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isCreatedVerb()', () => {
+    it('should return `true` for reported', () => {
+      expect(isCreatedVerb(verbs.created)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.created).forEach(verb => {
+        expect(isCreatedVerb(verb)).to.be.false;
       });
     });
   });

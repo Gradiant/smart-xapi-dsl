@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.0-1"></a>
+# [2.6.0-1](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.6.0-0...v2.6.0-1) (2019-02-19)
+
+
+### Features
+
+* add forum join type extension key ([67fa2b8](https://github.com/Gradiant/smart-xapi-dsl/commit/67fa2b8))
+
+
+
 <a name="2.6.0-0"></a>
 # [2.6.0-0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.5.0...v2.6.0-0) (2019-02-19)
 

@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.5.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.4.0...v2.5.0) (2019-02-19)
+
+
+### Features
+
+* **verbs:** add created, joined and edited verb ([7082f00](https://github.com/Gradiant/smart-xapi-dsl/commit/7082f00))
+
+
+
 # [2.4.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.3.0...v2.4.0) (2019-02-18)
 
 

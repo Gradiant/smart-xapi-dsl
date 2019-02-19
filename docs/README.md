@@ -21,6 +21,7 @@
 * [otherTypes](modules/othertypes.md)
 * [qti](modules/qti.md)
 * [recipes](modules/recipes.md)
+* [risc](modules/risc.md)
 * [smart](modules/smart.md)
 * [tincan](modules/tincan.md)
 * [verbs](modules/verbs.md)

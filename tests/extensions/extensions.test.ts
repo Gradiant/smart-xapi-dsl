@@ -54,4 +54,8 @@ describe('Extensions', () => {
   it('should include `supplementalInfo`', () => {
     expect(extensions.supplementalInfo).to.be.equal(objectExtensions.acrossx.supplementalInfo);
   });
+
+  it('should include `forumJoinType`', () => {
+    expect(extensions.forumJoinType).to.be.equal(contextExtensions.risc.forumJoinType);
+  });
 });

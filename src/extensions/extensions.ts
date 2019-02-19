@@ -14,4 +14,5 @@ export namespace extensions {
   export const userAction = resultExtensions.smart.userAction;
   export const questions = objectExtensions.smart.questions;
   export const supplementalInfo = objectExtensions.acrossx.supplementalInfo;
+  export const forumJoinType = contextExtensions.risc.forumJoinType;
 }

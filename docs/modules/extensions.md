@@ -12,6 +12,7 @@
 * [duration](extensions.md#duration)
 * [endingPoint](extensions.md#endingpoint)
 * [evaluationFeedback](extensions.md#evaluationfeedback)
+* [forumJoinType](extensions.md#forumjointype)
 * [interactionContext](extensions.md#interactioncontext)
 * [questions](extensions.md#questions)
 * [startingPoint](extensions.md#startingpoint)
@@ -76,6 +77,15 @@ ___
 **● evaluationFeedback**: *"https://w3id.org/xapi/smart/extension/result/evaluation-feedback"* =  resultExtensions.smart.evaluationFeedback
 
 *Defined in [src/extensions/extensions.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L8)*
+
+___
+<a id="forumjointype"></a>
+
+### `<Const>` forumJoinType
+
+**● forumJoinType**: *"http://risc-inc.com/xapi/extensions/ForumJoinType"* =  contextExtensions.risc.forumJoinType
+
+*Defined in [src/extensions/extensions.ts:17](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L17)*
 
 ___
 <a id="interactioncontext"></a>

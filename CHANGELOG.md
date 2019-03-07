@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.0"></a>
+# [2.7.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.6.0...v2.7.0) (2019-03-07)
+
+
+### Features
+
+* add feedback activity types ([901e7c1](https://github.com/Gradiant/smart-xapi-dsl/commit/901e7c1))
+
+
+
 <a name="2.6.0"></a>
 # [2.6.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.6.0-1...v2.6.0) (2019-03-07)
 

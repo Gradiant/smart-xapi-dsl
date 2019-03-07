@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.0"></a>
+# [2.8.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.7.0...v2.8.0) (2019-03-07)
+
+
+### Features
+
+* add terminated verb ([cdf6b70](https://github.com/Gradiant/smart-xapi-dsl/commit/cdf6b70))
+
+
+
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.6.0...v2.7.0) (2019-03-07)
 

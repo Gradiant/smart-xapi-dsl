@@ -226,6 +226,8 @@
 * [isSkipped](#isskipped)
 * [isSkippedVerb](#isskippedverb)
 * [isSurvey](#issurvey)
+* [isTerminated](#isterminated)
+* [isTerminatedVerb](#isterminatedverb)
 * [isUnit](#isunit)
 * [isVideo](#isvideo)
 * [isVotedDown](#isvoteddown)
@@ -2640,6 +2642,53 @@ Check if the given activity type if [feedbackTypes.survey](modules/feedbacktypes
 | Name | Type |
 | ------ | ------ |
 | activityType | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="isterminated"></a>
+
+### `<Const>` isTerminated
+
+**● isTerminated**: *`function`* =  isVerbId(verbs.terminated.id)
+
+*Defined in [src/verbs/verb-ids.checkers.ts:139](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verb-ids.checkers.ts#L139)*
+
+Check if the given verb identifier is [verbs.terminated](modules/verbs.md#terminated)
+
+#### Type declaration
+▸(verbId: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="isterminatedverb"></a>
+
+### `<Const>` isTerminatedVerb
+
+**● isTerminatedVerb**: *`function`* =  isVerb(verbs.terminated)
+
+*Defined in [src/verbs/verbs.checkers.ts:139](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.checkers.ts#L139)*
+
+Check if the given verb object is [verbs.terminated](modules/verbs.md#terminated)
+
+#### Type declaration
+▸<`T`>(verbId: *`T`*): `boolean`
+
+**Type parameters:**
+
+#### T :  [VerbLike](interfaces/verblike.md)
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| verbId | `T` |
 
 **Returns:** `boolean`
 

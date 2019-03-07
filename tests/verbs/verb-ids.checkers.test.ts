@@ -23,6 +23,7 @@ import {
   isReplied,
   isReported,
   isSkipped,
+  isTerminated,
   isVerbId,
   isVotedDown,
   isVotedUp,
@@ -347,6 +348,18 @@ describe('Verb ID Checkers', () => {
     it('should return `false` for any other verb', () => {
       getDifference(verbs.edited.id).forEach(verb => {
         expect(isEdited(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isTerminated()', () => {
+    it('should return `true` for reported', () => {
+      expect(isTerminated(verbs.terminated.id)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.terminated.id).forEach(verb => {
+        expect(isTerminated(verb)).to.be.false;
       });
     });
   });

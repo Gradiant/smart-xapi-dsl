@@ -132,3 +132,8 @@ export const isJoined = isVerbId(verbs.joined.id);
  * Check if the given verb identifier is {@link verbs.edited}
  */
 export const isEdited = isVerbId(verbs.edited.id);
+
+/**
+ * Check if the given verb identifier is {@link verbs.terminated}
+ */
+export const isTerminated = isVerbId(verbs.terminated.id);

@@ -26,4 +26,5 @@ export namespace verbs {
   export const created = xapiVerbs.activityStream.v1.created;
   export const joined = xapiVerbs.activityStream.v1.joined;
   export const edited = xapiVerbs.acrossx.edited;
+  export const terminated = xapiVerbs.adl.terminated;
 }

@@ -7,6 +7,7 @@ import {
   isCreatedVerb,
   isDeletedVerb,
   isDisabledVerb,
+  isEditedVerb,
   isEnabledVerb,
   isEvaluatedVerb,
   isFailedVerb,
@@ -22,6 +23,7 @@ import {
   isRepliedVerb,
   isReportedVerb,
   isSkippedVerb,
+  isTerminatedVerb,
   isVerb,
   isVotedDownVerb,
   isVotedUpVerb,
@@ -347,6 +349,30 @@ describe('Verb Checkers', () => {
     it('should return `false` for any other verb', () => {
       getDifference(verbs.created).forEach(verb => {
         expect(isCreatedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isEditedVerb()', () => {
+    it('should return `true` for terminated', () => {
+      expect(isEditedVerb(verbs.edited)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.edited).forEach(verb => {
+        expect(isEditedVerb(verb)).to.be.false;
+      });
+    });
+  });
+
+  describe('isTerminatedVerb()', () => {
+    it('should return `true` for terminated', () => {
+      expect(isTerminatedVerb(verbs.terminated)).to.be.true;
+    });
+
+    it('should return `false` for any other verb', () => {
+      getDifference(verbs.terminated).forEach(verb => {
+        expect(isTerminatedVerb(verb)).to.be.false;
       });
     });
   });

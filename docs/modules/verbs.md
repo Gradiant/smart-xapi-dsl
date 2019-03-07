@@ -28,6 +28,7 @@
 * [replied](verbs.md#replied)
 * [reported](verbs.md#reported)
 * [skipped](verbs.md#skipped)
+* [terminated](verbs.md#terminated)
 * [votedDown](verbs.md#voteddown)
 * [votedUp](verbs.md#votedup)
 * [watched](verbs.md#watched)
@@ -232,6 +233,15 @@ ___
 **● skipped**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.tincan.skipped
 
 *Defined in [src/verbs/verbs.ts:14](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L14)*
+
+___
+<a id="terminated"></a>
+
+### `<Const>` terminated
+
+**● terminated**: *[Verb](../interfaces/verb.md)* =  xapiVerbs.adl.terminated
+
+*Defined in [src/verbs/verbs.ts:29](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/verbs/verbs.ts#L29)*
 
 ___
 <a id="voteddown"></a>

@@ -102,4 +102,8 @@ describe('Verbs', () => {
   it('should include edited', () => {
     expect(verbs.edited).to.be.equal(xapiVerbs.acrossx.edited);
   });
+
+  it('should include terminated', () => {
+    expect(verbs.terminated).to.be.equal(xapiVerbs.adl.terminated);
+  });
 });

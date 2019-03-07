@@ -6,6 +6,7 @@ import {
   bookTypes,
   closedResponseTypes,
   discussionTypes,
+  feedbackTypes,
   nonInteractiveTypes,
   openAnswerTypes,
   otherTypes
@@ -74,6 +75,20 @@ describe('Activity Types', () => {
     });
   });
 
+  describe('ÇFeedback', () => {
+    it('should include question', () => {
+      expect(feedbackTypes.question).to.be.equal(types.activityStream.v1.question);
+    });
+
+    it('should include review', () => {
+      expect(feedbackTypes.review).to.be.equal(types.activityStream.v1.review);
+    });
+
+    it('should include survey', () => {
+      expect(feedbackTypes.survey).to.be.equal(types.tincan.survey);
+    });
+  });
+
   it('should aggregate every type', () => {
     expect(activityTypes).to.be.deep.equal({
       ...openAnswerTypes,
@@ -82,7 +97,8 @@ describe('Activity Types', () => {
       ...nonInteractiveTypes,
       ...discussionTypes,
       ...bookTypes,
-      ...otherTypes
+      ...otherTypes,
+      ...feedbackTypes
     });
   });
 });

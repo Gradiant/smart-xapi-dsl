@@ -64,6 +64,12 @@ export namespace otherTypes {
   export const quiz = types.smart.quiz;
 }
 
+export namespace feedbackTypes {
+  export const question = types.activityStream.v1.question;
+  export const review = types.activityStream.v1.review;
+  export const survey = types.tincan.survey;
+}
+
 /**
  * Every activity type combined into a single object
  */
@@ -74,7 +80,8 @@ export const activityTypes = {
   ...discussionTypes,
   ...nonInteractiveTypes,
   ...bookTypes,
-  ...otherTypes
+  ...otherTypes,
+  ...feedbackTypes
 };
 
 /**

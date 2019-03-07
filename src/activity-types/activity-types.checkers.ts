@@ -5,6 +5,7 @@ import {
   bookTypes,
   closedResponseTypes,
   discussionTypes,
+  feedbackTypes,
   nonInteractiveTypes,
   openAnswerTypes,
   otherTypes
@@ -243,3 +244,30 @@ export const isLaeProcessable: ActivityTypeChecker = anyPass([isOpenAnswer, isCl
  * - {@link openAnswerTypes.genericOpenAnswer}
  */
 export const isAssessable: ActivityTypeChecker = (activityType: string) => assessableTypes.has(activityType);
+
+// Feedback Types
+// --------------
+
+/**
+ * Check if the given activity type if {@link feedbackTypes.question}
+ */
+export const isQuestion = isActivityType(feedbackTypes.question);
+
+/**
+ * Check if the given activity type if {@link feedbackTypes.review}
+ */
+export const isReview = isActivityType(feedbackTypes.review);
+
+/**
+ * Check if the given activity type if {@link feedbackTypes.survey}
+ */
+export const isSurvey = isActivityType(feedbackTypes.survey);
+
+/**
+ * Check if the given activity type is one of:
+ *
+ * - {@link feedbackTypes.question}
+ * - {@link feedbackTypes.review}
+ * - {@link feedbackTypes.survey}
+ */
+export const isFeedback: ActivityTypeChecker = anyPass([isQuestion, isReview, isSurvey]);

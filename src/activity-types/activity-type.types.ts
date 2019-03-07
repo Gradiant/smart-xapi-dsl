@@ -1,4 +1,11 @@
-import { audioVideoTypes, closedResponseTypes, discussionTypes, nonInteractiveTypes, openAnswerTypes } from './activity-types';
+import {
+  audioVideoTypes,
+  closedResponseTypes,
+  discussionTypes,
+  feedbackTypes,
+  nonInteractiveTypes,
+  openAnswerTypes
+} from './activity-types';
 
 export type EssayActivityType = typeof openAnswerTypes.essay;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
@@ -34,3 +41,8 @@ export type NonInteractiveAttemptActivityType = typeof nonInteractiveTypes.nonIn
 export type NonInteractiveType = AttemptActivityType | NonInteractiveAttemptActivityType;
 
 export type ProcessableActivityType = OpenAnswerType | ClosedResponseType | AudioVideoType;
+
+export type QuestionType = typeof feedbackTypes.question;
+export type ReviewType = typeof feedbackTypes.review;
+export type SurveyType = typeof feedbackTypes.survey;
+export type FeedbackType = QuestionType | ReviewType | SurveyType;

@@ -6,11 +6,13 @@ import {
   audioVideoTypes,
   bookTypes,
   closedResponseTypes,
+  feedbackTypes,
   isActivityType,
   isAssessable,
   isAudioVideo,
   isBookContainer,
   isClosedResponse,
+  isFeedback,
   isLaeProcessable,
   isNonInteractive,
   isOpenAnswer,
@@ -96,7 +98,7 @@ describe('Activity Type Checkers', () => {
   });
 
   describe('isBookContainer()', () => {
-    it('should return true for any open answer type', () => {
+    it('should return true for any book type', () => {
       values(bookTypes).forEach(activityType => {
         expect(isBookContainer(activityType)).to.be.true;
       });
@@ -137,6 +139,20 @@ describe('Activity Type Checkers', () => {
     it('should return false for any other type', () => {
       getDifference(types).forEach(activityType => {
         expect(isAssessable(activityType)).to.be.false;
+      });
+    });
+  });
+
+  describe('isFeedback()', () => {
+    it('should return true for any feedback type', () => {
+      values(feedbackTypes).forEach(activityType => {
+        expect(isFeedback(activityType)).to.be.true;
+      });
+    });
+
+    it('should return false for any other type', () => {
+      getDifference(feedbackTypes).forEach(activityType => {
+        expect(isFeedback(activityType)).to.be.false;
       });
     });
   });

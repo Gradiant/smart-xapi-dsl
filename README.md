@@ -20,6 +20,14 @@ Check the [markdown documentation](./docs/README.md) for more info about what is
 
 Compile typescript files from the `src` folder inside the `build` folder
 
+### npm test
+
+Run tests files inside the `tests` folder that matches **\*.test.ts** pattern
+
+### npm run docs
+
+Generates the dsl documentation. Using `npm run docs:md` the documentation will be generated in markdown format
+
 ### npm run ci
 
 Check linters and run the tests

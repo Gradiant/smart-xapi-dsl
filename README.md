@@ -4,7 +4,7 @@
 
 # Smart XAPI DSL
 
-Specific xAPI vocabulary for SMART projects
+Specific xAPI vocabulary used at the [Smarted plaform](https://classroom.smarted.cloud).
 
 ## Overview
 
@@ -14,36 +14,11 @@ It also include a set of utility functions to checks for specific activity types
 
 Check the [markdown documentation](./docs/README.md) for more info about what is exported
 
-## Docs
-
 ## Scripts
 
 ### npm run build
 
 Compile typescript files from the `src` folder inside the `build` folder
-
-### npm run clean
-
-Remove the following directories/files
-
-- **build**
-- **reports**
-
-### npm test
-
-Run tests files inside the `tests` folder that matches **\*.test.ts** pattern
-
-### npm run cover
-
-The same as as `npm test` and generates coverages reports in `reports/coverage`
-
-### npm run lint
-
-Run `tslint` and `prettier` and exit on error
-
-### npm run lint:fix
-
-Run `tslint` and `prettier` applying the available fixes
 
 ### npm run ci
 

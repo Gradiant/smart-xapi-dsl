@@ -16,7 +16,7 @@ Open source community strives to be nice, welcoming and professional. Instances 
 
 ## Style
 
-* Day.js is written in Typescript.
+* smart-xapi-dsl is written in Typescript.
 * We use Prettier and TSLint to format and check our code. You can use `npm run lint` before submitting a pull request.
 * Please use [Conventional Commits specification](https://conventionalcommits.org/)
 

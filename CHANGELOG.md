@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.9.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.8.0...v2.9.0) (2019-06-19)
+
+
+### Features
+
+* Change License from privative to Mozilla Plubic License (MPL) 2.0 ([f3b165a](https://github.com/Gradiant/smart-xapi-dsl/commit/f3b165a))
+
+
 
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.7.0...v2.8.0) (2019-03-07)

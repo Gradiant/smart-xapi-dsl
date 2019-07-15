@@ -22,7 +22,7 @@ Activity types for smartbook contents
 
 **● book**: *"https://w3id.org/xapi/smart/activity/book"* =  types.smart.book
 
-*Defined in [src/activity-types/activity-types.ts:47](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L47)*
+*Defined in src/activity-types/activity-types.ts:47*
 
 ___
 <a id="lesson"></a>
@@ -31,7 +31,7 @@ ___
 
 **● lesson**: *"https://w3id.org/xapi/smart/activity/lesson"* =  types.smart.lesson
 
-*Defined in [src/activity-types/activity-types.ts:48](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L48)*
+*Defined in src/activity-types/activity-types.ts:48*
 
 ___
 <a id="unit"></a>
@@ -40,7 +40,7 @@ ___
 
 **● unit**: *"https://w3id.org/xapi/smart/activity/unit"* =  types.smart.unit
 
-*Defined in [src/activity-types/activity-types.ts:49](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L49)*
+*Defined in src/activity-types/activity-types.ts:49*
 
 ___
 

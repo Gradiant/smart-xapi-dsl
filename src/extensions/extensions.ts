@@ -12,6 +12,8 @@ export namespace extensions {
   export const discussionMessage = resultExtensions.smart.discussionMessage;
   export const userData = contextExtensions.smart.extendedUserData;
   export const userAction = resultExtensions.smart.userAction;
+  export const activityMode = resultExtensions.smart.activityMode;
+  export const activityStatus = resultExtensions.smart.activityStatus;
   export const questions = objectExtensions.smart.questions;
   export const supplementalInfo = objectExtensions.acrossx.supplementalInfo;
   export const forumJoinType = contextExtensions.risc.forumJoinType;

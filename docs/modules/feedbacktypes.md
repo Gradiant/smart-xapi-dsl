@@ -20,7 +20,7 @@
 
 **● question**: *"http://activitystrea.ms/schema/1.0/question"* =  types.activityStream.v1.question
 
-*Defined in [src/activity-types/activity-types.ts:68](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L68)*
+*Defined in src/activity-types/activity-types.ts:68*
 
 ___
 <a id="review"></a>
@@ -29,7 +29,7 @@ ___
 
 **● review**: *"http://activitystrea.ms/schema/1.0/review"* =  types.activityStream.v1.review
 
-*Defined in [src/activity-types/activity-types.ts:69](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L69)*
+*Defined in src/activity-types/activity-types.ts:69*
 
 ___
 <a id="survey"></a>
@@ -38,7 +38,7 @@ ___
 
 **● survey**: *"http://id.tincanapi.com/activitytype/survey"* =  types.tincan.survey
 
-*Defined in [src/activity-types/activity-types.ts:70](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L70)*
+*Defined in src/activity-types/activity-types.ts:70*
 
 ___
 

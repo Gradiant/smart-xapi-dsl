@@ -47,6 +47,14 @@ describe('Extensions', () => {
     expect(extensions.userAction).to.be.equal(resultExtensions.smart.userAction);
   });
 
+  it('should include `activityMode`', () => {
+    expect(extensions.activityMode).to.be.equal(resultExtensions.smart.activityMode);
+  });
+
+  it('should include `activityStatus`', () => {
+    expect(extensions.activityStatus).to.be.equal(resultExtensions.smart.activityStatus);
+  });
+
   it('should include `questions`', () => {
     expect(extensions.questions).to.be.equal(objectExtensions.smart.questions);
   });

@@ -7,6 +7,8 @@
 ### Variables
 
 * [activityContext](extensions.md#activitycontext)
+* [activityMode](extensions.md#activitymode)
+* [activityStatus](extensions.md#activitystatus)
 * [attemptContext](extensions.md#attemptcontext)
 * [discussionMessage](extensions.md#discussionmessage)
 * [duration](extensions.md#duration)
@@ -31,7 +33,25 @@
 
 **● activityContext**: *"https://w3id.org/xapi/smart/extension/context/activity-context"* =  contextExtensions.smart.activityContext
 
-*Defined in [src/extensions/extensions.ts:5](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L5)*
+*Defined in src/extensions/extensions.ts:5*
+
+___
+<a id="activitymode"></a>
+
+### `<Const>` activityMode
+
+**● activityMode**: *"https://w3id.org/xapi/smart/extension/result/activity-mode"* =  resultExtensions.smart.activityMode
+
+*Defined in src/extensions/extensions.ts:15*
+
+___
+<a id="activitystatus"></a>
+
+### `<Const>` activityStatus
+
+**● activityStatus**: *"https://w3id.org/xapi/smart/extension/result/activity-status"* =  resultExtensions.smart.activityStatus
+
+*Defined in src/extensions/extensions.ts:16*
 
 ___
 <a id="attemptcontext"></a>
@@ -40,7 +60,7 @@ ___
 
 **● attemptContext**: *"https://w3id.org/xapi/smart/extension/object/attempt-context"* =  objectExtensions.smart.attemptContext
 
-*Defined in [src/extensions/extensions.ts:6](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L6)*
+*Defined in src/extensions/extensions.ts:6*
 
 ___
 <a id="discussionmessage"></a>
@@ -49,7 +69,7 @@ ___
 
 **● discussionMessage**: *"https://w3id.org/xapi/smart/extension/result/discussion-message"* =  resultExtensions.smart.discussionMessage
 
-*Defined in [src/extensions/extensions.ts:12](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L12)*
+*Defined in src/extensions/extensions.ts:12*
 
 ___
 <a id="duration"></a>
@@ -58,7 +78,7 @@ ___
 
 **● duration**: *"http://id.tincanapi.com/extension/duration"* =  contextExtensions.tincan.duration
 
-*Defined in [src/extensions/extensions.ts:9](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L9)*
+*Defined in src/extensions/extensions.ts:9*
 
 ___
 <a id="endingpoint"></a>
@@ -67,7 +87,7 @@ ___
 
 **● endingPoint**: *"http://id.tincanapi.com/extension/ending-point"* =  contextExtensions.tincan.endingPoint
 
-*Defined in [src/extensions/extensions.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L11)*
+*Defined in src/extensions/extensions.ts:11*
 
 ___
 <a id="evaluationfeedback"></a>
@@ -76,7 +96,7 @@ ___
 
 **● evaluationFeedback**: *"https://w3id.org/xapi/smart/extension/result/evaluation-feedback"* =  resultExtensions.smart.evaluationFeedback
 
-*Defined in [src/extensions/extensions.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L8)*
+*Defined in src/extensions/extensions.ts:8*
 
 ___
 <a id="forumjointype"></a>
@@ -85,7 +105,7 @@ ___
 
 **● forumJoinType**: *"http://risc-inc.com/xapi/extensions/ForumJoinType"* =  contextExtensions.risc.forumJoinType
 
-*Defined in [src/extensions/extensions.ts:17](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L17)*
+*Defined in src/extensions/extensions.ts:19*
 
 ___
 <a id="interactioncontext"></a>
@@ -94,7 +114,7 @@ ___
 
 **● interactionContext**: *"https://w3id.org/xapi/smart/extension/context/interaction-context"* =  contextExtensions.smart.interactionContext
 
-*Defined in [src/extensions/extensions.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L4)*
+*Defined in src/extensions/extensions.ts:4*
 
 ___
 <a id="questions"></a>
@@ -103,7 +123,7 @@ ___
 
 **● questions**: *"https://w3id.org/xapi/smart/extension/object/questions"* =  objectExtensions.smart.questions
 
-*Defined in [src/extensions/extensions.ts:15](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L15)*
+*Defined in src/extensions/extensions.ts:17*
 
 ___
 <a id="startingpoint"></a>
@@ -112,7 +132,7 @@ ___
 
 **● startingPoint**: *"http://id.tincanapi.com/extension/starting-point"* =  contextExtensions.tincan.startingPoint
 
-*Defined in [src/extensions/extensions.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L10)*
+*Defined in src/extensions/extensions.ts:10*
 
 ___
 <a id="studentresponse"></a>
@@ -121,7 +141,7 @@ ___
 
 **● studentResponse**: *"https://w3id.org/xapi/smart/extension/object/student-response"* =  objectExtensions.smart.studentResponse
 
-*Defined in [src/extensions/extensions.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L7)*
+*Defined in src/extensions/extensions.ts:7*
 
 ___
 <a id="supplementalinfo"></a>
@@ -130,7 +150,7 @@ ___
 
 **● supplementalInfo**: *"https://w3id.org/xapi/acrossx/extensions/supplemental-info"* =  objectExtensions.acrossx.supplementalInfo
 
-*Defined in [src/extensions/extensions.ts:16](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L16)*
+*Defined in src/extensions/extensions.ts:18*
 
 ___
 <a id="useraction"></a>
@@ -139,7 +159,7 @@ ___
 
 **● userAction**: *"https://w3id.org/xapi/smart/extension/result/user-action"* =  resultExtensions.smart.userAction
 
-*Defined in [src/extensions/extensions.ts:14](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L14)*
+*Defined in src/extensions/extensions.ts:14*
 
 ___
 <a id="userdata"></a>
@@ -148,7 +168,7 @@ ___
 
 **● userData**: *"https://w3id.org/xapi/smart/extension/context/extended-user-data"* =  contextExtensions.smart.extendedUserData
 
-*Defined in [src/extensions/extensions.ts:13](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/extensions/extensions.ts#L13)*
+*Defined in src/extensions/extensions.ts:13*
 
 ___
 

@@ -21,7 +21,7 @@ Activity types for audio/video recipe
 
 **● audio**: *"https://w3id.org/xapi/smart/activity/audio"* =  types.smart.audio
 
-*Defined in [src/activity-types/activity-types.ts:56](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L56)*
+*Defined in src/activity-types/activity-types.ts:56*
 
 ___
 <a id="video"></a>
@@ -30,7 +30,7 @@ ___
 
 **● video**: *"https://w3id.org/xapi/smart/activity/video"* =  types.smart.video
 
-*Defined in [src/activity-types/activity-types.ts:57](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L57)*
+*Defined in src/activity-types/activity-types.ts:57*
 
 ___
 

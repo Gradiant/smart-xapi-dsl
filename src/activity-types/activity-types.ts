@@ -70,6 +70,14 @@ export namespace feedbackTypes {
   export const survey = types.tincan.survey;
 }
 
+export namespace scormTypes {
+  export const choice = types.qti.choice;
+  export const multipleChoice = types.qti.multipleChoice;
+  export const inlineChoice = types.qti.inlineChoice;
+  export const textEntry = types.qti.textEntry;
+  export const genericScorm = types.smart.scorm;
+}
+
 /**
  * Every activity type combined into a single object
  */
@@ -81,7 +89,8 @@ export const activityTypes = {
   ...nonInteractiveTypes,
   ...bookTypes,
   ...otherTypes,
-  ...feedbackTypes
+  ...feedbackTypes,
+  ...scormTypes
 };
 
 /**

@@ -8,7 +8,8 @@ import {
   feedbackTypes,
   nonInteractiveTypes,
   openAnswerTypes,
-  otherTypes
+  otherTypes,
+  scormTypes
 } from './activity-types';
 
 export type ActivityTypeChecker = (activityType: string) => boolean;
@@ -271,3 +272,48 @@ export const isSurvey = isActivityType(feedbackTypes.survey);
  * - {@link feedbackTypes.survey}
  */
 export const isFeedback: ActivityTypeChecker = anyPass([isQuestion, isReview, isSurvey]);
+
+// Scorm Types
+// --------------
+
+/**
+ * Check if the given activity type if {@link scormTypes.choice}
+ */
+export const isScormGeneric = isActivityType(scormTypes.genericScorm);
+
+/**
+ * Check if the given activity type if {@link scormTypes.choice}
+ */
+export const isScormChoice = isActivityType(scormTypes.choice);
+
+/**
+ * Check if the given activity type if {@link scormTypes.multipleChoice}
+ */
+export const isScormMultipleChoice = isActivityType(scormTypes.multipleChoice);
+
+/**
+ * Check if the given activity type if {@link scormTypes.multipleChoice}
+ */
+export const isScormInlineChoice = isActivityType(scormTypes.inlineChoice);
+
+/**
+ * Check if the given activity type if {@link scormTypes.textEntry}
+ */
+export const isScormTextEntry = isActivityType(scormTypes.textEntry);
+
+/**
+ * Check if the given activity type is one of:
+ *
+ * - {@link scormTypes.genericScorm}
+ * - {@link scormTypes.choice}
+ * - {@link scormTypes.multipleChoice}
+ * - {@link scormTypes.textEntry}
+ * - {@link scormTypes.inlineChoice}
+ */
+export const isScorm: ActivityTypeChecker = anyPass([
+  isScormGeneric,
+  isScormChoice,
+  isScormInlineChoice,
+  isScormMultipleChoice,
+  isScormTextEntry
+]);

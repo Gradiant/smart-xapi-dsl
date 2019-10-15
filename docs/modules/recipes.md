@@ -11,6 +11,7 @@
 * [discussion](recipes.md#discussion)
 * [nonInteractive](recipes.md#noninteractive)
 * [openAnswer](recipes.md#openanswer)
+* [scorm](recipes.md#scorm)
 
 ---
 
@@ -59,6 +60,15 @@ ___
 **● openAnswer**: *"https://w3id.org/xapi/smart/activity/recipe/open_answer"* =  categoryIdentifiers.smart.recipeOpenAnswer
 
 *Defined in src/recipes/recipes.ts:4*
+
+___
+<a id="scorm"></a>
+
+### `<Const>` scorm
+
+**● scorm**: *"https://w3id.org/xapi/smart/activity/recipe/scorm"* =  categoryIdentifiers.smart.recipeScorm
+
+*Defined in src/recipes/recipes.ts:9*
 
 ___
 

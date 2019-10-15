@@ -16,8 +16,10 @@ import {
   isLaeProcessable,
   isNonInteractive,
   isOpenAnswer,
+  isScorm,
   nonInteractiveTypes,
-  openAnswerTypes
+  openAnswerTypes,
+  scormTypes
 } from '../../src/activity-types';
 import { difference, values } from '../helpers';
 
@@ -153,6 +155,20 @@ describe('Activity Type Checkers', () => {
     it('should return false for any other type', () => {
       getDifference(feedbackTypes).forEach(activityType => {
         expect(isFeedback(activityType)).to.be.false;
+      });
+    });
+  });
+
+  describe('isScorm()', () => {
+    it('should return true for any scorm type', () => {
+      values(scormTypes).forEach(activityType => {
+        expect(isScorm(activityType)).to.be.true;
+      });
+    });
+
+    it('should return false for any other type', () => {
+      getDifference(scormTypes).forEach(activityType => {
+        expect(isScorm(activityType)).to.be.false;
       });
     });
   });

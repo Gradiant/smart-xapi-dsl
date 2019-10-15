@@ -7,6 +7,7 @@ import {
   isNonInteractiveRecipe,
   isOpenAnswerRecipe,
   isRecipe,
+  isScormRecipe,
   recipes
 } from '../../src/recipes';
 import { difference, values } from '../helpers';
@@ -87,6 +88,18 @@ describe('Recipes Checkers', () => {
     it('should return `false` for any other type', () => {
       getDifference(recipes.nonInteractive).forEach(recipe => {
         expect(isNonInteractiveRecipe(recipe)).to.be.false;
+      });
+    });
+  });
+
+  describe('isScormRecipe()', () => {
+    it('should return `true` for scorm recipe', () => {
+      expect(isScormRecipe(recipes.scorm)).to.be.true;
+    });
+
+    it('should return `false` for any other type', () => {
+      getDifference(recipes.scorm).forEach(recipe => {
+        expect(isScormRecipe(recipe)).to.be.false;
       });
     });
   });

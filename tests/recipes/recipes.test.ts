@@ -22,4 +22,8 @@ describe('Recipes', () => {
   it('should include non-interactive', () => {
     expect(recipes.nonInteractive).to.be.equal(categoryIdentifiers.smart.recipeNoInteractive);
   });
+
+  it('should include scorm', () => {
+    expect(recipes.scorm).to.be.equal(categoryIdentifiers.smart.recipeScorm);
+  });
 });

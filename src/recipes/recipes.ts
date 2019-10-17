@@ -6,4 +6,5 @@ export namespace recipes {
   export const audioVideo = categoryIdentifiers.smart.recipeAudioVideo;
   export const discussion = categoryIdentifiers.smart.recipeDiscussion;
   export const nonInteractive = categoryIdentifiers.smart.recipeNoInteractive;
+  export const scorm = categoryIdentifiers.smart.recipeScorm;
 }

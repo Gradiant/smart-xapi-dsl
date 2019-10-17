@@ -33,3 +33,8 @@ export const isDiscussionRecipe = isRecipe(recipes.discussion);
  * Check if the given recipe identifier is {@link recipes.nonInteractive}
  */
 export const isNonInteractiveRecipe = isRecipe(recipes.nonInteractive);
+
+/**
+ * Check if the given recipe identifier is {@link recipes.scorm}
+ */
+export const isScormRecipe = isRecipe(recipes.scorm);

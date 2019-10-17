@@ -9,7 +9,8 @@ import {
   feedbackTypes,
   nonInteractiveTypes,
   openAnswerTypes,
-  otherTypes
+  otherTypes,
+  scormTypes
 } from '../../src/activity-types';
 
 describe('Activity Types', () => {
@@ -75,7 +76,7 @@ describe('Activity Types', () => {
     });
   });
 
-  describe('ÇFeedback', () => {
+  describe('Feedback', () => {
     it('should include question', () => {
       expect(feedbackTypes.question).to.be.equal(types.activityStream.v1.question);
     });
@@ -89,6 +90,28 @@ describe('Activity Types', () => {
     });
   });
 
+  describe('Scorm', () => {
+    it('should include scorm (generic)', () => {
+      expect(scormTypes.genericScorm).to.be.equal(types.smart.scorm);
+    });
+
+    it('should include choice', () => {
+      expect(scormTypes.choice).to.be.equal(types.qti.choice);
+    });
+
+    it('should include multipleChoice', () => {
+      expect(scormTypes.multipleChoice).to.be.equal(types.qti.multipleChoice);
+    });
+
+    it('should include textEntry', () => {
+      expect(scormTypes.textEntry).to.be.equal(types.qti.textEntry);
+    });
+
+    it('should include inlineChoice', () => {
+      expect(scormTypes.inlineChoice).to.be.equal(types.qti.inlineChoice);
+    });
+  });
+
   it('should aggregate every type', () => {
     expect(activityTypes).to.be.deep.equal({
       ...openAnswerTypes,
@@ -98,7 +121,8 @@ describe('Activity Types', () => {
       ...discussionTypes,
       ...bookTypes,
       ...otherTypes,
-      ...feedbackTypes
+      ...feedbackTypes,
+      ...scormTypes
     });
   });
 });

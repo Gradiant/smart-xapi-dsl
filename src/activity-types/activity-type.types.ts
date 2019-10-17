@@ -4,7 +4,8 @@ import {
   discussionTypes,
   feedbackTypes,
   nonInteractiveTypes,
-  openAnswerTypes
+  openAnswerTypes,
+  scormTypes
 } from './activity-types';
 
 export type EssayActivityType = typeof openAnswerTypes.essay;
@@ -46,3 +47,16 @@ export type QuestionType = typeof feedbackTypes.question;
 export type ReviewType = typeof feedbackTypes.review;
 export type SurveyType = typeof feedbackTypes.survey;
 export type FeedbackType = QuestionType | ReviewType | SurveyType;
+
+export type ScormChoiceActivityType = typeof scormTypes.choice;
+export type ScormMultipleChoiceActivityType = typeof scormTypes.multipleChoice;
+export type ScormInlineChoiceActivityType = typeof scormTypes.inlineChoice;
+export type ScormTextEntryActivityType = typeof scormTypes.textEntry;
+export type ScormGenericActivityType = typeof scormTypes.genericScorm;
+
+export type ScormType =
+  | ScormChoiceActivityType
+  | ScormMultipleChoiceActivityType
+  | ScormInlineChoiceActivityType
+  | ScormTextEntryActivityType
+  | ScormGenericActivityType;

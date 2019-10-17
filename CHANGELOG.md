@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.10.0...v2.11.0) (2019-10-17)
+
+
+### Features
+
+* **SUMN-1099:** Adding support to scorm activity types and recipe ([6071504](https://github.com/Gradiant/smart-xapi-dsl/commit/60715045f0acd002451a6bcd33fad3e27cf9ce9d))
+
 <a name="2.10.0"></a>
 # [2.10.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.9.0...v2.10.0) (2019-07-15)
 

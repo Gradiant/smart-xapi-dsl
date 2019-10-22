@@ -63,6 +63,16 @@ export const isSingleChoice = isActivityType(closedResponseTypes.singleChoice);
 export const isWordsBank = isActivityType(closedResponseTypes.wordsBank);
 
 /**
+ * Check if the given activity type if {@link closedResponseTypes.matrixMultipleChoice}
+ */
+export const isMatrixMultipleChoice = isActivityType(closedResponseTypes.matrixMultipleChoice);
+
+/**
+ * Check if the given activity type if {@link closedResponseTypes.matrixSingleChoice}
+ */
+export const isMatrixSingleChoice = isActivityType(closedResponseTypes.matrixSingleChoice);
+
+/**
  * Check if the given activity type if a closed response type:
  *
  * - {@link closedResponseTypes.binaryChoice}
@@ -82,7 +92,9 @@ export const isClosedResponse: ActivityTypeChecker = anyPass([
   isMatchingPairs,
   isMultipleChoice,
   isSingleChoice,
-  isWordsBank
+  isWordsBank,
+  isMatrixMultipleChoice,
+  isMatrixSingleChoice
 ]);
 
 // Open Answer

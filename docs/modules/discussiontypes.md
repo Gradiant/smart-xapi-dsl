@@ -23,7 +23,7 @@ Activity types for discussion recipe
 
 **● debate**: *"https://w3id.org/xapi/smart/activity/discussion"* =  types.smart.discussion
 
-*Defined in src/activity-types/activity-types.ts:32*
+*Defined in src/activity-types/activity-types.ts:34*
 
 ___
 <a id="discussion"></a>
@@ -32,7 +32,7 @@ ___
 
 **● discussion**: *"http://id.tincanapi.com/activitytype/discussion"* =  types.tincan.discussion
 
-*Defined in src/activity-types/activity-types.ts:29*
+*Defined in src/activity-types/activity-types.ts:31*
 
 ___
 <a id="forumreply"></a>
@@ -41,7 +41,7 @@ ___
 
 **● forumReply**: *"http://id.tincanapi.com/activitytype/forum-reply"* =  types.tincan.forumReply
 
-*Defined in src/activity-types/activity-types.ts:30*
+*Defined in src/activity-types/activity-types.ts:32*
 
 ___
 <a id="forumtopic"></a>
@@ -50,7 +50,7 @@ ___
 
 **● forumTopic**: *"http://id.tincanapi.com/activitytype/forum-topic"* =  types.tincan.forumTopic
 
-*Defined in src/activity-types/activity-types.ts:31*
+*Defined in src/activity-types/activity-types.ts:33*
 
 ___
 

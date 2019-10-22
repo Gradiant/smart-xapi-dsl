@@ -122,6 +122,8 @@
 * [InverseFunctionalIdentifier](#inversefunctionalidentifier)
 * [MailtoIRI](#mailtoiri)
 * [MatchingPairsActivityType](#matchingpairsactivitytype)
+* [MatrixMultipleChoiceActivityType](#matrixmultiplechoiceactivitytype)
+* [MatrixSingleChoiceActivityType](#matrixsinglechoiceactivitytype)
 * [MultipleChoiceActivityType](#multiplechoiceactivitytype)
 * [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)
 * [NonInteractiveType](#noninteractivetype)
@@ -208,6 +210,8 @@
 * [isListened](#islistened)
 * [isListenedVerb](#islistenedverb)
 * [isMatchingPairs](#ismatchingpairs)
+* [isMatrixMultipleChoice](#ismatrixmultiplechoice)
+* [isMatrixSingleChoice](#ismatrixsinglechoice)
 * [isMultipleChoice](#ismultiplechoice)
 * [isNonInteractive](#isnoninteractive)
 * [isNonInteractiveAttempt](#isnoninteractiveattempt)
@@ -338,7 +342,7 @@ ___
 
 **Ƭ AttemptActivityType**: *"https://w3id.org/xapi/smart/activity/attempt"*
 
-*Defined in src/activity-types/activity-type.types.ts:40*
+*Defined in src/activity-types/activity-type.types.ts:44*
 
 ___
 <a id="audioactivitytype"></a>
@@ -347,7 +351,7 @@ ___
 
 **Ƭ AudioActivityType**: *"https://w3id.org/xapi/smart/activity/audio"*
 
-*Defined in src/activity-types/activity-type.types.ts:31*
+*Defined in src/activity-types/activity-type.types.ts:35*
 
 ___
 <a id="audiovideotype"></a>
@@ -356,16 +360,16 @@ ___
 
 **Ƭ AudioVideoType**: *[AudioActivityType](#audioactivitytype) \| [VideoActivityType](#videoactivitytype)*
 
-*Defined in src/activity-types/activity-type.types.ts:33*
+*Defined in src/activity-types/activity-type.types.ts:37*
 
 ___
 <a id="closedresponsetype"></a>
 
 ###  ClosedResponseType
 
-**Ƭ ClosedResponseType**: *[DropDownChoiceActivityType](#dropdownchoiceactivitytype) \| [FillInTheGapsActivityType](#fillinthegapsactivitytype) \| [GenericClosedResponseActivityType](#genericclosedresponseactivitytype) \| [MatchingPairsActivityType](#matchingpairsactivitytype) \| [MultipleChoiceActivityType](#multiplechoiceactivitytype) \| [SingleChoiceActivityType](#singlechoiceactivitytype) \| [WordsBankActivityType](#wordsbankactivitytype)*
+**Ƭ ClosedResponseType**: *[DropDownChoiceActivityType](#dropdownchoiceactivitytype) \| [FillInTheGapsActivityType](#fillinthegapsactivitytype) \| [GenericClosedResponseActivityType](#genericclosedresponseactivitytype) \| [MatchingPairsActivityType](#matchingpairsactivitytype) \| [MultipleChoiceActivityType](#multiplechoiceactivitytype) \| [SingleChoiceActivityType](#singlechoiceactivitytype) \| [WordsBankActivityType](#wordsbankactivitytype) \| [MatrixMultipleChoiceActivityType](#matrixmultiplechoiceactivitytype) \| [MatrixSingleChoiceActivityType](#matrixsinglechoiceactivitytype)*
 
-*Defined in src/activity-types/activity-type.types.ts:22*
+*Defined in src/activity-types/activity-type.types.ts:24*
 
 ___
 <a id="debateactivitytype"></a>
@@ -374,7 +378,7 @@ ___
 
 **Ƭ DebateActivityType**: *"https://w3id.org/xapi/smart/activity/discussion"*
 
-*Defined in src/activity-types/activity-type.types.ts:38*
+*Defined in src/activity-types/activity-type.types.ts:42*
 
 ___
 <a id="discussionactivitytype"></a>
@@ -383,7 +387,7 @@ ___
 
 **Ƭ DiscussionActivityType**: *"http://id.tincanapi.com/activitytype/discussion"*
 
-*Defined in src/activity-types/activity-type.types.ts:35*
+*Defined in src/activity-types/activity-type.types.ts:39*
 
 ___
 <a id="dropdownchoiceactivitytype"></a>
@@ -429,7 +433,7 @@ ___
 
 **Ƭ FeedbackType**: *[QuestionType](#questiontype) \| [ReviewType](#reviewtype) \| [SurveyType](#surveytype)*
 
-*Defined in src/activity-types/activity-type.types.ts:49*
+*Defined in src/activity-types/activity-type.types.ts:53*
 
 ___
 <a id="fillinthegapsactivitytype"></a>
@@ -447,7 +451,7 @@ ___
 
 **Ƭ ForumReplyActivityType**: *"http://id.tincanapi.com/activitytype/forum-reply"*
 
-*Defined in src/activity-types/activity-type.types.ts:36*
+*Defined in src/activity-types/activity-type.types.ts:40*
 
 ___
 <a id="forumtopicactivitytype"></a>
@@ -456,7 +460,7 @@ ___
 
 **Ƭ ForumTopicActivityType**: *"http://id.tincanapi.com/activitytype/forum-topic"*
 
-*Defined in src/activity-types/activity-type.types.ts:37*
+*Defined in src/activity-types/activity-type.types.ts:41*
 
 ___
 <a id="genericclosedresponseactivitytype"></a>
@@ -604,6 +608,24 @@ ___
 *Defined in src/activity-types/activity-type.types.ts:18*
 
 ___
+<a id="matrixmultiplechoiceactivitytype"></a>
+
+###  MatrixMultipleChoiceActivityType
+
+**Ƭ MatrixMultipleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/matrix-multiple-choice"*
+
+*Defined in src/activity-types/activity-type.types.ts:22*
+
+___
+<a id="matrixsinglechoiceactivitytype"></a>
+
+###  MatrixSingleChoiceActivityType
+
+**Ƭ MatrixSingleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/matrix-single-choice"*
+
+*Defined in src/activity-types/activity-type.types.ts:23*
+
+___
 <a id="multiplechoiceactivitytype"></a>
 
 ###  MultipleChoiceActivityType
@@ -619,7 +641,7 @@ ___
 
 **Ƭ NonInteractiveAttemptActivityType**: *"https://w3id.org/xapi/smart/activity/no-interactive"*
 
-*Defined in src/activity-types/activity-type.types.ts:41*
+*Defined in src/activity-types/activity-type.types.ts:45*
 
 ___
 <a id="noninteractivetype"></a>
@@ -628,7 +650,7 @@ ___
 
 **Ƭ NonInteractiveType**: *[AttemptActivityType](#attemptactivitytype) \| [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)*
 
-*Defined in src/activity-types/activity-type.types.ts:42*
+*Defined in src/activity-types/activity-type.types.ts:46*
 
 ___
 <a id="object"></a>
@@ -657,7 +679,7 @@ ___
 
 **Ƭ ProcessableActivityType**: *[OpenAnswerType](#openanswertype) \| [ClosedResponseType](#closedresponsetype) \| [AudioVideoType](#audiovideotype)*
 
-*Defined in src/activity-types/activity-type.types.ts:44*
+*Defined in src/activity-types/activity-type.types.ts:48*
 
 ___
 <a id="questiontype"></a>
@@ -666,7 +688,7 @@ ___
 
 **Ƭ QuestionType**: *"http://activitystrea.ms/schema/1.0/question"*
 
-*Defined in src/activity-types/activity-type.types.ts:46*
+*Defined in src/activity-types/activity-type.types.ts:50*
 
 ___
 <a id="recipechecker"></a>
@@ -695,7 +717,7 @@ ___
 
 **Ƭ ReviewType**: *"http://activitystrea.ms/schema/1.0/review"*
 
-*Defined in src/activity-types/activity-type.types.ts:47*
+*Defined in src/activity-types/activity-type.types.ts:51*
 
 ___
 <a id="scormchoiceactivitytype"></a>
@@ -704,7 +726,7 @@ ___
 
 **Ƭ ScormChoiceActivityType**: *"http://imsglobal.org/qti/choice"*
 
-*Defined in src/activity-types/activity-type.types.ts:51*
+*Defined in src/activity-types/activity-type.types.ts:55*
 
 ___
 <a id="scormgenericactivitytype"></a>
@@ -713,7 +735,7 @@ ___
 
 **Ƭ ScormGenericActivityType**: *"https://w3id.org/xapi/smart/activity/scorm"*
 
-*Defined in src/activity-types/activity-type.types.ts:55*
+*Defined in src/activity-types/activity-type.types.ts:59*
 
 ___
 <a id="scorminlinechoiceactivitytype"></a>
@@ -722,7 +744,7 @@ ___
 
 **Ƭ ScormInlineChoiceActivityType**: *"http://imsglobal.org/qti/inlineChoice"*
 
-*Defined in src/activity-types/activity-type.types.ts:53*
+*Defined in src/activity-types/activity-type.types.ts:57*
 
 ___
 <a id="scormmultiplechoiceactivitytype"></a>
@@ -731,7 +753,7 @@ ___
 
 **Ƭ ScormMultipleChoiceActivityType**: *"http://imsglobal.org/qti/choiceMultiple"*
 
-*Defined in src/activity-types/activity-type.types.ts:52*
+*Defined in src/activity-types/activity-type.types.ts:56*
 
 ___
 <a id="scormtextentryactivitytype"></a>
@@ -740,7 +762,7 @@ ___
 
 **Ƭ ScormTextEntryActivityType**: *"http://imsglobal.org/qti/textEntry"*
 
-*Defined in src/activity-types/activity-type.types.ts:54*
+*Defined in src/activity-types/activity-type.types.ts:58*
 
 ___
 <a id="scormtype"></a>
@@ -749,7 +771,7 @@ ___
 
 **Ƭ ScormType**: *[ScormChoiceActivityType](#scormchoiceactivitytype) \| [ScormMultipleChoiceActivityType](#scormmultiplechoiceactivitytype) \| [ScormInlineChoiceActivityType](#scorminlinechoiceactivitytype) \| [ScormTextEntryActivityType](#scormtextentryactivitytype) \| [ScormGenericActivityType](#scormgenericactivitytype)*
 
-*Defined in src/activity-types/activity-type.types.ts:57*
+*Defined in src/activity-types/activity-type.types.ts:61*
 
 ___
 <a id="sha1sum"></a>
@@ -785,7 +807,7 @@ ___
 
 **Ƭ SurveyType**: *"http://id.tincanapi.com/activitytype/survey"*
 
-*Defined in src/activity-types/activity-type.types.ts:48*
+*Defined in src/activity-types/activity-type.types.ts:52*
 
 ___
 <a id="timestamp"></a>
@@ -887,7 +909,7 @@ ___
 
 **Ƭ VideoActivityType**: *"https://w3id.org/xapi/smart/activity/video"*
 
-*Defined in src/activity-types/activity-type.types.ts:32*
+*Defined in src/activity-types/activity-type.types.ts:36*
 
 ___
 <a id="wordsbankactivitytype"></a>
@@ -916,10 +938,12 @@ ___
   closedResponseTypes.binaryChoice,
   closedResponseTypes.genericClosedResponse,
   closedResponseTypes.wordsBank,
-  closedResponseTypes.fillInTheGaps
+  closedResponseTypes.fillInTheGaps,
+  closedResponseTypes.matrixSingleChoice,
+  closedResponseTypes.matrixMultipleChoice
 ])
 
-*Defined in src/activity-types/activity-types.ts:110*
+*Defined in src/activity-types/activity-types.ts:112*
 
 Set of activity types that are considered assessabled
 
@@ -1057,7 +1081,7 @@ ___
 
 **● isAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.attempt)
 
-*Defined in src/activity-types/activity-types.checkers.ts:159*
+*Defined in src/activity-types/activity-types.checkers.ts:171*
 
 Check if the given activity type if [nonInteractiveTypes.attempt](modules/noninteractivetypes.md#attempt)
 
@@ -1079,7 +1103,7 @@ ___
 
 **● isAudio**: *`function`* =  isActivityType(audioVideoTypes.audio)
 
-*Defined in src/activity-types/activity-types.checkers.ts:138*
+*Defined in src/activity-types/activity-types.checkers.ts:150*
 
 Check if the given activity type if [audioVideoTypes.audio](modules/audiovideotypes.md#audio)
 
@@ -1101,7 +1125,7 @@ ___
 
 **● isAudioVideo**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAudio, isVideo])
 
-*Defined in src/activity-types/activity-types.checkers.ts:151*
+*Defined in src/activity-types/activity-types.checkers.ts:163*
 
 Check if the given activity type if a audio/video:
 
@@ -1159,7 +1183,7 @@ ___
 
 **● isBook**: *`function`* =  isActivityType(bookTypes.book)
 
-*Defined in src/activity-types/activity-types.checkers.ts:180*
+*Defined in src/activity-types/activity-types.checkers.ts:192*
 
 Check if the given activity type if [bookTypes.book](modules/booktypes.md#book)
 
@@ -1181,7 +1205,7 @@ ___
 
 **● isBookContainer**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isBook, isUnit, isLesson])
 
-*Defined in src/activity-types/activity-types.checkers.ts:207*
+*Defined in src/activity-types/activity-types.checkers.ts:219*
 
 Check if the given activity type if a book container types:
 
@@ -1202,10 +1226,12 @@ ___
   isMatchingPairs,
   isMultipleChoice,
   isSingleChoice,
-  isWordsBank
+  isWordsBank,
+  isMatrixMultipleChoice,
+  isMatrixSingleChoice
 ])
 
-*Defined in src/activity-types/activity-types.checkers.ts:77*
+*Defined in src/activity-types/activity-types.checkers.ts:87*
 
 Check if the given activity type if a closed response type:
 
@@ -1341,7 +1367,7 @@ ___
 
 **● isDebate**: *`function`* =  isActivityType(discussionTypes.debate)
 
-*Defined in src/activity-types/activity-types.checkers.ts:130*
+*Defined in src/activity-types/activity-types.checkers.ts:142*
 
 Check if the given activity type if [discussionTypes.debate](modules/discussiontypes.md#debate)
 
@@ -1457,7 +1483,7 @@ ___
 
 **● isDiscussion**: *`function`* =  isActivityType(discussionTypes.discussion)
 
-*Defined in src/activity-types/activity-types.checkers.ts:115*
+*Defined in src/activity-types/activity-types.checkers.ts:127*
 
 Check if the given activity type if [discussionTypes.discussion](modules/discussiontypes.md#discussion)
 
@@ -1617,7 +1643,7 @@ ___
 
 **● isEssay**: *`function`* =  isActivityType(openAnswerTypes.essay)
 
-*Defined in src/activity-types/activity-types.checkers.ts:94*
+*Defined in src/activity-types/activity-types.checkers.ts:106*
 
 Check if the given activity type if [openAnswerTypes.essay](modules/openanswertypes.md#essay)
 
@@ -1733,7 +1759,7 @@ ___
 
 **● isFeedback**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isQuestion, isReview, isSurvey])
 
-*Defined in src/activity-types/activity-types.checkers.ts:274*
+*Defined in src/activity-types/activity-types.checkers.ts:286*
 
 Check if the given activity type is one of:
 
@@ -1770,7 +1796,7 @@ ___
 
 **● isForumReply**: *`function`* =  isActivityType(discussionTypes.forumReply)
 
-*Defined in src/activity-types/activity-types.checkers.ts:120*
+*Defined in src/activity-types/activity-types.checkers.ts:132*
 
 Check if the given activity type if [discussionTypes.forumReply](modules/discussiontypes.md#forumreply)
 
@@ -1792,7 +1818,7 @@ ___
 
 **● isForumTopic**: *`function`* =  isActivityType(discussionTypes.forumTopic)
 
-*Defined in src/activity-types/activity-types.checkers.ts:125*
+*Defined in src/activity-types/activity-types.checkers.ts:137*
 
 Check if the given activity type if [discussionTypes.forumTopic](modules/discussiontypes.md#forumtopic)
 
@@ -1836,7 +1862,7 @@ ___
 
 **● isGenericOpenAnswer**: *`function`* =  isActivityType(openAnswerTypes.genericOpenAnswer)
 
-*Defined in src/activity-types/activity-types.checkers.ts:99*
+*Defined in src/activity-types/activity-types.checkers.ts:111*
 
 Check if the given activity type if [openAnswerTypes.genericOpenAnswer](modules/openanswertypes.md#genericopenanswer)
 
@@ -1999,7 +2025,7 @@ ___
 
 **● isLaeProcessable**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isOpenAnswer, isClosedResponse, isAudioVideo])
 
-*Defined in src/activity-types/activity-types.checkers.ts:228*
+*Defined in src/activity-types/activity-types.checkers.ts:240*
 
 Check if the given activity type if a book container types:
 
@@ -2027,7 +2053,7 @@ ___
 
 **● isLesson**: *`function`* =  isActivityType(bookTypes.lesson)
 
-*Defined in src/activity-types/activity-types.checkers.ts:190*
+*Defined in src/activity-types/activity-types.checkers.ts:202*
 
 Check if the given activity type if [bookTypes.lesson](modules/booktypes.md#lesson)
 
@@ -2159,6 +2185,50 @@ Check if the given activity type if [closedResponseTypes.matchingPairs](modules/
 **Returns:** `boolean`
 
 ___
+<a id="ismatrixmultiplechoice"></a>
+
+### `<Const>` isMatrixMultipleChoice
+
+**● isMatrixMultipleChoice**: *`function`* =  isActivityType(closedResponseTypes.matrixMultipleChoice)
+
+*Defined in src/activity-types/activity-types.checkers.ts:68*
+
+Check if the given activity type if [closedResponseTypes.matrixMultipleChoice](modules/closedresponsetypes.md#matrixmultiplechoice)
+
+#### Type declaration
+▸(activityType: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| activityType | `string` |
+
+**Returns:** `boolean`
+
+___
+<a id="ismatrixsinglechoice"></a>
+
+### `<Const>` isMatrixSingleChoice
+
+**● isMatrixSingleChoice**: *`function`* =  isActivityType(closedResponseTypes.matrixSingleChoice)
+
+*Defined in src/activity-types/activity-types.checkers.ts:73*
+
+Check if the given activity type if [closedResponseTypes.matrixSingleChoice](modules/closedresponsetypes.md#matrixsinglechoice)
+
+#### Type declaration
+▸(activityType: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| activityType | `string` |
+
+**Returns:** `boolean`
+
+___
 <a id="ismultiplechoice"></a>
 
 ### `<Const>` isMultipleChoice
@@ -2187,7 +2257,7 @@ ___
 
 **● isNonInteractive**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAttempt, isNonInteractiveAttempt])
 
-*Defined in src/activity-types/activity-types.checkers.ts:172*
+*Defined in src/activity-types/activity-types.checkers.ts:184*
 
 Check if the given activity type if a non interactive type:
 
@@ -2201,7 +2271,7 @@ ___
 
 **● isNonInteractiveAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.nonInteractive)
 
-*Defined in src/activity-types/activity-types.checkers.ts:164*
+*Defined in src/activity-types/activity-types.checkers.ts:176*
 
 Check if the given activity type if [nonInteractiveTypes.nonInteractive](modules/noninteractivetypes.md#noninteractive)
 
@@ -2245,7 +2315,7 @@ ___
 
 **● isOpenAnswer**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isEssay, isGenericOpenAnswer])
 
-*Defined in src/activity-types/activity-types.checkers.ts:107*
+*Defined in src/activity-types/activity-types.checkers.ts:119*
 
 Check if the given activity type if an open answer type:
 
@@ -2469,7 +2539,7 @@ ___
 
 **● isQuestion**: *`function`* =  isActivityType(feedbackTypes.question)
 
-*Defined in src/activity-types/activity-types.checkers.ts:255*
+*Defined in src/activity-types/activity-types.checkers.ts:267*
 
 Check if the given activity type if [feedbackTypes.question](modules/feedbacktypes.md#question)
 
@@ -2491,7 +2561,7 @@ ___
 
 **● isQuiz**: *`function`* =  isActivityType(otherTypes.quiz)
 
-*Defined in src/activity-types/activity-types.checkers.ts:198*
+*Defined in src/activity-types/activity-types.checkers.ts:210*
 
 Check if the given activity type if [otherTypes.quiz](modules/othertypes.md#quiz)
 
@@ -2607,7 +2677,7 @@ ___
 
 **● isReview**: *`function`* =  isActivityType(feedbackTypes.review)
 
-*Defined in src/activity-types/activity-types.checkers.ts:260*
+*Defined in src/activity-types/activity-types.checkers.ts:272*
 
 Check if the given activity type if [feedbackTypes.review](modules/feedbacktypes.md#review)
 
@@ -2635,7 +2705,7 @@ ___
   isScormTextEntry
 ])
 
-*Defined in src/activity-types/activity-types.checkers.ts:313*
+*Defined in src/activity-types/activity-types.checkers.ts:325*
 
 Check if the given activity type is one of:
 
@@ -2652,7 +2722,7 @@ ___
 
 **● isScormChoice**: *`function`* =  isActivityType(scormTypes.choice)
 
-*Defined in src/activity-types/activity-types.checkers.ts:287*
+*Defined in src/activity-types/activity-types.checkers.ts:299*
 
 Check if the given activity type if [scormTypes.choice](modules/scormtypes.md#choice)
 
@@ -2674,7 +2744,7 @@ ___
 
 **● isScormGeneric**: *`function`* =  isActivityType(scormTypes.genericScorm)
 
-*Defined in src/activity-types/activity-types.checkers.ts:282*
+*Defined in src/activity-types/activity-types.checkers.ts:294*
 
 Check if the given activity type if [scormTypes.choice](modules/scormtypes.md#choice)
 
@@ -2696,7 +2766,7 @@ ___
 
 **● isScormInlineChoice**: *`function`* =  isActivityType(scormTypes.inlineChoice)
 
-*Defined in src/activity-types/activity-types.checkers.ts:297*
+*Defined in src/activity-types/activity-types.checkers.ts:309*
 
 Check if the given activity type if [scormTypes.multipleChoice](modules/scormtypes.md#multiplechoice)
 
@@ -2718,7 +2788,7 @@ ___
 
 **● isScormMultipleChoice**: *`function`* =  isActivityType(scormTypes.multipleChoice)
 
-*Defined in src/activity-types/activity-types.checkers.ts:292*
+*Defined in src/activity-types/activity-types.checkers.ts:304*
 
 Check if the given activity type if [scormTypes.multipleChoice](modules/scormtypes.md#multiplechoice)
 
@@ -2762,7 +2832,7 @@ ___
 
 **● isScormTextEntry**: *`function`* =  isActivityType(scormTypes.textEntry)
 
-*Defined in src/activity-types/activity-types.checkers.ts:302*
+*Defined in src/activity-types/activity-types.checkers.ts:314*
 
 Check if the given activity type if [scormTypes.textEntry](modules/scormtypes.md#textentry)
 
@@ -2853,7 +2923,7 @@ ___
 
 **● isSurvey**: *`function`* =  isActivityType(feedbackTypes.survey)
 
-*Defined in src/activity-types/activity-types.checkers.ts:265*
+*Defined in src/activity-types/activity-types.checkers.ts:277*
 
 Check if the given activity type if [feedbackTypes.survey](modules/feedbacktypes.md#survey)
 
@@ -2922,7 +2992,7 @@ ___
 
 **● isUnit**: *`function`* =  isActivityType(bookTypes.unit)
 
-*Defined in src/activity-types/activity-types.checkers.ts:185*
+*Defined in src/activity-types/activity-types.checkers.ts:197*
 
 Check if the given activity type if [bookTypes.unit](modules/booktypes.md#unit)
 
@@ -2944,7 +3014,7 @@ ___
 
 **● isVideo**: *`function`* =  isActivityType(audioVideoTypes.video)
 
-*Defined in src/activity-types/activity-types.checkers.ts:143*
+*Defined in src/activity-types/activity-types.checkers.ts:155*
 
 Check if the given activity type if {@link discussionTypes.video}
 
@@ -3187,7 +3257,7 @@ ___
 
 ▸ **isAssessable**(activityType: *`string`*): `boolean`
 
-*Defined in src/activity-types/activity-types.checkers.ts:247*
+*Defined in src/activity-types/activity-types.checkers.ts:259*
 
 Check if the given activity type is one of:
 
@@ -3297,7 +3367,7 @@ ___
 
 **activityTypes**: *`object`*
 
-*Defined in src/activity-types/activity-types.ts:84*
+*Defined in src/activity-types/activity-types.ts:86*
 
 Every activity type combined into a single object
 

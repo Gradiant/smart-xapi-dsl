@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.12.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.11.0...v2.12.0) (2019-10-23)
+
+
+### Features
+
+* **SUMN-1101:** matrix type activities support ([1657d74](https://github.com/Gradiant/smart-xapi-dsl/commit/1657d749ab73179f985dbc3b9840aec6c40be90e))
+
 ## [2.11.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.10.0...v2.11.0) (2019-10-17)
 
 

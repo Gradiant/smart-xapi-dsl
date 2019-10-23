@@ -16,6 +16,7 @@
 * [evaluationFeedback](extensions.md#evaluationfeedback)
 * [forumJoinType](extensions.md#forumjointype)
 * [interactionContext](extensions.md#interactioncontext)
+* [otherExtensions](extensions.md#otherextensions)
 * [questions](extensions.md#questions)
 * [startingPoint](extensions.md#startingpoint)
 * [studentResponse](extensions.md#studentresponse)
@@ -115,6 +116,15 @@ ___
 **● interactionContext**: *"https://w3id.org/xapi/smart/extension/context/interaction-context"* =  contextExtensions.smart.interactionContext
 
 *Defined in src/extensions/extensions.ts:4*
+
+___
+<a id="otherextensions"></a>
+
+### `<Const>` otherExtensions
+
+**● otherExtensions**: *"https://w3id.org/xapi/smart/extension/context/other-extensions"* =  contextExtensions.smart.otherExtensions
+
+*Defined in src/extensions/extensions.ts:20*
 
 ___
 <a id="questions"></a>

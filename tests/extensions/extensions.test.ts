@@ -66,4 +66,8 @@ describe('Extensions', () => {
   it('should include `forumJoinType`', () => {
     expect(extensions.forumJoinType).to.be.equal(contextExtensions.risc.forumJoinType);
   });
+
+  it('should include `otherExtensions`', () => {
+    expect(extensions.otherExtensions).to.be.equal(contextExtensions.smart.otherExtensions);
+  });
 });

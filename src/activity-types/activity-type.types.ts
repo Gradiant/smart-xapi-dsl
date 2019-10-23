@@ -19,6 +19,8 @@ export type MatchingPairsActivityType = typeof closedResponseTypes.matchingPairs
 export type MultipleChoiceActivityType = typeof closedResponseTypes.multipleChoice;
 export type SingleChoiceActivityType = typeof closedResponseTypes.singleChoice;
 export type WordsBankActivityType = typeof closedResponseTypes.wordsBank;
+export type MatrixMultipleChoiceActivityType = typeof closedResponseTypes.matrixMultipleChoice;
+export type MatrixSingleChoiceActivityType = typeof closedResponseTypes.matrixSingleChoice;
 export type ClosedResponseType =
   | DropDownChoiceActivityType
   | FillInTheGapsActivityType
@@ -26,7 +28,9 @@ export type ClosedResponseType =
   | MatchingPairsActivityType
   | MultipleChoiceActivityType
   | SingleChoiceActivityType
-  | WordsBankActivityType;
+  | WordsBankActivityType
+  | MatrixMultipleChoiceActivityType
+  | MatrixSingleChoiceActivityType;
 
 export type AudioActivityType = typeof audioVideoTypes.audio;
 export type VideoActivityType = typeof audioVideoTypes.video;

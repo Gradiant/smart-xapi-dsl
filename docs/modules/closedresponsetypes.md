@@ -13,6 +13,8 @@ Activity type for closed response recipe
 * [fillInTheGaps](closedresponsetypes.md#fillinthegaps)
 * [genericClosedResponse](closedresponsetypes.md#genericclosedresponse)
 * [matchingPairs](closedresponsetypes.md#matchingpairs)
+* [matrixMultipleChoice](closedresponsetypes.md#matrixmultiplechoice)
+* [matrixSingleChoice](closedresponsetypes.md#matrixsinglechoice)
 * [multipleChoice](closedresponsetypes.md#multiplechoice)
 * [singleChoice](closedresponsetypes.md#singlechoice)
 * [wordsBank](closedresponsetypes.md#wordsbank)
@@ -64,6 +66,24 @@ ___
 **● matchingPairs**: *"https://w3id.org/xapi/smart/activity/matching-pairs"* =  types.smart.matchingPairs
 
 *Defined in src/activity-types/activity-types.ts:19*
+
+___
+<a id="matrixmultiplechoice"></a>
+
+### `<Const>` matrixMultipleChoice
+
+**● matrixMultipleChoice**: *"https://w3id.org/xapi/smart/activity/matrix-multiple-choice"* =  types.smart.matrixMultipleChoice
+
+*Defined in src/activity-types/activity-types.ts:23*
+
+___
+<a id="matrixsinglechoice"></a>
+
+### `<Const>` matrixSingleChoice
+
+**● matrixSingleChoice**: *"https://w3id.org/xapi/smart/activity/matrix-single-choice"* =  types.smart.matrixSingleChoice
+
+*Defined in src/activity-types/activity-types.ts:24*
 
 ___
 <a id="multiplechoice"></a>

@@ -40,6 +40,14 @@ describe('Activity Types', () => {
     it('should include words banks', () => {
       expect(closedResponseTypes.wordsBank).to.be.equal(types.smart.wordsBank);
     });
+
+    it('should include matrix multiple choice', () => {
+      expect(closedResponseTypes.matrixMultipleChoice).to.be.equal(types.smart.matrixMultipleChoice);
+    });
+
+    it('should include matrix single choice', () => {
+      expect(closedResponseTypes.matrixSingleChoice).to.be.equal(types.smart.matrixSingleChoice);
+    });
   });
 
   describe('Non Interactive', () => {

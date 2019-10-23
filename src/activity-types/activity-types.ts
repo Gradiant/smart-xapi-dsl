@@ -20,6 +20,8 @@ export namespace closedResponseTypes {
   export const multipleChoice = types.smart.multipleChoice;
   export const singleChoice = types.smart.singleChoice;
   export const wordsBank = types.smart.wordsBank;
+  export const matrixMultipleChoice = types.smart.matrixMultipleChoice;
+  export const matrixSingleChoice = types.smart.matrixSingleChoice;
 }
 
 /**
@@ -117,5 +119,7 @@ export const assessableTypes = new Set([
   closedResponseTypes.binaryChoice,
   closedResponseTypes.genericClosedResponse,
   closedResponseTypes.wordsBank,
-  closedResponseTypes.fillInTheGaps
+  closedResponseTypes.fillInTheGaps,
+  closedResponseTypes.matrixSingleChoice,
+  closedResponseTypes.matrixMultipleChoice
 ]);

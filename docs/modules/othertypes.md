@@ -20,7 +20,7 @@ Activity types that does not belong to any category listed above
 
 **● quiz**: *"https://w3id.org/xapi/smart/activity/quiz"* =  types.smart.quiz
 
-*Defined in src/activity-types/activity-types.ts:64*
+*Defined in src/activity-types/activity-types.ts:66*
 
 ___
 

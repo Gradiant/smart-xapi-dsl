@@ -21,7 +21,7 @@ Activity types for non interactive recipe
 
 **● attempt**: *"https://w3id.org/xapi/smart/activity/attempt"* =  types.smart.attempt
 
-*Defined in src/activity-types/activity-types.ts:39*
+*Defined in src/activity-types/activity-types.ts:41*
 
 ___
 <a id="noninteractive"></a>
@@ -30,7 +30,7 @@ ___
 
 **● nonInteractive**: *"https://w3id.org/xapi/smart/activity/no-interactive"* =  types.smart.noInteractive
 
-*Defined in src/activity-types/activity-types.ts:40*
+*Defined in src/activity-types/activity-types.ts:42*
 
 ___
 

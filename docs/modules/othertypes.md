@@ -2,25 +2,33 @@
 
 # Module: otherTypes
 
-Activity types that does not belong to any category listed above
-
 ## Index
 
 ### Variables
 
+* [likert](othertypes.md#likert)
 * [quiz](othertypes.md#quiz)
 
 ---
 
 ## Variables
 
+<a id="likert"></a>
+
+### `<Const>` likert
+
+**● likert**: *"https://w3id.org/xapi/smart/activity/likert"* =  types.smart.likert
+
+*Defined in [src/activity-types/activity-types.ts:69](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L69)*
+
+___
 <a id="quiz"></a>
 
 ### `<Const>` quiz
 
 **● quiz**: *"https://w3id.org/xapi/smart/activity/quiz"* =  types.smart.quiz
 
-*Defined in src/activity-types/activity-types.ts:66*
+*Defined in [src/activity-types/activity-types.ts:68](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L68)*
 
 ___
 

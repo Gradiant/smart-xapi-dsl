@@ -2,8 +2,6 @@
 
 # Interface: ChoiceDefinition
 
-An interaction with a number of possible choices from which the learner can select. This includes interactions in which the learner can select only one answer from the list and those where the learner can select multiple items.
-
 ## Hierarchy
 
 ↳  [BaseInteractionDefinition](baseinteractiondefinition.md)
@@ -35,8 +33,6 @@ An interaction with a number of possible choices from which the learner can sele
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/choice-definition.d.ts:13*
 
-A list of the options available in the interaction for selection or ordering
-
 ___
 <a id="correctresponsespattern"></a>
 
@@ -47,8 +43,6 @@ ___
 *Overrides [BaseInteractionDefinition](baseinteractiondefinition.md).[correctResponsesPattern](baseinteractiondefinition.md#correctresponsespattern)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/choice-definition.d.ts:17*
-
-A list of item ids delimited by \[,\]. If the response contains only one item, the delimiter MUST not be used
 
 ___
 <a id="description"></a>
@@ -61,8 +55,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:14*
 
-A description of the Activity
-
 ___
 <a id="extensions"></a>
 
@@ -73,8 +65,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[extensions](activitydefinition.md#extensions)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:29*
-
-A map of other properties as needed
 
 ___
 <a id="interactiontype"></a>
@@ -98,10 +88,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:25*
 
-Resolves to a document with human-readable information about the Activity, which could include a way to launch the definitions.
-
-It must be an IRL
-
 ___
 <a id="name"></a>
 
@@ -113,8 +99,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:10*
 
-The human readable/visual name of the Activity
-
 ___
 <a id="type"></a>
 
@@ -125,8 +109,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[type](activitydefinition.md#type)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:19*
-
-The type of Activity
 
 ___
 

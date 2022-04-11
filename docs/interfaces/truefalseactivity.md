@@ -30,8 +30,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/true-false-activity.d.ts:9*
 
-Either true or false
-
 ___
 <a id="definition"></a>
 
@@ -43,8 +41,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -55,8 +51,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[id](baseactivity.md#id)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
-
-An identifier for a single unique Activity.
 
 ___
 <a id="interactiontype"></a>
@@ -77,8 +71,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
-
-MUST be Activity when present
 
 ___
 

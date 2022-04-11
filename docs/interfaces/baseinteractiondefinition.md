@@ -52,8 +52,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/base-interaction-definition.d.ts:21*
 
-A pattern representing the correct response to the interaction. The structure of this pattern varies depending on the interactionType.
-
 ___
 <a id="description"></a>
 
@@ -64,8 +62,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[description](activitydefinition.md#description)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:14*
-
-A description of the Activity
 
 ___
 <a id="extensions"></a>
@@ -78,8 +74,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:29*
 
-A map of other properties as needed
-
 ___
 <a id="interactiontype"></a>
 
@@ -88,19 +82,6 @@ ___
 **● interactionType**: *[InteractionType](../enums/interactiontype.md) \| "true-false" \| "choice" \| "fill-in" \| "long-fill-in" \| "matching" \| "performance" \| "sequencing" \| "likert" \| "numeric" \| "other"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/base-interaction-definition.d.ts:17*
-
-The type of interaction. Possible values are:
-
-*   `true-false`
-*   `choice`
-*   `fill-in`
-*   `long-fill-in`
-*   `matching`
-*   `performance`
-*   `sequencing`
-*   `likert`
-*   `numeric`
-*   `other`
 
 ___
 <a id="moreinfo"></a>
@@ -113,10 +94,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:25*
 
-Resolves to a document with human-readable information about the Activity, which could include a way to launch the definitions.
-
-It must be an IRL
-
 ___
 <a id="name"></a>
 
@@ -128,8 +105,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:10*
 
-The human readable/visual name of the Activity
-
 ___
 <a id="type"></a>
 
@@ -140,8 +115,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[type](activitydefinition.md#type)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:19*
-
-The type of Activity
 
 ___
 

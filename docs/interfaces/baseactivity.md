@@ -48,8 +48,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -59,8 +57,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
 
-An identifier for a single unique Activity.
-
 ___
 <a id="objecttype"></a>
 
@@ -69,8 +65,6 @@ ___
 **● objectType**: *`undefined` \| "Activity"*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
-
-MUST be Activity when present
 
 ___
 

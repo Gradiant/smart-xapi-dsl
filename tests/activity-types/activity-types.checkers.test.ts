@@ -16,9 +16,11 @@ import {
   isLaeProcessable,
   isNonInteractive,
   isOpenAnswer,
+  isOtherType,
   isScorm,
   nonInteractiveTypes,
   openAnswerTypes,
+  otherTypes,
   scormTypes
 } from '../../src/activity-types';
 import { difference, values } from '../helpers';
@@ -72,7 +74,7 @@ describe('Activity Type Checkers', () => {
   });
 
   describe('isAudioVideo()', () => {
-    it('should return true for any open answer type', () => {
+    it('should return true for any audio video type', () => {
       values(audioVideoTypes).forEach(activityType => {
         expect(isAudioVideo(activityType)).to.be.true;
       });
@@ -86,7 +88,7 @@ describe('Activity Type Checkers', () => {
   });
 
   describe('isNonInteractive()', () => {
-    it('should return true for any open answer type', () => {
+    it('should return true for any non interactive type', () => {
       values(nonInteractiveTypes).forEach(activityType => {
         expect(isNonInteractive(activityType)).to.be.true;
       });
@@ -169,6 +171,20 @@ describe('Activity Type Checkers', () => {
     it('should return false for any other type', () => {
       getDifference(scormTypes).forEach(activityType => {
         expect(isScorm(activityType)).to.be.false;
+      });
+    });
+  });
+
+  describe('isOtherType()', () => {
+    it('should return true for any -other type- type', () => {
+      values(otherTypes).forEach(activityType => {
+        expect(isOtherType(activityType)).to.be.true;
+      });
+    });
+
+    it('should return false for any other type', () => {
+      getDifference(otherTypes).forEach(activityType => {
+        expect(isOtherType(activityType)).to.be.false;
       });
     });
   });

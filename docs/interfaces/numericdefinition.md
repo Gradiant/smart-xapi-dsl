@@ -2,8 +2,6 @@
 
 # Interface: NumericDefinition
 
-Any interaction which requires a numeric response from the learner
-
 ## Hierarchy
 
 ↳  [BaseInteractionDefinition](baseinteractiondefinition.md)
@@ -36,8 +34,6 @@ Any interaction which requires a numeric response from the learner
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/numeric-definition.d.ts:14*
 
-A range of numbers represented by a minimum and a maximum delimited by \[:\]. Where the range does not have a maximum or does not have a minimum, that number is omitted but the delimiter is still used. E.g. \[:\]4 indicates a maximum for 4 and no minimum. Where the correct response or learner's response is a single number rather than a range, the single number with no delimiter MAY be used.
-
 ___
 <a id="description"></a>
 
@@ -49,8 +45,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:14*
 
-A description of the Activity
-
 ___
 <a id="extensions"></a>
 
@@ -61,8 +55,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[extensions](activitydefinition.md#extensions)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:29*
-
-A map of other properties as needed
 
 ___
 <a id="interactiontype"></a>
@@ -86,10 +78,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:25*
 
-Resolves to a document with human-readable information about the Activity, which could include a way to launch the definitions.
-
-It must be an IRL
-
 ___
 <a id="name"></a>
 
@@ -101,8 +89,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:10*
 
-The human readable/visual name of the Activity
-
 ___
 <a id="type"></a>
 
@@ -113,8 +99,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[type](activitydefinition.md#type)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:19*
-
-The type of Activity
 
 ___
 

@@ -5,6 +5,7 @@ import { activityTypes as types } from '@gradiant/xapi-dsl/dsl';
  */
 export namespace openAnswerTypes {
   export const essay = types.smart.essay;
+  export const draw = types.smart.draw;
   export const genericOpenAnswer = types.smart.openAnswer;
 }
 
@@ -22,6 +23,7 @@ export namespace closedResponseTypes {
   export const wordsBank = types.smart.wordsBank;
   export const matrixMultipleChoice = types.smart.matrixMultipleChoice;
   export const matrixSingleChoice = types.smart.matrixSingleChoice;
+  export const responseInImage = types.smart.responseInImage;
 }
 
 /**
@@ -64,6 +66,7 @@ export namespace audioVideoTypes {
  */
 export namespace otherTypes {
   export const quiz = types.smart.quiz;
+  export const likert = types.smart.likert;
 }
 
 export namespace feedbackTypes {
@@ -98,6 +101,7 @@ export const activityTypes = {
 /**
  * Set of activity types that are considered assessabled
  *
+ * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
  * - {@link closedResponseTypes.matchingPairs}
@@ -108,8 +112,10 @@ export const activityTypes = {
  * - {@link closedResponseTypes.genericClosedResponse}
  * - {@link closedResponseTypes.wordsBank}
  * - {@link closedResponseTypes.fillInTheGaps}
+ * - {@link closedResponseTypes.responseInImage}
  */
 export const assessableTypes = new Set([
+  openAnswerTypes.draw,
   openAnswerTypes.essay,
   openAnswerTypes.genericOpenAnswer,
   closedResponseTypes.matchingPairs,
@@ -121,5 +127,6 @@ export const assessableTypes = new Set([
   closedResponseTypes.wordsBank,
   closedResponseTypes.fillInTheGaps,
   closedResponseTypes.matrixSingleChoice,
-  closedResponseTypes.matrixMultipleChoice
+  closedResponseTypes.matrixMultipleChoice,
+  closedResponseTypes.responseInImage
 ]);

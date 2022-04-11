@@ -2,8 +2,6 @@
 
 # Module: nonInteractiveTypes
 
-Activity types for non interactive recipe
-
 ## Index
 
 ### Variables
@@ -21,7 +19,7 @@ Activity types for non interactive recipe
 
 **● attempt**: *"https://w3id.org/xapi/smart/activity/attempt"* =  types.smart.attempt
 
-*Defined in src/activity-types/activity-types.ts:41*
+*Defined in [src/activity-types/activity-types.ts:43](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L43)*
 
 ___
 <a id="noninteractive"></a>
@@ -30,7 +28,7 @@ ___
 
 **● nonInteractive**: *"https://w3id.org/xapi/smart/activity/no-interactive"* =  types.smart.noInteractive
 
-*Defined in src/activity-types/activity-types.ts:42*
+*Defined in [src/activity-types/activity-types.ts:44](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L44)*
 
 ___
 

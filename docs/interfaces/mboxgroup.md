@@ -33,8 +33,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/mbox-identifier.d.ts:7*
 
-The required format is "mailto:email address". Only email addresses that have only ever been and will ever be assigned to this Agent, but no others, SHOULD be used for this property and mbox\_sha1sum.
-
 ___
 <a id="member"></a>
 
@@ -45,8 +43,6 @@ ___
 *Inherited from [BaseGroup](basegroup.md).[member](basegroup.md#member)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/base-group.d.ts:8*
-
-The members of this Group. This is an unordered list
 
 ___
 <a id="name"></a>
@@ -60,8 +56,6 @@ ___
 *Overrides [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/base-group.d.ts:12*
-
-Name of the Group
 
 ___
 <a id="objecttype"></a>

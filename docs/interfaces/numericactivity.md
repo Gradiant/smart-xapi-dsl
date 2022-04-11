@@ -30,8 +30,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/numeric-activity.d.ts:12*
 
-A range of numbers represented by a minimum and a maximum delimited by \[:\]. Where the range does not have a maximum or does not have a minimum, that number is omitted but the delimiter is still used. E.g. \[:\]4 indicates a maximum for 4 and no minimum. Where the correct response or learner's response is a single number rather than a range, the single number with no delimiter MAY be used.
-
 ___
 <a id="definition"></a>
 
@@ -43,8 +41,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -55,8 +51,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[id](baseactivity.md#id)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
-
-An identifier for a single unique Activity.
 
 ___
 <a id="interactiontype"></a>
@@ -77,8 +71,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
-
-MUST be Activity when present
 
 ___
 

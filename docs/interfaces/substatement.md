@@ -2,8 +2,6 @@
 
 # Interface: SubStatement
 
-A SubStatement is like a StatementRef in that it is included as part of a containing Statement, but unlike a StatementRef, it does not represent an event that has occurred. It can be used to describe, for example, a predication of a potential future Statement or the behavior a teacher looked for when evaluating a student (without representing the student actually doing that behavior)
-
 ## Hierarchy
 
  [BaseStatement](basestatement.md)
@@ -37,8 +35,6 @@ A SubStatement is like a StatementRef in that it is included as part of a contai
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:12*
 
-The Actor defines who performed the action. The Actor of a Statement can be an Agent or a Group
-
 ___
 <a id="attachments"></a>
 
@@ -50,8 +46,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:38*
 
-Headers for Attachments to the Statement
-
 ___
 <a id="context"></a>
 
@@ -62,8 +56,6 @@ ___
 *Inherited from [BaseStatement](basestatement.md).[context](basestatement.md#context)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:30*
-
-Context that gives the Statement more meaning. Examples: a team the Actor is working with, altitude at which a scenario was attempted in a flight simulator.
 
 ___
 <a id="object"></a>
@@ -96,8 +88,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:25*
 
-An optional property that represents a measured outcome related to the Statement in which it is included
-
 ___
 <a id="timestamp"></a>
 
@@ -109,8 +99,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:34*
 
-Timestamp of when the events described within this Statement occurred. Set by the LRS if not provided.
-
 ___
 <a id="verb"></a>
 
@@ -121,8 +109,6 @@ ___
 *Inherited from [BaseStatement](basestatement.md).[verb](basestatement.md#verb)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:16*
-
-The Verb defines the action between an Actor and an Activity
 
 ___
 

@@ -26,4 +26,8 @@ describe('Recipes', () => {
   it('should include scorm', () => {
     expect(recipes.scorm).to.be.equal(categoryIdentifiers.smart.recipeScorm);
   });
+
+  it('should include likert', () => {
+    expect(recipes.likert).to.be.equal(categoryIdentifiers.smart.recipeLikert);
+  });
 });

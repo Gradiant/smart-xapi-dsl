@@ -2,8 +2,6 @@
 
 # Interface: MatchingDefinition
 
-An interaction where the learner is asked to match items in one set (the source set) to items in another set (the target set). Items do not have to pair off exactly and it is possible for multiple or zero source items to be matched to a given target and vice versa
-
 ## Hierarchy
 
 ↳  [BaseInteractionDefinition](baseinteractiondefinition.md)
@@ -38,8 +36,6 @@ An interaction where the learner is asked to match items in one set (the source 
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/matching-definition.d.ts:22*
 
-A list of matching pairs, where each pair consists of a source item id followed by a target item id. Items can appear in multiple (or zero) pairs. Items within a pair are delimited by \[.\]. Pairs are delimited by \[,\]
-
 ___
 <a id="description"></a>
 
@@ -51,8 +47,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:14*
 
-A description of the Activity
-
 ___
 <a id="extensions"></a>
 
@@ -63,8 +57,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[extensions](activitydefinition.md#extensions)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:29*
-
-A map of other properties as needed
 
 ___
 <a id="interactiontype"></a>
@@ -88,10 +80,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:25*
 
-Resolves to a document with human-readable information about the Activity, which could include a way to launch the definitions.
-
-It must be an IRL
-
 ___
 <a id="name"></a>
 
@@ -103,8 +91,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:10*
 
-The human readable/visual name of the Activity
-
 ___
 <a id="source"></a>
 
@@ -114,8 +100,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/matching-definition.d.ts:13*
 
-Lists of sources to be matched
-
 ___
 <a id="target"></a>
 
@@ -124,8 +108,6 @@ ___
 **● target**: *[InteractionComponent](interactioncomponent.md)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/matching-definition.d.ts:17*
-
-Lists of targets to be matched
 
 ___
 <a id="type"></a>
@@ -137,8 +119,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[type](activitydefinition.md#type)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:19*
-
-The type of Activity
 
 ___
 

@@ -2,8 +2,6 @@
 
 # Interface: Result
 
-An optional property that represents a measured outcome related to the Statement in which it is included
-
 ## Hierarchy
 
 **Result**
@@ -31,8 +29,6 @@ An optional property that represents a measured outcome related to the Statement
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:19*
 
-Indicates whether or not the Activity was completed
-
 ___
 <a id="duration"></a>
 
@@ -41,8 +37,6 @@ ___
 **● duration**: *[Duration](../#duration)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:27*
-
-Period of time over which the Statement occurred ins ISO-8601
 
 ___
 <a id="extensions"></a>
@@ -53,8 +47,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:31*
 
-A map of other properties as needed
-
 ___
 <a id="response"></a>
 
@@ -63,8 +55,6 @@ ___
 **● response**: *`undefined` \| `string`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:23*
-
-A response appropriately formatted for the given Activity
 
 ___
 <a id="score"></a>
@@ -75,8 +65,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:11*
 
-The score of the Agent in relation to the success or quality of the experience
-
 ___
 <a id="success"></a>
 
@@ -85,8 +73,6 @@ ___
 **● success**: *`undefined` \| `false` \| `true`*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/result/result.d.ts:15*
-
-Indicates whether or not the attempt on the Activity was successful
 
 ___
 

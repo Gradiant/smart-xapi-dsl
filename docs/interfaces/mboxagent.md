@@ -32,8 +32,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/mbox-identifier.d.ts:7*
 
-The required format is "mailto:email address". Only email addresses that have only ever been and will ever be assigned to this Agent, but no others, SHOULD be used for this property and mbox\_sha1sum.
-
 ___
 <a id="name"></a>
 
@@ -44,8 +42,6 @@ ___
 *Inherited from [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
-
-Full name of the Agent
 
 ___
 <a id="objecttype"></a>

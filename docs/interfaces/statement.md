@@ -38,8 +38,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:12*
 
-The Actor defines who performed the action. The Actor of a Statement can be an Agent or a Group
-
 ___
 <a id="attachments"></a>
 
@@ -51,8 +49,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:38*
 
-Headers for Attachments to the Statement
-
 ___
 <a id="authority"></a>
 
@@ -61,8 +57,6 @@ ___
 **● authority**: *[Actor](../#actor)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/statement.d.ts:19*
-
-Agent or Group who is asserting this Statement is true. Verified by the LRS based on authentication. Set by LRS if not provided or if a strong trust relationship between the Learning Record Provider and LRS has not been established.
 
 ___
 <a id="context"></a>
@@ -75,8 +69,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:30*
 
-Context that gives the Statement more meaning. Examples: a team the Actor is working with, altitude at which a scenario was attempted in a flight simulator.
-
 ___
 <a id="id"></a>
 
@@ -85,8 +77,6 @@ ___
 **● id**: *[UUID](../#uuid)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/statement.d.ts:8*
-
-A UUID (all versions of variant 2 in RFC 4122 are valid, and the UUID MUST be in standard string form).
 
 ___
 <a id="object"></a>
@@ -99,8 +89,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:21*
 
-The Object defines the thing that was acted on. The Object of a Statement can be an Activity, Agent/Group, SubStatement, or Statement Reference
-
 ___
 <a id="result"></a>
 
@@ -112,8 +100,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:25*
 
-An optional property that represents a measured outcome related to the Statement in which it is included
-
 ___
 <a id="stored"></a>
 
@@ -122,10 +108,6 @@ ___
 **● stored**: *[Timestamp](../#timestamp)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/statement.d.ts:14*
-
-Timestamp of when this Statement was recorded. Set by LRS.
-
-In ISO-8601 format. Set by the LRS.
 
 ___
 <a id="timestamp"></a>
@@ -138,8 +120,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:34*
 
-Timestamp of when the events described within this Statement occurred. Set by the LRS if not provided.
-
 ___
 <a id="verb"></a>
 
@@ -151,8 +131,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/base-statement.d.ts:16*
 
-The Verb defines the action between an Actor and an Activity
-
 ___
 <a id="version"></a>
 
@@ -161,8 +139,6 @@ ___
 **● version**: *[Version](../#version)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/statement/statement.d.ts:23*
-
-The Statement’s associated xAPI version, formatted according to Semantic Versioning 1.0.0.
 
 ___
 

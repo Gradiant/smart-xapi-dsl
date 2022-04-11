@@ -4,6 +4,7 @@ import {
   isAudioVideoRecipe,
   isClosedResponseRecipe,
   isDiscussionRecipe,
+  isLikertRecipe,
   isNonInteractiveRecipe,
   isOpenAnswerRecipe,
   isRecipe,
@@ -100,6 +101,18 @@ describe('Recipes Checkers', () => {
     it('should return `false` for any other type', () => {
       getDifference(recipes.scorm).forEach(recipe => {
         expect(isScormRecipe(recipe)).to.be.false;
+      });
+    });
+  });
+
+  describe('isLikertRecipe()', () => {
+    it('should return `true` for likert recipe', () => {
+      expect(isLikertRecipe(recipes.likert)).to.be.true;
+    });
+
+    it('should return `false` for any other type', () => {
+      getDifference(recipes.likert).forEach(recipe => {
+        expect(isLikertRecipe(recipe)).to.be.false;
       });
     });
   });

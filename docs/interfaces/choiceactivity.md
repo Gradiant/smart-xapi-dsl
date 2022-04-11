@@ -31,8 +31,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/choice-activity.d.ts:9*
 
-A list of the options available in the interaction for selection or ordering
-
 ___
 <a id="correctresponsespattern"></a>
 
@@ -41,8 +39,6 @@ ___
 **● correctResponsesPattern**: *`string`[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/choice-activity.d.ts:13*
-
-A list of item ids delimited by \[,\]. If the response contains only one item, the delimiter MUST not be used
 
 ___
 <a id="definition"></a>
@@ -55,8 +51,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -67,8 +61,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[id](baseactivity.md#id)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
-
-An identifier for a single unique Activity.
 
 ___
 <a id="interactiontype"></a>
@@ -89,8 +81,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[objectType](baseactivity.md#objecttype)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
-
-MUST be Activity when present
 
 ___
 

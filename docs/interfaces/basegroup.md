@@ -38,8 +38,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/base-group.d.ts:8*
 
-The members of this Group. This is an unordered list
-
 ___
 <a id="name"></a>
 
@@ -50,8 +48,6 @@ ___
 *Overrides [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/group/base-group.d.ts:12*
-
-Name of the Group
 
 ___
 <a id="objecttype"></a>

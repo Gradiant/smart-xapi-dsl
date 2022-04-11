@@ -28,7 +28,5 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/account-identifier.d.ts:6*
 
-A user account on an existing system e.g. an LMS or intranet.
-
 ___
 

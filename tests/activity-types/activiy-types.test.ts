@@ -18,6 +18,10 @@ describe('Activity Types', () => {
     it('should include essay', () => {
       expect(openAnswerTypes.essay).to.be.equal(types.smart.essay);
     });
+
+    it('should include draw', () => {
+      expect(openAnswerTypes.draw).to.be.equal(types.smart.draw);
+    });
   });
 
   describe('Closed Response', () => {
@@ -47,6 +51,10 @@ describe('Activity Types', () => {
 
     it('should include matrix single choice', () => {
       expect(closedResponseTypes.matrixSingleChoice).to.be.equal(types.smart.matrixSingleChoice);
+    });
+
+    it('should include response in image', () => {
+      expect(closedResponseTypes.responseInImage).to.be.equal(types.smart.responseInImage);
     });
   });
 
@@ -95,6 +103,16 @@ describe('Activity Types', () => {
 
     it('should include survey', () => {
       expect(feedbackTypes.survey).to.be.equal(types.tincan.survey);
+    });
+  });
+
+  describe('Other types', () => {
+    it('should include likert', () => {
+      expect(otherTypes.likert).to.be.equal(types.smart.likert);
+    });
+
+    it('should include quiz', () => {
+      expect(otherTypes.quiz).to.be.equal(types.smart.quiz);
     });
   });
 

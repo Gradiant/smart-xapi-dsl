@@ -32,8 +32,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
 
-Full name of the Agent
-
 ___
 <a id="objecttype"></a>
 
@@ -57,8 +55,6 @@ ___
 *Inherited from [OpenIdIdentifier](openididentifier.md).[openid](openididentifier.md#openid)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/openid-identifier.d.ts:6*
-
-An openID that uniquely identifies the Agent. Ir must be an URI
 
 ___
 

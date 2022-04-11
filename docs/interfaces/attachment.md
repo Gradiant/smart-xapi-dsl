@@ -30,8 +30,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:20*
 
-The content type of the Attachment
-
 ___
 <a id="description"></a>
 
@@ -40,8 +38,6 @@ ___
 **● description**: *[LanguageMap](languagemap.md)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:16*
-
-A description of the Attachment
 
 ___
 <a id="display"></a>
@@ -52,8 +48,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:12*
 
-Display name (title) of this Attachment
-
 ___
 <a id="fileurl"></a>
 
@@ -62,8 +56,6 @@ ___
 **● fileUrl**: *[IRL](../#irl)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:32*
-
-An IRL at which the Attachment data can be retrieved, or from which it used to be retrievable
 
 ___
 <a id="length"></a>
@@ -74,8 +66,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:24*
 
-The length of the Attachment data in octets.
-
 ___
 <a id="sha2"></a>
 
@@ -85,8 +75,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:28*
 
-The SHA-2 hash of the Attachment data. This property is always required, even if fileURL is also specified
-
 ___
 <a id="usagetype"></a>
 
@@ -95,8 +83,6 @@ ___
 **● usageType**: *[IRI](../#iri)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/attachment/attachment.d.ts:8*
-
-Identifies the usage of this Attachment. For example: one expected use case for Attachments is to include a "completion certificate". An IRI corresponding to this usage MUST be coined, and used with completion certificate attachments
 
 ___
 

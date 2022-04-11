@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.13.0",
+  "version": "2.14.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",
@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "^1.10.0"
+    "@gradiant/xapi-dsl": "v1.11.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

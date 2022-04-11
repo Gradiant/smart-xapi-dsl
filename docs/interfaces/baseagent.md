@@ -37,8 +37,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
 
-Full name of the Agent
-
 ___
 <a id="objecttype"></a>
 

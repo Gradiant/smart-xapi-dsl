@@ -28,7 +28,5 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/openid-identifier.d.ts:6*
 
-An openID that uniquely identifies the Agent. Ir must be an URI
-
 ___
 

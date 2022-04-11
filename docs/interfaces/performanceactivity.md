@@ -31,8 +31,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/performance-activity.d.ts:14*
 
-A list of steps containing a step ids and the response to that step. Step ids are separated from responses by \[.\]. Steps are delimited by \[,\]. The response can be a String as in a fill-in interaction or a number range as in a numeric interaction
-
 ___
 <a id="definition"></a>
 
@@ -44,8 +42,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -56,8 +52,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[id](baseactivity.md#id)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
-
-An identifier for a single unique Activity.
 
 ___
 <a id="interactiontype"></a>
@@ -79,8 +73,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
 
-MUST be Activity when present
-
 ___
 <a id="steps"></a>
 
@@ -89,8 +81,6 @@ ___
 **● steps**: *[InteractionComponent](interactioncomponent.md)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/performance-activity.d.ts:9*
-
-A list of the elements making up the performance interaction
 
 ___
 

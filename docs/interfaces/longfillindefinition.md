@@ -2,8 +2,6 @@
 
 # Interface: LongFillInDefinition
 
-An interaction which requires the learner to supply a response in the form of a long string of characters. "Long" means that the correct responses pattern and learner response strings will normally be more than 250 characters
-
 ## Hierarchy
 
 ↳  [BaseInteractionDefinition](baseinteractiondefinition.md)
@@ -36,8 +34,6 @@ An interaction which requires the learner to supply a response in the form of a 
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/interaction/definitions/long-fill-in-definition.d.ts:12*
 
-A list of responses delimited by \[,\]. If the response contains only one item, the delimiter MUST not be used
-
 ___
 <a id="description"></a>
 
@@ -49,8 +45,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:14*
 
-A description of the Activity
-
 ___
 <a id="extensions"></a>
 
@@ -61,8 +55,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[extensions](activitydefinition.md#extensions)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:29*
-
-A map of other properties as needed
 
 ___
 <a id="interactiontype"></a>
@@ -86,10 +78,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:25*
 
-Resolves to a document with human-readable information about the Activity, which could include a way to launch the definitions.
-
-It must be an IRL
-
 ___
 <a id="name"></a>
 
@@ -101,8 +89,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:10*
 
-The human readable/visual name of the Activity
-
 ___
 <a id="type"></a>
 
@@ -113,8 +99,6 @@ ___
 *Inherited from [ActivityDefinition](activitydefinition.md).[type](activitydefinition.md#type)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/activity-definition.d.ts:19*
-
-The type of Activity
 
 ___
 

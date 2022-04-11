@@ -7,4 +7,5 @@ export namespace recipes {
   export const discussion = categoryIdentifiers.smart.recipeDiscussion;
   export const nonInteractive = categoryIdentifiers.smart.recipeNoInteractive;
   export const scorm = categoryIdentifiers.smart.recipeScorm;
+  export const likert = categoryIdentifiers.smart.recipeLikert;
 }

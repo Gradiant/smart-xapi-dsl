@@ -32,8 +32,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/account-identifier.d.ts:6*
 
-A user account on an existing system e.g. an LMS or intranet.
-
 ___
 <a id="name"></a>
 
@@ -44,8 +42,6 @@ ___
 *Inherited from [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
-
-Full name of the Agent
 
 ___
 <a id="objecttype"></a>

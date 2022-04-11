@@ -2,11 +2,6 @@
 
 # Interface: StatementRef
 
-A Statement Reference is a pointer to another pre-existing Statement.
-
-*   A Statement Reference MUST specify an "objectType" property with the value StatementRef.
-*   A Statement Reference MUST set the "id" property to the UUID of a Statement. There is no requirement for the LRS to validate that the UUID matches a Statement that exists.
-
 ## Hierarchy
 
 **StatementRef**
@@ -29,8 +24,6 @@ A Statement Reference is a pointer to another pre-existing Statement.
 **● id**: *[UUID](../#uuid)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/statement-ref.d.ts:14*
-
-The UUID of a Statement.
 
 ___
 <a id="objecttype"></a>

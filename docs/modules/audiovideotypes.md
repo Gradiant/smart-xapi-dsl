@@ -2,8 +2,6 @@
 
 # Module: audioVideoTypes
 
-Activity types for audio/video recipe
-
 ## Index
 
 ### Variables
@@ -21,7 +19,7 @@ Activity types for audio/video recipe
 
 **● audio**: *"https://w3id.org/xapi/smart/activity/audio"* =  types.smart.audio
 
-*Defined in src/activity-types/activity-types.ts:58*
+*Defined in [src/activity-types/activity-types.ts:60](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L60)*
 
 ___
 <a id="video"></a>
@@ -30,7 +28,7 @@ ___
 
 **● video**: *"https://w3id.org/xapi/smart/activity/video"* =  types.smart.video
 
-*Defined in src/activity-types/activity-types.ts:59*
+*Defined in [src/activity-types/activity-types.ts:61](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L61)*
 
 ___
 

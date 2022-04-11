@@ -32,8 +32,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/matching-activity.d.ts:18*
 
-A list of matching pairs, where each pair consists of a source item id followed by a target item id. Items can appear in multiple (or zero) pairs. Items within a pair are delimited by \[.\]. Pairs are delimited by \[,\]
-
 ___
 <a id="definition"></a>
 
@@ -45,8 +43,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:16*
 
-Metadata
-
 ___
 <a id="id"></a>
 
@@ -57,8 +53,6 @@ ___
 *Inherited from [BaseActivity](baseactivity.md).[id](baseactivity.md#id)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:12*
-
-An identifier for a single unique Activity.
 
 ___
 <a id="interactiontype"></a>
@@ -80,8 +74,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/base-activity.d.ts:7*
 
-MUST be Activity when present
-
 ___
 <a id="source"></a>
 
@@ -91,8 +83,6 @@ ___
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/matching-activity.d.ts:9*
 
-Lists of sources to be matched
-
 ___
 <a id="target"></a>
 
@@ -101,8 +91,6 @@ ___
 **● target**: *[InteractionComponent](interactioncomponent.md)[]*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/object/activity/matching-activity.d.ts:13*
-
-Lists of targets to be matched
 
 ___
 

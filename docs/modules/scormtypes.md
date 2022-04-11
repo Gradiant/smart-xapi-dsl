@@ -22,7 +22,7 @@
 
 **● choice**: *"http://imsglobal.org/qti/choice"* =  types.qti.choice
 
-*Defined in src/activity-types/activity-types.ts:76*
+*Defined in [src/activity-types/activity-types.ts:79](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L79)*
 
 ___
 <a id="genericscorm"></a>
@@ -31,7 +31,7 @@ ___
 
 **● genericScorm**: *"https://w3id.org/xapi/smart/activity/scorm"* =  types.smart.scorm
 
-*Defined in src/activity-types/activity-types.ts:80*
+*Defined in [src/activity-types/activity-types.ts:83](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L83)*
 
 ___
 <a id="inlinechoice"></a>
@@ -40,7 +40,7 @@ ___
 
 **● inlineChoice**: *"http://imsglobal.org/qti/inlineChoice"* =  types.qti.inlineChoice
 
-*Defined in src/activity-types/activity-types.ts:78*
+*Defined in [src/activity-types/activity-types.ts:81](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L81)*
 
 ___
 <a id="multiplechoice"></a>
@@ -49,7 +49,7 @@ ___
 
 **● multipleChoice**: *"http://imsglobal.org/qti/choiceMultiple"* =  types.qti.multipleChoice
 
-*Defined in src/activity-types/activity-types.ts:77*
+*Defined in [src/activity-types/activity-types.ts:80](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L80)*
 
 ___
 <a id="textentry"></a>
@@ -58,7 +58,7 @@ ___
 
 **● textEntry**: *"http://imsglobal.org/qti/textEntry"* =  types.qti.textEntry
 
-*Defined in src/activity-types/activity-types.ts:79*
+*Defined in [src/activity-types/activity-types.ts:82](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L82)*
 
 ___
 

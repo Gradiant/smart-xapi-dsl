@@ -32,8 +32,6 @@
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/ifi/mbox-sha1-sum-identifier.d.ts:7*
 
-The hex-encoded SHA1 hash of a mailto IRI (i.e. the value of an mbox property). An LRS MAY include Agents with a matching hash when a request is based on an mbox.
-
 ___
 <a id="name"></a>
 
@@ -44,8 +42,6 @@ ___
 *Inherited from [BaseActor](baseactor.md).[name](baseactor.md#name)*
 
 *Defined in node_modules/@gradiant/xapi-dsl/types/actor/base-actor.d.ts:9*
-
-Full name of the Agent
 
 ___
 <a id="objecttype"></a>

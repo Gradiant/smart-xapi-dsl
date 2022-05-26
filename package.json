@@ -48,7 +48,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "build:esm": "tsc --outDir esm --module es2015",
-    "build:browser": "parcel build --no-minify --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
+    "build:browser": "parcel build --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
     "build:commonjs": "tsc",
     "build": "concurrently 'npm:build:*'",
     "clean": "rm -rf build reports .cache dist esm",

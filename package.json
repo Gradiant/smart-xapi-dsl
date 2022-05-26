@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.15.1",
+  "version": "2.15.2",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",
@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "1.11.1"
+    "@gradiant/xapi-dsl": "1.11.2"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -48,7 +48,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "build:esm": "tsc --outDir esm --module es2015",
-    "build:browser": "parcel build --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
+    "build:browser": "parcel build --no-minify --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
     "build:commonjs": "tsc",
     "build": "concurrently 'npm:build:*'",
     "clean": "rm -rf build reports .cache dist esm",

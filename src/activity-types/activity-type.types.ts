@@ -12,9 +12,14 @@ import {
 export type AudioRecordingActivityType = typeof openAnswerTypes.audioRecording;
 export type DrawActivityType = typeof openAnswerTypes.draw;
 export type EssayActivityType = typeof openAnswerTypes.essay;
-export type VideoRecordingActivityType = typeof openAnswerTypes.videoRecording;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
-export type OpenAnswerType = EssayActivityType | DrawActivityType | GenericOpenAnswerActivityType;
+export type VideoRecordingActivityType = typeof openAnswerTypes.videoRecording;
+export type OpenAnswerType =
+  | AudioRecordingActivityType
+  | EssayActivityType
+  | DrawActivityType
+  | GenericOpenAnswerActivityType
+  | VideoRecordingActivityType;
 
 export type DropDownChoiceActivityType = typeof closedResponseTypes.dropDownChoice;
 export type FillInTheGapsActivityType = typeof closedResponseTypes.fillInTheGaps;

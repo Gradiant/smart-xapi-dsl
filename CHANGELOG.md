@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.16.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.15.2...v2.16.0) (2022-11-14)
+
+
+### Features
+
+* support new activity types: audio and/or video activities ([0cfaa3b](68519dd6bb513e5fd8f49fb38c65cb60e557a34c))
+*
+
 ## [2.14.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.13.0...v2.14.0) (2022-04-12)
 
 

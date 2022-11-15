@@ -21,7 +21,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "1.11.2"
+    "@gradiant/xapi-dsl": "1.12.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

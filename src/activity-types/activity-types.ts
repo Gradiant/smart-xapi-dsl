@@ -4,9 +4,11 @@ import { activityTypes as types } from '@gradiant/xapi-dsl/dsl';
  * Activity types for open answer recipe
  */
 export namespace openAnswerTypes {
+  export const audioRecording = types.smart.audioRecording;
   export const essay = types.smart.essay;
   export const draw = types.smart.draw;
   export const genericOpenAnswer = types.smart.openAnswer;
+  export const videoRecording = types.smart.videoRecording;
 }
 
 /**
@@ -101,9 +103,11 @@ export const activityTypes = {
 /**
  * Set of activity types that are considered assessabled
  *
+ * - {@link openAnswerTypes.audioRecording}
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
+ * - {@link openAnswerTypes.videoRecording}
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.multipleChoice}
@@ -115,9 +119,11 @@ export const activityTypes = {
  * - {@link closedResponseTypes.responseInImage}
  */
 export const assessableTypes = new Set([
+  openAnswerTypes.audioRecording,
   openAnswerTypes.draw,
   openAnswerTypes.essay,
   openAnswerTypes.genericOpenAnswer,
+  openAnswerTypes.videoRecording,
   closedResponseTypes.matchingPairs,
   closedResponseTypes.singleChoice,
   closedResponseTypes.multipleChoice,

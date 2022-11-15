@@ -15,6 +15,10 @@ import {
 
 describe('Activity Types', () => {
   describe('Open Answer', () => {
+    it('should include audio recording', () => {
+      expect(openAnswerTypes.audioRecording).to.be.equal(types.smart.audioRecording);
+    });
+
     it('should include essay', () => {
       expect(openAnswerTypes.essay).to.be.equal(types.smart.essay);
     });
@@ -22,6 +26,10 @@ describe('Activity Types', () => {
     it('should include draw', () => {
       expect(openAnswerTypes.draw).to.be.equal(types.smart.draw);
     });
+  });
+
+  it('should include video recording', () => {
+    expect(openAnswerTypes.videoRecording).to.be.equal(types.smart.videoRecording);
   });
 
   describe('Closed Response', () => {

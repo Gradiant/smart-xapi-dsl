@@ -20,7 +20,7 @@
 
 **● book**: *"https://w3id.org/xapi/smart/activity/book"* =  types.smart.book
 
-*Defined in [src/activity-types/activity-types.ts:53](https://github.com/Gradiant/smart-xapi-dsl/blob/9e88ce0/src/activity-types/activity-types.ts#L53)*
+*Defined in [src/activity-types/activity-types.ts:53](https://github.com/Gradiant/smart-xapi-dsl/blob/a01a088/src/activity-types/activity-types.ts#L53)*
 
 ___
 <a id="lesson"></a>
@@ -29,7 +29,7 @@ ___
 
 **● lesson**: *"https://w3id.org/xapi/smart/activity/lesson"* =  types.smart.lesson
 
-*Defined in [src/activity-types/activity-types.ts:54](https://github.com/Gradiant/smart-xapi-dsl/blob/9e88ce0/src/activity-types/activity-types.ts#L54)*
+*Defined in [src/activity-types/activity-types.ts:54](https://github.com/Gradiant/smart-xapi-dsl/blob/a01a088/src/activity-types/activity-types.ts#L54)*
 
 ___
 <a id="unit"></a>
@@ -38,7 +38,7 @@ ___
 
 **● unit**: *"https://w3id.org/xapi/smart/activity/unit"* =  types.smart.unit
 
-*Defined in [src/activity-types/activity-types.ts:55](https://github.com/Gradiant/smart-xapi-dsl/blob/9e88ce0/src/activity-types/activity-types.ts#L55)*
+*Defined in [src/activity-types/activity-types.ts:55](https://github.com/Gradiant/smart-xapi-dsl/blob/a01a088/src/activity-types/activity-types.ts#L55)*
 
 ___
 

@@ -9,8 +9,10 @@ import {
   scormTypes
 } from './activity-types';
 
+export type AudioRecordingActivityType = typeof openAnswerTypes.audioRecording;
 export type DrawActivityType = typeof openAnswerTypes.draw;
 export type EssayActivityType = typeof openAnswerTypes.essay;
+export type VideoRecordingActivityType = typeof openAnswerTypes.videoRecording;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
 export type OpenAnswerType = EssayActivityType | DrawActivityType | GenericOpenAnswerActivityType;
 

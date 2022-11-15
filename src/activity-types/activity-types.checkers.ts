@@ -108,6 +108,11 @@ export const isClosedResponse: ActivityTypeChecker = anyPass([
 // ----------
 
 /**
+ * Check if the given activity type is {@link openAnswerTypes.audioRecording}
+ */
+export const isAudioRecording = isActivityType(openAnswerTypes.audioRecording);
+
+/**
  * Check if the given activity type is {@link openAnswerTypes.draw}
  */
 export const isDraw = isActivityType(openAnswerTypes.draw);
@@ -123,13 +128,20 @@ export const isEssay = isActivityType(openAnswerTypes.essay);
 export const isGenericOpenAnswer = isActivityType(openAnswerTypes.genericOpenAnswer);
 
 /**
+ * Check if the given activity type is {@link openAnswerTypes.videoRecording}
+ */
+export const isVideoRecording = isActivityType(openAnswerTypes.videoRecording);
+
+/**
  * Check if the given activity type is an open answer type:
  *
+ * - {@link openAnswerTypes.audioRecording}
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
+ * - {@link openAnswerTypes.videoRecording}
  */
-export const isOpenAnswer: ActivityTypeChecker = anyPass([isDraw, isEssay, isGenericOpenAnswer]);
+export const isOpenAnswer: ActivityTypeChecker = anyPass([isAudioRecording, isDraw, isEssay, isGenericOpenAnswer, isVideoRecording]);
 
 // Discussion
 // ----------

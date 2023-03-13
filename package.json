@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.16.0",
+  "version": "2.17.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",

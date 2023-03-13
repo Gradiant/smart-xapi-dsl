@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
+## [2.17.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.16.0...v2.17.0) (2023-03-13)
+
+
+### Features
+
+* support new activity types: upload file activities ([]())
+
 ## [2.16.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.15.2...v2.16.0) (2022-11-14)
 
 

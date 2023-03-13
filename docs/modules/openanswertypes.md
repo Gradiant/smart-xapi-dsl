@@ -10,6 +10,7 @@
 * [draw](openanswertypes.md#draw)
 * [essay](openanswertypes.md#essay)
 * [genericOpenAnswer](openanswertypes.md#genericopenanswer)
+* [uploadFile](openanswertypes.md#uploadfile)
 * [videoRecording](openanswertypes.md#videorecording)
 
 ---
@@ -52,13 +53,22 @@ ___
 *Defined in [src/activity-types/activity-types.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L10)*
 
 ___
+<a id="uploadfile"></a>
+
+### `<Const>` uploadFile
+
+**● uploadFile**: *"https://w3id.org/xapi/smart/activity/upload-file"* =  types.smart.uploadFile
+
+*Defined in [src/activity-types/activity-types.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L11)*
+
+___
 <a id="videorecording"></a>
 
 ### `<Const>` videoRecording
 
 **● videoRecording**: *"https://w3id.org/xapi/smart/activity/video-recording"* =  types.smart.videoRecording
 
-*Defined in [src/activity-types/activity-types.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L11)*
+*Defined in [src/activity-types/activity-types.ts:12](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L12)*
 
 ___
 

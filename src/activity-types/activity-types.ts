@@ -8,6 +8,7 @@ export namespace openAnswerTypes {
   export const essay = types.smart.essay;
   export const draw = types.smart.draw;
   export const genericOpenAnswer = types.smart.openAnswer;
+  export const uploadFile = types.smart.uploadFile;
   export const videoRecording = types.smart.videoRecording;
 }
 
@@ -107,6 +108,7 @@ export const activityTypes = {
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
+ * - {@link openAnswerTypes.uploadFile}
  * - {@link openAnswerTypes.videoRecording}
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}
@@ -123,6 +125,7 @@ export const assessableTypes = new Set([
   openAnswerTypes.draw,
   openAnswerTypes.essay,
   openAnswerTypes.genericOpenAnswer,
+  openAnswerTypes.uploadFile,
   openAnswerTypes.videoRecording,
   closedResponseTypes.matchingPairs,
   closedResponseTypes.singleChoice,

@@ -13,12 +13,14 @@ export type AudioRecordingActivityType = typeof openAnswerTypes.audioRecording;
 export type DrawActivityType = typeof openAnswerTypes.draw;
 export type EssayActivityType = typeof openAnswerTypes.essay;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
+export type UploadFileActivityType = typeof openAnswerTypes.uploadFile;
 export type VideoRecordingActivityType = typeof openAnswerTypes.videoRecording;
 export type OpenAnswerType =
   | AudioRecordingActivityType
   | EssayActivityType
   | DrawActivityType
   | GenericOpenAnswerActivityType
+  | UploadFileActivityType
   | VideoRecordingActivityType;
 
 export type DropDownChoiceActivityType = typeof closedResponseTypes.dropDownChoice;

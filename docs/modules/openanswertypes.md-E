@@ -10,6 +10,7 @@
 * [draw](openanswertypes.md#draw)
 * [essay](openanswertypes.md#essay)
 * [genericOpenAnswer](openanswertypes.md#genericopenanswer)
+* [uploadFile](openanswertypes.md#uploadfile)
 * [videoRecording](openanswertypes.md#videorecording)
 
 ---
@@ -22,7 +23,7 @@
 
 **● audioRecording**: *"https://w3id.org/xapi/smart/activity/audio-recording"* =  types.smart.audioRecording
 
-*Defined in [src/activity-types/activity-types.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/b425d4d/src/activity-types/activity-types.ts#L7)*
+*Defined in [src/activity-types/activity-types.ts:7](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L7)*
 
 ___
 <a id="draw"></a>
@@ -31,7 +32,7 @@ ___
 
 **● draw**: *"https://w3id.org/xapi/smart/activity/draw"* =  types.smart.draw
 
-*Defined in [src/activity-types/activity-types.ts:9](https://github.com/Gradiant/smart-xapi-dsl/blob/b425d4d/src/activity-types/activity-types.ts#L9)*
+*Defined in [src/activity-types/activity-types.ts:9](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L9)*
 
 ___
 <a id="essay"></a>
@@ -40,7 +41,7 @@ ___
 
 **● essay**: *"https://w3id.org/xapi/smart/activity/essay"* =  types.smart.essay
 
-*Defined in [src/activity-types/activity-types.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/b425d4d/src/activity-types/activity-types.ts#L8)*
+*Defined in [src/activity-types/activity-types.ts:8](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L8)*
 
 ___
 <a id="genericopenanswer"></a>
@@ -49,7 +50,16 @@ ___
 
 **● genericOpenAnswer**: *"https://w3id.org/xapi/smart/activity/open-answer"* =  types.smart.openAnswer
 
-*Defined in [src/activity-types/activity-types.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/b425d4d/src/activity-types/activity-types.ts#L10)*
+*Defined in [src/activity-types/activity-types.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L10)*
+
+___
+<a id="uploadfile"></a>
+
+### `<Const>` uploadFile
+
+**● uploadFile**: *"https://w3id.org/xapi/smart/activity/upload-file"* =  types.smart.uploadFile
+
+*Defined in [src/activity-types/activity-types.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L11)*
 
 ___
 <a id="videorecording"></a>
@@ -58,7 +68,7 @@ ___
 
 **● videoRecording**: *"https://w3id.org/xapi/smart/activity/video-recording"* =  types.smart.videoRecording
 
-*Defined in [src/activity-types/activity-types.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/b425d4d/src/activity-types/activity-types.ts#L11)*
+*Defined in [src/activity-types/activity-types.ts:12](https://github.com/Gradiant/smart-xapi-dsl/blob/fd765e9/src/activity-types/activity-types.ts#L12)*
 
 ___
 

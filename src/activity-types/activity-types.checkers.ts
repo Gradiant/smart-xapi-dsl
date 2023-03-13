@@ -128,6 +128,11 @@ export const isEssay = isActivityType(openAnswerTypes.essay);
 export const isGenericOpenAnswer = isActivityType(openAnswerTypes.genericOpenAnswer);
 
 /**
+ * Check if the given activity type is {@link openAnswerTypes.uploadFile}
+ */
+export const isUploadFile = isActivityType(openAnswerTypes.uploadFile);
+
+/**
  * Check if the given activity type is {@link openAnswerTypes.videoRecording}
  */
 export const isVideoRecording = isActivityType(openAnswerTypes.videoRecording);
@@ -141,7 +146,14 @@ export const isVideoRecording = isActivityType(openAnswerTypes.videoRecording);
  * - {@link openAnswerTypes.genericOpenAnswer}
  * - {@link openAnswerTypes.videoRecording}
  */
-export const isOpenAnswer: ActivityTypeChecker = anyPass([isAudioRecording, isDraw, isEssay, isGenericOpenAnswer, isVideoRecording]);
+export const isOpenAnswer: ActivityTypeChecker = anyPass([
+  isAudioRecording,
+  isDraw,
+  isEssay,
+  isGenericOpenAnswer,
+  isUploadFile,
+  isVideoRecording
+]);
 
 // Discussion
 // ----------

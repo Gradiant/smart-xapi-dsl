@@ -28,6 +28,10 @@ describe('Activity Types', () => {
     });
   });
 
+  it('should include upload file', () => {
+    expect(openAnswerTypes.uploadFile).to.be.equal(types.smart.uploadFile);
+  });
+
   it('should include video recording', () => {
     expect(openAnswerTypes.videoRecording).to.be.equal(types.smart.videoRecording);
   });

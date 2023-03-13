@@ -8,6 +8,9 @@
   "types": "index.d.ts",
   "license": "UNLICENSED",
   "author": "Lorens León <lleon@gradiant.org>",
+  "contributors": [
+    "Agustín Cañas <acanas@gradiant.org>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Gradiant/smart-xapi-dsl"
@@ -21,7 +24,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "1.12.0"
+    "@gradiant/xapi-dsl": "1.14.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

@@ -19,7 +19,7 @@
 
 **● audio**: *"https://w3id.org/xapi/smart/activity/audio"* =  types.smart.audio
 
-*Defined in [src/activity-types/activity-types.ts:63](https://github.com/Gradiant/smart-xapi-dsl/blob/e1ec0f1/src/activity-types/activity-types.ts#L63)*
+*Defined in [src/activity-types/activity-types.ts:63](https://github.com/Gradiant/smart-xapi-dsl/blob/7c1c44f/src/activity-types/activity-types.ts#L63)*
 
 ___
 <a id="video"></a>
@@ -28,7 +28,7 @@ ___
 
 **● video**: *"https://w3id.org/xapi/smart/activity/video"* =  types.smart.video
 
-*Defined in [src/activity-types/activity-types.ts:64](https://github.com/Gradiant/smart-xapi-dsl/blob/e1ec0f1/src/activity-types/activity-types.ts#L64)*
+*Defined in [src/activity-types/activity-types.ts:64](https://github.com/Gradiant/smart-xapi-dsl/blob/7c1c44f/src/activity-types/activity-types.ts#L64)*
 
 ___
 

@@ -275,6 +275,7 @@
 ### Functions
 
 * [isAssessable](#isassessable)
+* [shortenUrls](#shortenurls)
 
 ### Object literals
 
@@ -3263,6 +3264,23 @@ ___
 | value | `any` |
 
 **Returns:** `(Anonymous function)`
+
+___
+<a id="shortenurls"></a>
+
+###  shortenUrls
+
+▸ **shortenUrls**(url: *`string`*): `undefined` \| `string`
+
+*Defined in [src/functions/shorten-urls.ts:1](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/functions/shorten-urls.ts#L1)*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| url | `string` |
+
+**Returns:** `undefined` \| `string`
 
 ___
 

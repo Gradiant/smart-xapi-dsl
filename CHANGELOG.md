@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## [2.19.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.18.0...v2.19.0) (2023-06-15)
+
+* new version for shortenUrls function and new function to search urls ([]())
+
+### Features
+
 ## [2.18.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.17.0...v2.18.0) (2023-03-31)
 
 

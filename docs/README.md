@@ -275,6 +275,7 @@
 ### Functions
 
 * [isAssessable](#isassessable)
+* [searchUrl](#searchurl)
 * [shortenUrls](#shortenurls)
 
 ### Object literals
@@ -3266,13 +3267,32 @@ ___
 **Returns:** `(Anonymous function)`
 
 ___
+<a id="searchurl"></a>
+
+###  searchUrl
+
+▸ **searchUrl**(url: *`string`*, haystack: *`[]`*, urlParts: *`string`[]*): `string`[]
+
+*Defined in [src/functions/search-url.ts:1](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/functions/search-url.ts#L1)*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| url | `string` |
+| haystack | `[]` |
+| urlParts | `string`[] |
+
+**Returns:** `string`[]
+
+___
 <a id="shortenurls"></a>
 
 ###  shortenUrls
 
-▸ **shortenUrls**(url: *`string`*): `undefined` \| `string`
+▸ **shortenUrls**(url: *`string`*): `string`
 
-*Defined in [src/functions/shorten-urls.ts:1](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/functions/shorten-urls.ts#L1)*
+*Defined in [src/functions/shorten-urls.ts:4](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/functions/shorten-urls.ts#L4)*
 
 **Parameters:**
 
@@ -3280,7 +3300,7 @@ ___
 | ------ | ------ |
 | url | `string` |
 
-**Returns:** `undefined` \| `string`
+**Returns:** `string`
 
 ___
 

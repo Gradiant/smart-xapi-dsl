@@ -4,3 +4,4 @@ export * from './extensions';
 export * from './verbs';
 export * from './recipes';
 export * from './categories';
+export * from './functions';

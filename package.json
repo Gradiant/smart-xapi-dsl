@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.17.0",
+  "version": "2.19.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",
@@ -37,7 +37,9 @@
     "lint-staged": "^8.1.5",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
-    "parcel-bundler": "^1.11.0",
+    "parcel": "^2.0.0",
+    "@parcel/config-default":"^2.8.3",
+    "@parcel/transformer-typescript-tsc":"^2.8.3",
     "prettier": "1.16.4",
     "semantic-release": "^15.13.3",
     "travis-deploy-once": "^5.0.11",
@@ -51,7 +53,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "npm run clean",
     "build:esm": "tsc --outDir esm --module es2015",
-    "build:browser": "parcel build --experimental-scope-hoisting --no-cache --global SmartXapiDsl src/index.ts -o dist/smart-xapi-dsl.min.js",
+    "build:browser": "parcel build",
     "build:commonjs": "tsc",
     "build": "concurrently 'npm:build:*'",
     "clean": "rm -rf build reports .cache dist esm",
@@ -63,7 +65,7 @@
     "predocs": "rm -rf docs node_modules/typedoc/node_modules/typescript",
     "docs": "typedoc --tsconfig tsconfig.docs.json --out docs --mode file --readme none --hideGenerator --excludePrivate --includeDeclarations --excludeNotExported --name 'SMART xAPI DSL'",
     "docs:md": "npm run docs -- --theme markdown --mdEngine github",
-    "postdocs:md": "find docs/ -type f | gxargs -i sed -i -E 's|/blob/[^/]*/|/blob/master/|g' '{}'"
+    "postdocs:md": "find docs/ -type f | xargs -i sed -i -E 's|/blob/[^/]*/|/blob/master/|g' '{}'"
   },
   "husky": {
     "hooks": {

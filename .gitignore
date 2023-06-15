@@ -5,5 +5,5 @@
 /docs/assets
 /esm
 /dist
-/.cache
+/.parcel-cache
 .idea

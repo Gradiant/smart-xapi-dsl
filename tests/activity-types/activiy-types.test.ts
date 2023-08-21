@@ -53,6 +53,10 @@ describe('Activity Types', () => {
       expect(closedResponseTypes.multipleChoice).to.be.equal(types.smart.multipleChoice);
     });
 
+    it('should include image multiple choice', () => {
+      expect(closedResponseTypes.imageMultipleChoice).to.be.equal(types.smart.imageMultipleChoice);
+    });
+
     it('should include words banks', () => {
       expect(closedResponseTypes.wordsBank).to.be.equal(types.smart.wordsBank);
     });
@@ -67,6 +71,10 @@ describe('Activity Types', () => {
 
     it('should include response in image', () => {
       expect(closedResponseTypes.responseInImage).to.be.equal(types.smart.responseInImage);
+    });
+
+    it('should include dragging image', () => {
+      expect(closedResponseTypes.draggingImage).to.be.equal(types.smart.draggingImage);
     });
   });
 

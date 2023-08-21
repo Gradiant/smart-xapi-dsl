@@ -19,7 +19,7 @@
 
 **● likert**: *"https://w3id.org/xapi/smart/activity/likert"* =  types.smart.likert
 
-*Defined in [src/activity-types/activity-types.ts:72](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L72)*
+*Defined in [src/activity-types/activity-types.ts:74](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L74)*
 
 ___
 <a id="quiz"></a>
@@ -28,7 +28,7 @@ ___
 
 **● quiz**: *"https://w3id.org/xapi/smart/activity/quiz"* =  types.smart.quiz
 
-*Defined in [src/activity-types/activity-types.ts:71](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L71)*
+*Defined in [src/activity-types/activity-types.ts:73](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L73)*
 
 ___
 

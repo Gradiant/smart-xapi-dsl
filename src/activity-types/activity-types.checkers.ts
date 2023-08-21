@@ -53,6 +53,11 @@ export const isMatchingPairs = isActivityType(closedResponseTypes.matchingPairs)
 export const isMultipleChoice = isActivityType(closedResponseTypes.multipleChoice);
 
 /**
+ * Check if the given activity type is {@link closedResponseTypes.imageMultipleChoice}
+ */
+export const isImageMultipleChoice = isActivityType(closedResponseTypes.imageMultipleChoice);
+
+/**
  * Check if the given activity type is {@link closedResponseTypes.singleChoice}
  */
 export const isSingleChoice = isActivityType(closedResponseTypes.singleChoice);
@@ -78,6 +83,11 @@ export const isMatrixSingleChoice = isActivityType(closedResponseTypes.matrixSin
 export const isResponseInImage = isActivityType(closedResponseTypes.responseInImage);
 
 /**
+ * Check if the given activity type is {@link closedResponseTypes.draggingImage}
+ */
+export const isDraggingImage = isActivityType(closedResponseTypes.draggingImage);
+
+/**
  * Check if the given activity type is a closed response type:
  *
  * - {@link closedResponseTypes.binaryChoice}
@@ -89,6 +99,7 @@ export const isResponseInImage = isActivityType(closedResponseTypes.responseInIm
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.wordsBank}
  * - {@link closedResponseTypes.responseInImage}
+ * - {@link closedResponseTypes.draggingImage}
  */
 export const isClosedResponse: ActivityTypeChecker = anyPass([
   isBinaryChoice,
@@ -97,11 +108,13 @@ export const isClosedResponse: ActivityTypeChecker = anyPass([
   isGenericClosedResponse,
   isMatchingPairs,
   isMultipleChoice,
+  isImageMultipleChoice,
   isSingleChoice,
   isWordsBank,
   isMatrixMultipleChoice,
   isMatrixSingleChoice,
-  isResponseInImage
+  isResponseInImage,
+  isDraggingImage
 ]);
 
 // Open Answer
@@ -278,6 +291,7 @@ export const isBookContainer: ActivityTypeChecker = anyPass([isBook, isUnit, isL
  * - {@link closedResponseTypes.genericClosedResponse}
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.multipleChoice}
+ * - {@link closedResponseTypes.imageMultipleChoice}
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.wordsBank}
  * - {@link closedResponseTypes.responseInImage}
@@ -300,12 +314,14 @@ export const isLaeProcessable: ActivityTypeChecker = anyPass([isOpenAnswer, isCl
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.multipleChoice}
+ * - {@link closedResponseTypes.imageMultipleChoice}
  * - {@link closedResponseTypes.dropDownChoice}
  * - {@link closedResponseTypes.binaryChoice}
  * - {@link closedResponseTypes.genericClosedResponse}
  * - {@link closedResponseTypes.wordsBank}
  * - {@link closedResponseTypes.fillInTheGaps}
  * - {@link closedResponseTypes.responseInImage}
+ * - {@link closedResponseTypes.draggingImage}
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}

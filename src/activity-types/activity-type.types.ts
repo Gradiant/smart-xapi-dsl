@@ -28,22 +28,26 @@ export type FillInTheGapsActivityType = typeof closedResponseTypes.fillInTheGaps
 export type GenericClosedResponseActivityType = typeof closedResponseTypes.genericClosedResponse;
 export type MatchingPairsActivityType = typeof closedResponseTypes.matchingPairs;
 export type MultipleChoiceActivityType = typeof closedResponseTypes.multipleChoice;
+export type ImageMultipleChoiceActivityType = typeof closedResponseTypes.imageMultipleChoice;
 export type SingleChoiceActivityType = typeof closedResponseTypes.singleChoice;
 export type WordsBankActivityType = typeof closedResponseTypes.wordsBank;
 export type MatrixMultipleChoiceActivityType = typeof closedResponseTypes.matrixMultipleChoice;
 export type MatrixSingleChoiceActivityType = typeof closedResponseTypes.matrixSingleChoice;
 export type ResponseInImageActivityType = typeof closedResponseTypes.responseInImage;
+export type DraggingImageActivityType = typeof closedResponseTypes.draggingImage;
 export type ClosedResponseType =
   | DropDownChoiceActivityType
   | FillInTheGapsActivityType
   | GenericClosedResponseActivityType
   | MatchingPairsActivityType
   | MultipleChoiceActivityType
+  | ImageMultipleChoiceActivityType
   | SingleChoiceActivityType
   | WordsBankActivityType
   | MatrixMultipleChoiceActivityType
   | MatrixSingleChoiceActivityType
-  | ResponseInImageActivityType;
+  | ResponseInImageActivityType
+  | DraggingImageActivityType;
 
 export type AudioActivityType = typeof audioVideoTypes.audio;
 export type VideoActivityType = typeof audioVideoTypes.video;

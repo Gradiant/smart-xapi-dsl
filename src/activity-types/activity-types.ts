@@ -22,11 +22,13 @@ export namespace closedResponseTypes {
   export const genericClosedResponse = types.smart.closedResponse;
   export const matchingPairs = types.smart.matchingPairs;
   export const multipleChoice = types.smart.multipleChoice;
+  export const imageMultipleChoice = types.smart.imageMultipleChoice;
   export const singleChoice = types.smart.singleChoice;
   export const wordsBank = types.smart.wordsBank;
   export const matrixMultipleChoice = types.smart.matrixMultipleChoice;
   export const matrixSingleChoice = types.smart.matrixSingleChoice;
   export const responseInImage = types.smart.responseInImage;
+  export const draggingImage = types.smart.draggingImage;
 }
 
 /**
@@ -113,12 +115,14 @@ export const activityTypes = {
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.multipleChoice}
+ * - {@link closedResponseTypes.imageMultipleChoice}
  * - {@link closedResponseTypes.dropDownChoice}
  * - {@link closedResponseTypes.binaryChoice}
  * - {@link closedResponseTypes.genericClosedResponse}
  * - {@link closedResponseTypes.wordsBank}
  * - {@link closedResponseTypes.fillInTheGaps}
  * - {@link closedResponseTypes.responseInImage}
+ * - {@link closedResponseTypes.draggingImage}
  */
 export const assessableTypes = new Set([
   openAnswerTypes.audioRecording,
@@ -130,6 +134,7 @@ export const assessableTypes = new Set([
   closedResponseTypes.matchingPairs,
   closedResponseTypes.singleChoice,
   closedResponseTypes.multipleChoice,
+  closedResponseTypes.imageMultipleChoice,
   closedResponseTypes.dropDownChoice,
   closedResponseTypes.binaryChoice,
   closedResponseTypes.genericClosedResponse,
@@ -137,5 +142,6 @@ export const assessableTypes = new Set([
   closedResponseTypes.fillInTheGaps,
   closedResponseTypes.matrixSingleChoice,
   closedResponseTypes.matrixMultipleChoice,
-  closedResponseTypes.responseInImage
+  closedResponseTypes.responseInImage,
+  closedResponseTypes.draggingImage
 ]);

@@ -19,7 +19,7 @@
 
 **● attempt**: *"https://w3id.org/xapi/smart/activity/attempt"* =  types.smart.attempt
 
-*Defined in [src/activity-types/activity-types.ts:46](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L46)*
+*Defined in [src/activity-types/activity-types.ts:48](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L48)*
 
 ___
 <a id="noninteractive"></a>
@@ -28,7 +28,7 @@ ___
 
 **● nonInteractive**: *"https://w3id.org/xapi/smart/activity/no-interactive"* =  types.smart.noInteractive
 
-*Defined in [src/activity-types/activity-types.ts:47](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L47)*
+*Defined in [src/activity-types/activity-types.ts:49](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L49)*
 
 ___
 

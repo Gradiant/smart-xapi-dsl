@@ -15,6 +15,7 @@ export type EssayActivityType = typeof openAnswerTypes.essay;
 export type GenericOpenAnswerActivityType = typeof openAnswerTypes.genericOpenAnswer;
 export type UploadFileActivityType = typeof openAnswerTypes.uploadFile;
 export type VideoRecordingActivityType = typeof openAnswerTypes.videoRecording;
+export type MathFormulae = typeof openAnswerTypes.mathFormulae;
 export type OpenAnswerType =
   | AudioRecordingActivityType
   | EssayActivityType

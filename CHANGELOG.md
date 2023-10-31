@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
+## [2.21.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.19.0...v2.20.0) (2023-10-30)
+
+### Features
+
+* support to math formulae activities
+
+
 ## [2.20.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.19.0...v2.20.0) (2023-06-22)
 
 ### Features

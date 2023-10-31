@@ -36,6 +36,10 @@ describe('Activity Types', () => {
     expect(openAnswerTypes.videoRecording).to.be.equal(types.smart.videoRecording);
   });
 
+  it('should include math formulae', () => {
+    expect(openAnswerTypes.mathFormulae).to.be.equal(types.smart.mathFormulae);
+  });
+
   describe('Closed Response', () => {
     it('should include drop down choice', () => {
       expect(closedResponseTypes.dropDownChoice).to.be.equal(types.smart.dropDownChoice);

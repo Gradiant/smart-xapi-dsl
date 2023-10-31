@@ -127,6 +127,7 @@
 * [LikertType](#likerttype)
 * [MailtoIRI](#mailtoiri)
 * [MatchingPairsActivityType](#matchingpairsactivitytype)
+* [MathFormulae](#mathformulae)
 * [MatrixMultipleChoiceActivityType](#matrixmultiplechoiceactivitytype)
 * [MatrixSingleChoiceActivityType](#matrixsinglechoiceactivitytype)
 * [MultipleChoiceActivityType](#multiplechoiceactivitytype)
@@ -226,6 +227,7 @@
 * [isListened](#islistened)
 * [isListenedVerb](#islistenedverb)
 * [isMatchingPairs](#ismatchingpairs)
+* [isMathFormulae](#ismathformulae)
 * [isMatrixMultipleChoice](#ismatrixmultiplechoice)
 * [isMatrixSingleChoice](#ismatrixsinglechoice)
 * [isMultipleChoice](#ismultiplechoice)
@@ -352,7 +354,7 @@ ___
 
 **Ƭ AttemptActivityType**: *"https://w3id.org/xapi/smart/activity/attempt"*
 
-*Defined in [src/activity-types/activity-type.types.ts:61](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L61)*
+*Defined in [src/activity-types/activity-type.types.ts:62](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L62)*
 
 ___
 <a id="audioactivitytype"></a>
@@ -361,7 +363,7 @@ ___
 
 **Ƭ AudioActivityType**: *"https://w3id.org/xapi/smart/activity/audio"*
 
-*Defined in [src/activity-types/activity-type.types.ts:52](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L52)*
+*Defined in [src/activity-types/activity-type.types.ts:53](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L53)*
 
 ___
 <a id="audiorecordingactivitytype"></a>
@@ -379,7 +381,7 @@ ___
 
 **Ƭ AudioVideoType**: *[AudioActivityType](#audioactivitytype) \| [VideoActivityType](#videoactivitytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:54](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L54)*
+*Defined in [src/activity-types/activity-type.types.ts:55](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L55)*
 
 ___
 <a id="closedresponsetype"></a>
@@ -388,7 +390,7 @@ ___
 
 **Ƭ ClosedResponseType**: *[DropDownChoiceActivityType](#dropdownchoiceactivitytype) \| [FillInTheGapsActivityType](#fillinthegapsactivitytype) \| [GenericClosedResponseActivityType](#genericclosedresponseactivitytype) \| [MatchingPairsActivityType](#matchingpairsactivitytype) \| [MultipleChoiceActivityType](#multiplechoiceactivitytype) \| [ImageMultipleChoiceActivityType](#imagemultiplechoiceactivitytype) \| [SingleChoiceActivityType](#singlechoiceactivitytype) \| [WordsBankActivityType](#wordsbankactivitytype) \| [MatrixMultipleChoiceActivityType](#matrixmultiplechoiceactivitytype) \| [MatrixSingleChoiceActivityType](#matrixsinglechoiceactivitytype) \| [ResponseInImageActivityType](#responseinimageactivitytype) \| [DraggingImageActivityType](#draggingimageactivitytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:38](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L38)*
+*Defined in [src/activity-types/activity-type.types.ts:39](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L39)*
 
 ___
 <a id="debateactivitytype"></a>
@@ -397,7 +399,7 @@ ___
 
 **Ƭ DebateActivityType**: *"https://w3id.org/xapi/smart/activity/discussion"*
 
-*Defined in [src/activity-types/activity-type.types.ts:59](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L59)*
+*Defined in [src/activity-types/activity-type.types.ts:60](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L60)*
 
 ___
 <a id="discussionactivitytype"></a>
@@ -406,7 +408,7 @@ ___
 
 **Ƭ DiscussionActivityType**: *"http://id.tincanapi.com/activitytype/discussion"*
 
-*Defined in [src/activity-types/activity-type.types.ts:56](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L56)*
+*Defined in [src/activity-types/activity-type.types.ts:57](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L57)*
 
 ___
 <a id="draggingimageactivitytype"></a>
@@ -415,7 +417,7 @@ ___
 
 **Ƭ DraggingImageActivityType**: *"https://w3id.org/xapi/smart/activity/dragging-image"*
 
-*Defined in [src/activity-types/activity-type.types.ts:37](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L37)*
+*Defined in [src/activity-types/activity-type.types.ts:38](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L38)*
 
 ___
 <a id="drawactivitytype"></a>
@@ -433,7 +435,7 @@ ___
 
 **Ƭ DropDownChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/drop-down-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:26](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L26)*
+*Defined in [src/activity-types/activity-type.types.ts:27](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L27)*
 
 ___
 <a id="duration"></a>
@@ -460,7 +462,7 @@ ___
 
 **Ƭ FeedbackType**: *[QuestionType](#questiontype) \| [ReviewType](#reviewtype) \| [SurveyType](#surveytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:70](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L70)*
+*Defined in [src/activity-types/activity-type.types.ts:71](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L71)*
 
 ___
 <a id="fillinthegapsactivitytype"></a>
@@ -469,7 +471,7 @@ ___
 
 **Ƭ FillInTheGapsActivityType**: *"https://w3id.org/xapi/smart/activity/fill-in-the-gaps"*
 
-*Defined in [src/activity-types/activity-type.types.ts:27](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L27)*
+*Defined in [src/activity-types/activity-type.types.ts:28](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L28)*
 
 ___
 <a id="forumreplyactivitytype"></a>
@@ -478,7 +480,7 @@ ___
 
 **Ƭ ForumReplyActivityType**: *"http://id.tincanapi.com/activitytype/forum-reply"*
 
-*Defined in [src/activity-types/activity-type.types.ts:57](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L57)*
+*Defined in [src/activity-types/activity-type.types.ts:58](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L58)*
 
 ___
 <a id="forumtopicactivitytype"></a>
@@ -487,7 +489,7 @@ ___
 
 **Ƭ ForumTopicActivityType**: *"http://id.tincanapi.com/activitytype/forum-topic"*
 
-*Defined in [src/activity-types/activity-type.types.ts:58](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L58)*
+*Defined in [src/activity-types/activity-type.types.ts:59](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L59)*
 
 ___
 <a id="genericclosedresponseactivitytype"></a>
@@ -496,7 +498,7 @@ ___
 
 **Ƭ GenericClosedResponseActivityType**: *"https://w3id.org/xapi/smart/activity/closed-response"*
 
-*Defined in [src/activity-types/activity-type.types.ts:28](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L28)*
+*Defined in [src/activity-types/activity-type.types.ts:29](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L29)*
 
 ___
 <a id="genericopenansweractivitytype"></a>
@@ -550,7 +552,7 @@ ___
 
 **Ƭ ImageMultipleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/image-multiple-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:31](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L31)*
+*Defined in [src/activity-types/activity-type.types.ts:32](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L32)*
 
 ___
 <a id="integer"></a>
@@ -604,7 +606,7 @@ ___
 
 **Ƭ LikertType**: *"https://w3id.org/xapi/smart/activity/likert"*
 
-*Defined in [src/activity-types/activity-type.types.ts:85](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L85)*
+*Defined in [src/activity-types/activity-type.types.ts:86](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L86)*
 
 ___
 <a id="mailtoiri"></a>
@@ -622,7 +624,16 @@ ___
 
 **Ƭ MatchingPairsActivityType**: *"https://w3id.org/xapi/smart/activity/matching-pairs"*
 
-*Defined in [src/activity-types/activity-type.types.ts:29](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L29)*
+*Defined in [src/activity-types/activity-type.types.ts:30](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L30)*
+
+___
+<a id="mathformulae"></a>
+
+###  MathFormulae
+
+**Ƭ MathFormulae**: *"https://w3id.org/xapi/smart/activity/math-formulae"*
+
+*Defined in [src/activity-types/activity-type.types.ts:18](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L18)*
 
 ___
 <a id="matrixmultiplechoiceactivitytype"></a>
@@ -631,7 +642,7 @@ ___
 
 **Ƭ MatrixMultipleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/matrix-multiple-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:34](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L34)*
+*Defined in [src/activity-types/activity-type.types.ts:35](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L35)*
 
 ___
 <a id="matrixsinglechoiceactivitytype"></a>
@@ -640,7 +651,7 @@ ___
 
 **Ƭ MatrixSingleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/matrix-single-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:35](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L35)*
+*Defined in [src/activity-types/activity-type.types.ts:36](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L36)*
 
 ___
 <a id="multiplechoiceactivitytype"></a>
@@ -649,7 +660,7 @@ ___
 
 **Ƭ MultipleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/multiple-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:30](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L30)*
+*Defined in [src/activity-types/activity-type.types.ts:31](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L31)*
 
 ___
 <a id="noninteractiveattemptactivitytype"></a>
@@ -658,7 +669,7 @@ ___
 
 **Ƭ NonInteractiveAttemptActivityType**: *"https://w3id.org/xapi/smart/activity/no-interactive"*
 
-*Defined in [src/activity-types/activity-type.types.ts:62](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L62)*
+*Defined in [src/activity-types/activity-type.types.ts:63](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L63)*
 
 ___
 <a id="noninteractivetype"></a>
@@ -667,7 +678,7 @@ ___
 
 **Ƭ NonInteractiveType**: *[AttemptActivityType](#attemptactivitytype) \| [NonInteractiveAttemptActivityType](#noninteractiveattemptactivitytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:63](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L63)*
+*Defined in [src/activity-types/activity-type.types.ts:64](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L64)*
 
 ___
 <a id="object"></a>
@@ -685,7 +696,7 @@ ___
 
 **Ƭ OpenAnswerType**: *[AudioRecordingActivityType](#audiorecordingactivitytype) \| [EssayActivityType](#essayactivitytype) \| [DrawActivityType](#drawactivitytype) \| [GenericOpenAnswerActivityType](#genericopenansweractivitytype) \| [UploadFileActivityType](#uploadfileactivitytype) \| [VideoRecordingActivityType](#videorecordingactivitytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:18](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L18)*
+*Defined in [src/activity-types/activity-type.types.ts:19](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L19)*
 
 ___
 <a id="othertype"></a>
@@ -694,7 +705,7 @@ ___
 
 **Ƭ OtherType**: *[LikertType](#likerttype) \| [QuizType](#quiztype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:88](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L88)*
+*Defined in [src/activity-types/activity-type.types.ts:89](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L89)*
 
 ___
 <a id="processableactivitytype"></a>
@@ -703,7 +714,7 @@ ___
 
 **Ƭ ProcessableActivityType**: *[OpenAnswerType](#openanswertype) \| [ClosedResponseType](#closedresponsetype) \| [AudioVideoType](#audiovideotype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:65](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L65)*
+*Defined in [src/activity-types/activity-type.types.ts:66](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L66)*
 
 ___
 <a id="questiontype"></a>
@@ -712,7 +723,7 @@ ___
 
 **Ƭ QuestionType**: *"http://activitystrea.ms/schema/1.0/question"*
 
-*Defined in [src/activity-types/activity-type.types.ts:67](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L67)*
+*Defined in [src/activity-types/activity-type.types.ts:68](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L68)*
 
 ___
 <a id="quiztype"></a>
@@ -721,7 +732,7 @@ ___
 
 **Ƭ QuizType**: *"https://w3id.org/xapi/smart/activity/quiz"*
 
-*Defined in [src/activity-types/activity-type.types.ts:86](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L86)*
+*Defined in [src/activity-types/activity-type.types.ts:87](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L87)*
 
 ___
 <a id="recipechecker"></a>
@@ -750,7 +761,7 @@ ___
 
 **Ƭ ResponseInImageActivityType**: *"https://w3id.org/xapi/smart/activity/response-in-image"*
 
-*Defined in [src/activity-types/activity-type.types.ts:36](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L36)*
+*Defined in [src/activity-types/activity-type.types.ts:37](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L37)*
 
 ___
 <a id="reviewtype"></a>
@@ -759,7 +770,7 @@ ___
 
 **Ƭ ReviewType**: *"http://activitystrea.ms/schema/1.0/review"*
 
-*Defined in [src/activity-types/activity-type.types.ts:68](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L68)*
+*Defined in [src/activity-types/activity-type.types.ts:69](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L69)*
 
 ___
 <a id="scormchoiceactivitytype"></a>
@@ -768,7 +779,7 @@ ___
 
 **Ƭ ScormChoiceActivityType**: *"http://imsglobal.org/qti/choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:72](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L72)*
+*Defined in [src/activity-types/activity-type.types.ts:73](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L73)*
 
 ___
 <a id="scormgenericactivitytype"></a>
@@ -777,7 +788,7 @@ ___
 
 **Ƭ ScormGenericActivityType**: *"https://w3id.org/xapi/smart/activity/scorm"*
 
-*Defined in [src/activity-types/activity-type.types.ts:76](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L76)*
+*Defined in [src/activity-types/activity-type.types.ts:77](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L77)*
 
 ___
 <a id="scorminlinechoiceactivitytype"></a>
@@ -786,7 +797,7 @@ ___
 
 **Ƭ ScormInlineChoiceActivityType**: *"http://imsglobal.org/qti/inlineChoice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:74](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L74)*
+*Defined in [src/activity-types/activity-type.types.ts:75](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L75)*
 
 ___
 <a id="scormmultiplechoiceactivitytype"></a>
@@ -795,7 +806,7 @@ ___
 
 **Ƭ ScormMultipleChoiceActivityType**: *"http://imsglobal.org/qti/choiceMultiple"*
 
-*Defined in [src/activity-types/activity-type.types.ts:73](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L73)*
+*Defined in [src/activity-types/activity-type.types.ts:74](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L74)*
 
 ___
 <a id="scormtextentryactivitytype"></a>
@@ -804,7 +815,7 @@ ___
 
 **Ƭ ScormTextEntryActivityType**: *"http://imsglobal.org/qti/textEntry"*
 
-*Defined in [src/activity-types/activity-type.types.ts:75](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L75)*
+*Defined in [src/activity-types/activity-type.types.ts:76](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L76)*
 
 ___
 <a id="scormtype"></a>
@@ -813,7 +824,7 @@ ___
 
 **Ƭ ScormType**: *[ScormChoiceActivityType](#scormchoiceactivitytype) \| [ScormMultipleChoiceActivityType](#scormmultiplechoiceactivitytype) \| [ScormInlineChoiceActivityType](#scorminlinechoiceactivitytype) \| [ScormTextEntryActivityType](#scormtextentryactivitytype) \| [ScormGenericActivityType](#scormgenericactivitytype)*
 
-*Defined in [src/activity-types/activity-type.types.ts:78](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L78)*
+*Defined in [src/activity-types/activity-type.types.ts:79](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L79)*
 
 ___
 <a id="sha1sum"></a>
@@ -840,7 +851,7 @@ ___
 
 **Ƭ SingleChoiceActivityType**: *"https://w3id.org/xapi/smart/activity/single-choice"*
 
-*Defined in [src/activity-types/activity-type.types.ts:32](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L32)*
+*Defined in [src/activity-types/activity-type.types.ts:33](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L33)*
 
 ___
 <a id="surveytype"></a>
@@ -849,7 +860,7 @@ ___
 
 **Ƭ SurveyType**: *"http://id.tincanapi.com/activitytype/survey"*
 
-*Defined in [src/activity-types/activity-type.types.ts:69](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L69)*
+*Defined in [src/activity-types/activity-type.types.ts:70](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L70)*
 
 ___
 <a id="timestamp"></a>
@@ -946,7 +957,7 @@ ___
 
 **Ƭ VideoActivityType**: *"https://w3id.org/xapi/smart/activity/video"*
 
-*Defined in [src/activity-types/activity-type.types.ts:53](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L53)*
+*Defined in [src/activity-types/activity-type.types.ts:54](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L54)*
 
 ___
 <a id="videorecordingactivitytype"></a>
@@ -964,7 +975,7 @@ ___
 
 **Ƭ WordsBankActivityType**: *"https://w3id.org/xapi/smart/activity/words-bank"*
 
-*Defined in [src/activity-types/activity-type.types.ts:33](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L33)*
+*Defined in [src/activity-types/activity-type.types.ts:34](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-type.types.ts#L34)*
 
 ___
 
@@ -981,6 +992,7 @@ ___
   openAnswerTypes.genericOpenAnswer,
   openAnswerTypes.uploadFile,
   openAnswerTypes.videoRecording,
+  openAnswerTypes.mathFormulae,
   closedResponseTypes.matchingPairs,
   closedResponseTypes.singleChoice,
   closedResponseTypes.multipleChoice,
@@ -996,7 +1008,7 @@ ___
   closedResponseTypes.draggingImage
 ])
 
-*Defined in [src/activity-types/activity-types.ts:127](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L127)*
+*Defined in [src/activity-types/activity-types.ts:129](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L129)*
 
 ___
 <a id="dsl"></a>
@@ -1113,7 +1125,7 @@ ___
 
 **● isAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.attempt)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:221](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L221)*
+*Defined in [src/activity-types/activity-types.checkers.ts:224](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L224)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1133,7 +1145,7 @@ ___
 
 **● isAudio**: *`function`* =  isActivityType(audioVideoTypes.audio)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:200](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L200)*
+*Defined in [src/activity-types/activity-types.checkers.ts:203](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L203)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1173,7 +1185,7 @@ ___
 
 **● isAudioVideo**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAudio, isVideo])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:213](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L213)*
+*Defined in [src/activity-types/activity-types.checkers.ts:216](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L216)*
 
 ___
 <a id="isaudiovideorecipe"></a>
@@ -1222,7 +1234,7 @@ ___
 
 **● isBook**: *`function`* =  isActivityType(bookTypes.book)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:242](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L242)*
+*Defined in [src/activity-types/activity-types.checkers.ts:245](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L245)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1242,7 +1254,7 @@ ___
 
 **● isBookContainer**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isBook, isUnit, isLesson])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:282](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L282)*
+*Defined in [src/activity-types/activity-types.checkers.ts:285](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L285)*
 
 ___
 <a id="isclosedresponse"></a>
@@ -1380,7 +1392,7 @@ ___
 
 **● isDebate**: *`function`* =  isActivityType(discussionTypes.debate)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:192](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L192)*
+*Defined in [src/activity-types/activity-types.checkers.ts:195](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L195)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1486,7 +1498,7 @@ ___
 
 **● isDiscussion**: *`function`* =  isActivityType(discussionTypes.discussion)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:177](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L177)*
+*Defined in [src/activity-types/activity-types.checkers.ts:180](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L180)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1778,7 +1790,7 @@ ___
 
 **● isFeedback**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isQuestion, isReview, isSurvey])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:356](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L356)*
+*Defined in [src/activity-types/activity-types.checkers.ts:361](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L361)*
 
 ___
 <a id="isfillinthegaps"></a>
@@ -1807,7 +1819,7 @@ ___
 
 **● isForumReply**: *`function`* =  isActivityType(discussionTypes.forumReply)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:182](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L182)*
+*Defined in [src/activity-types/activity-types.checkers.ts:185](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L185)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -1827,7 +1839,7 @@ ___
 
 **● isForumTopic**: *`function`* =  isActivityType(discussionTypes.forumTopic)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:187](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L187)*
+*Defined in [src/activity-types/activity-types.checkers.ts:190](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L190)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2036,7 +2048,7 @@ ___
 
 **● isLaeProcessable**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isOpenAnswer, isClosedResponse, isAudioVideo])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:306](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L306)*
+*Defined in [src/activity-types/activity-types.checkers.ts:310](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L310)*
 
 ___
 <a id="islesson"></a>
@@ -2045,7 +2057,7 @@ ___
 
 **● isLesson**: *`function`* =  isActivityType(bookTypes.lesson)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:252](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L252)*
+*Defined in [src/activity-types/activity-types.checkers.ts:255](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L255)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2108,7 +2120,7 @@ ___
 
 **● isLikert**: *`function`* =  isActivityType(otherTypes.likert)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:265](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L265)*
+*Defined in [src/activity-types/activity-types.checkers.ts:268](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L268)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2205,6 +2217,26 @@ ___
 **Returns:** `boolean`
 
 ___
+<a id="ismathformulae"></a>
+
+### `<Const>` isMathFormulae
+
+**● isMathFormulae**: *`function`* =  isActivityType(openAnswerTypes.mathFormulae)
+
+*Defined in [src/activity-types/activity-types.checkers.ts:152](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L152)*
+
+#### Type declaration
+▸(activityType: *`string`*): `boolean`
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| activityType | `string` |
+
+**Returns:** `boolean`
+
+___
 <a id="ismatrixmultiplechoice"></a>
 
 ### `<Const>` isMatrixMultipleChoice
@@ -2271,7 +2303,7 @@ ___
 
 **● isNonInteractive**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isAttempt, isNonInteractiveAttempt])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:234](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L234)*
+*Defined in [src/activity-types/activity-types.checkers.ts:237](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L237)*
 
 ___
 <a id="isnoninteractiveattempt"></a>
@@ -2280,7 +2312,7 @@ ___
 
 **● isNonInteractiveAttempt**: *`function`* =  isActivityType(nonInteractiveTypes.nonInteractive)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:226](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L226)*
+*Defined in [src/activity-types/activity-types.checkers.ts:229](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L229)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2324,10 +2356,11 @@ ___
   isEssay,
   isGenericOpenAnswer,
   isUploadFile,
-  isVideoRecording
+  isVideoRecording,
+  isMathFormulae
 ])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:162](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L162)*
+*Defined in [src/activity-types/activity-types.checkers.ts:164](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L164)*
 
 ___
 <a id="isopenanswerrecipe"></a>
@@ -2356,7 +2389,7 @@ ___
 
 **● isOtherType**: *[ActivityTypeChecker](#activitytypechecker)* =  anyPass([isLikert, isQuiz])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:273](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L273)*
+*Defined in [src/activity-types/activity-types.checkers.ts:276](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L276)*
 
 ___
 <a id="ispassed"></a>
@@ -2537,7 +2570,7 @@ ___
 
 **● isQuestion**: *`function`* =  isActivityType(feedbackTypes.question)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:337](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L337)*
+*Defined in [src/activity-types/activity-types.checkers.ts:342](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L342)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2557,7 +2590,7 @@ ___
 
 **● isQuiz**: *`function`* =  isActivityType(otherTypes.quiz)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:260](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L260)*
+*Defined in [src/activity-types/activity-types.checkers.ts:263](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L263)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2683,7 +2716,7 @@ ___
 
 **● isReview**: *`function`* =  isActivityType(feedbackTypes.review)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:342](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L342)*
+*Defined in [src/activity-types/activity-types.checkers.ts:347](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L347)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2709,7 +2742,7 @@ ___
   isScormTextEntry
 ])
 
-*Defined in [src/activity-types/activity-types.checkers.ts:395](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L395)*
+*Defined in [src/activity-types/activity-types.checkers.ts:400](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L400)*
 
 ___
 <a id="isscormchoice"></a>
@@ -2718,7 +2751,7 @@ ___
 
 **● isScormChoice**: *`function`* =  isActivityType(scormTypes.choice)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:369](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L369)*
+*Defined in [src/activity-types/activity-types.checkers.ts:374](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L374)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2738,7 +2771,7 @@ ___
 
 **● isScormGeneric**: *`function`* =  isActivityType(scormTypes.genericScorm)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:364](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L364)*
+*Defined in [src/activity-types/activity-types.checkers.ts:369](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L369)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2758,7 +2791,7 @@ ___
 
 **● isScormInlineChoice**: *`function`* =  isActivityType(scormTypes.inlineChoice)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:379](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L379)*
+*Defined in [src/activity-types/activity-types.checkers.ts:384](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L384)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2778,7 +2811,7 @@ ___
 
 **● isScormMultipleChoice**: *`function`* =  isActivityType(scormTypes.multipleChoice)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:374](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L374)*
+*Defined in [src/activity-types/activity-types.checkers.ts:379](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L379)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2818,7 +2851,7 @@ ___
 
 **● isScormTextEntry**: *`function`* =  isActivityType(scormTypes.textEntry)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:384](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L384)*
+*Defined in [src/activity-types/activity-types.checkers.ts:389](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L389)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2901,7 +2934,7 @@ ___
 
 **● isSurvey**: *`function`* =  isActivityType(feedbackTypes.survey)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:347](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L347)*
+*Defined in [src/activity-types/activity-types.checkers.ts:352](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L352)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -2964,7 +2997,7 @@ ___
 
 **● isUnit**: *`function`* =  isActivityType(bookTypes.unit)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:247](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L247)*
+*Defined in [src/activity-types/activity-types.checkers.ts:250](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L250)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -3004,7 +3037,7 @@ ___
 
 **● isVideo**: *`function`* =  isActivityType(audioVideoTypes.video)
 
-*Defined in [src/activity-types/activity-types.checkers.ts:205](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L205)*
+*Defined in [src/activity-types/activity-types.checkers.ts:208](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L208)*
 
 #### Type declaration
 ▸(activityType: *`string`*): `boolean`
@@ -3247,7 +3280,7 @@ ___
 
 ▸ **isAssessable**(activityType: *`string`*): `boolean`
 
-*Defined in [src/activity-types/activity-types.checkers.ts:329](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L329)*
+*Defined in [src/activity-types/activity-types.checkers.ts:334](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.checkers.ts#L334)*
 
 **Parameters:**
 
@@ -3378,7 +3411,7 @@ ___
 
 **activityTypes**: *`object`*
 
-*Defined in [src/activity-types/activity-types.ts:94](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L94)*
+*Defined in [src/activity-types/activity-types.ts:95](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L95)*
 
 ___
 

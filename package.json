@@ -1,6 +1,6 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",
@@ -24,7 +24,7 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@gradiant/xapi-dsl": "1.16.1"
+    "@gradiant/xapi-dsl": "1.17.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -62,7 +62,7 @@
     "predocs": "rm -rf docs node_modules/typedoc/node_modules/typescript",
     "docs": "typedoc --tsconfig tsconfig.docs.json --out docs --mode file --readme none --hideGenerator --excludePrivate --includeDeclarations --excludeNotExported --name 'SMART xAPI DSL'",
     "docs:md": "npm run docs -- --theme markdown --mdEngine github",
-    "postdocs:md": "find docs/ -type f | xargs -i sed -i -E 's|/blob/[^/]*/|/blob/master/|g' '{}'"
+    "postdocs:md": "find docs/ -type f | gxargs -i gsed -i -E 's|/blob/[^/]*/|/blob/master/|g' '{}'"
   },
   "husky": {
     "hooks": {

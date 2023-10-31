@@ -10,6 +10,7 @@ export namespace openAnswerTypes {
   export const genericOpenAnswer = types.smart.openAnswer;
   export const uploadFile = types.smart.uploadFile;
   export const videoRecording = types.smart.videoRecording;
+  export const mathFormulae = types.smart.mathFormulae;
 }
 
 /**
@@ -112,6 +113,7 @@ export const activityTypes = {
  * - {@link openAnswerTypes.genericOpenAnswer}
  * - {@link openAnswerTypes.uploadFile}
  * - {@link openAnswerTypes.videoRecording}
+ * - {@link openAnswerTypes.mathFormulae}
  * - {@link closedResponseTypes.matchingPairs}
  * - {@link closedResponseTypes.singleChoice}
  * - {@link closedResponseTypes.multipleChoice}
@@ -131,6 +133,7 @@ export const assessableTypes = new Set([
   openAnswerTypes.genericOpenAnswer,
   openAnswerTypes.uploadFile,
   openAnswerTypes.videoRecording,
+  openAnswerTypes.mathFormulae,
   closedResponseTypes.matchingPairs,
   closedResponseTypes.singleChoice,
   closedResponseTypes.multipleChoice,

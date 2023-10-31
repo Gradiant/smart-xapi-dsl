@@ -10,6 +10,7 @@
 * [draw](openanswertypes.md#draw)
 * [essay](openanswertypes.md#essay)
 * [genericOpenAnswer](openanswertypes.md#genericopenanswer)
+* [mathFormulae](openanswertypes.md#mathformulae)
 * [uploadFile](openanswertypes.md#uploadfile)
 * [videoRecording](openanswertypes.md#videorecording)
 
@@ -51,6 +52,15 @@ ___
 **● genericOpenAnswer**: *"https://w3id.org/xapi/smart/activity/open-answer"* =  types.smart.openAnswer
 
 *Defined in [src/activity-types/activity-types.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L10)*
+
+___
+<a id="mathformulae"></a>
+
+### `<Const>` mathFormulae
+
+**● mathFormulae**: *"https://w3id.org/xapi/smart/activity/math-formulae"* =  types.smart.mathFormulae
+
+*Defined in [src/activity-types/activity-types.ts:13](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/activity-types/activity-types.ts#L13)*
 
 ___
 <a id="uploadfile"></a>

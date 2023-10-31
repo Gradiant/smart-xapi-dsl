@@ -149,6 +149,7 @@ export const isUploadFile = isActivityType(openAnswerTypes.uploadFile);
  * Check if the given activity type is {@link openAnswerTypes.videoRecording}
  */
 export const isVideoRecording = isActivityType(openAnswerTypes.videoRecording);
+export const isMathFormulae = isActivityType(openAnswerTypes.mathFormulae);
 
 /**
  * Check if the given activity type is an open answer type:
@@ -158,6 +159,7 @@ export const isVideoRecording = isActivityType(openAnswerTypes.videoRecording);
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
  * - {@link openAnswerTypes.videoRecording}
+ * - {@link openAnswerTypes.mathFormulae}
  */
 export const isOpenAnswer: ActivityTypeChecker = anyPass([
   isAudioRecording,
@@ -165,7 +167,8 @@ export const isOpenAnswer: ActivityTypeChecker = anyPass([
   isEssay,
   isGenericOpenAnswer,
   isUploadFile,
-  isVideoRecording
+  isVideoRecording,
+  isMathFormulae
 ]);
 
 // Discussion
@@ -299,6 +302,7 @@ export const isBookContainer: ActivityTypeChecker = anyPass([isBook, isUnit, isL
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
  * - {@link openAnswerTypes.genericOpenAnswer}
+ * - {@link openAnswerTypes.mathFormulae}
  *
  * - {@link audioVideoTypes.audio}
  * - {@link audioVideoTypes.video}
@@ -324,6 +328,7 @@ export const isLaeProcessable: ActivityTypeChecker = anyPass([isOpenAnswer, isCl
  * - {@link closedResponseTypes.draggingImage}
  * - {@link openAnswerTypes.draw}
  * - {@link openAnswerTypes.essay}
+ * - {@link openAnswerTypes.mathFormulae}
  * - {@link openAnswerTypes.genericOpenAnswer}
  */
 export const isAssessable: ActivityTypeChecker = (activityType: string) => assessableTypes.has(activityType);

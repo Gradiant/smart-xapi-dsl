@@ -1,13 +1,16 @@
 {
   "name": "@gradiant/smart-xapi-dsl",
-  "version": "2.21.0",
+  "version": "2.22.0",
   "description": "Smart XAPI DSL",
   "main": "index.js",
   "module": "esm/index.js",
   "browser": "dist/smart-xapi-dsl.min.js",
   "types": "index.d.ts",
-  "license": "UNLICENSED",
+  "license": "Mozilla Public License Version 2.0",
   "author": "Lorens León <lleon@gradiant.org>",
+  "maintainers": [
+    "Agustín Cañas <acanas@gradiant.org>"
+  ],
   "contributors": [
     "Agustín Cañas <acanas@gradiant.org>"
   ],

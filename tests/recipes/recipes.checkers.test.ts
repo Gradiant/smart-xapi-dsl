@@ -5,6 +5,7 @@ import {
   isClosedResponseRecipe,
   isDiscussionRecipe,
   isLikertRecipe,
+  isMinigameRecipe,
   isNonInteractiveRecipe,
   isOpenAnswerRecipe,
   isRecipe,
@@ -113,6 +114,18 @@ describe('Recipes Checkers', () => {
     it('should return `false` for any other type', () => {
       getDifference(recipes.likert).forEach(recipe => {
         expect(isLikertRecipe(recipe)).to.be.false;
+      });
+    });
+  });
+
+  describe('isMinigameRecipe()', () => {
+    it('should return `true` for minigame recipe', () => {
+      expect(isMinigameRecipe(recipes.minigame)).to.be.true;
+    });
+
+    it('should return `false` for any other type', () => {
+      getDifference(recipes.minigame).forEach(recipe => {
+        expect(isMinigameRecipe(recipe)).to.be.false;
       });
     });
   });

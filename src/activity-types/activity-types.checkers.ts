@@ -266,14 +266,19 @@ export const isQuiz = isActivityType(otherTypes.quiz);
  * Check if the given activity type is {@link otherTypes.likert}
  */
 export const isLikert = isActivityType(otherTypes.likert);
+/**
+ * Check if the given activity type is {@link otherTypes.password}
+ */
+export const isPassword = isActivityType(otherTypes.password);
 
 /**
  * Check if the given activity type is one of:
  *
  * - {@link otherTypes.likert}
  * - {@link otherTypes.quiz}
+ * - {@link otherTypes.password}
  */
-export const isOtherType: ActivityTypeChecker = anyPass([isLikert, isQuiz]);
+export const isOtherType: ActivityTypeChecker = anyPass([isLikert, isQuiz, isPassword]);
 
 /**
  * Check if the given activity type is a book container types:

@@ -8,4 +8,5 @@ export namespace recipes {
   export const nonInteractive = categoryIdentifiers.smart.recipeNoInteractive;
   export const scorm = categoryIdentifiers.smart.recipeScorm;
   export const likert = categoryIdentifiers.smart.recipeLikert;
+  export const minigame = categoryIdentifiers.smart.recipeMinigame;
 }

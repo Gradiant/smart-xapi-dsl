@@ -2,8 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.23.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.22.1...v2.23.0) (2023-11-01)
 
-## [2.22.0](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.21.0...v2.21.0) (2023-10-30)
+### Features
+
+* support to password activities and minigame recipe
+
+
+## [2.22.1](https://github.com/Gradiant/smart-xapi-dsl/compare/v2.21.0...v2.22.1) (2023-10-31)
 
 ### Features
 

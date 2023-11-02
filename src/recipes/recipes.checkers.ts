@@ -43,3 +43,8 @@ export const isScormRecipe = isRecipe(recipes.scorm);
  * Check if the given recipe identifier is {@link recipes.likert}
  */
 export const isLikertRecipe = isRecipe(recipes.likert);
+
+/**
+ * Check if the given recipe identifier is {@link recipes.minigame}
+ */
+export const isMinigameRecipe = isRecipe(recipes.minigame);

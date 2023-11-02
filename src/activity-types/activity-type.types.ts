@@ -86,5 +86,6 @@ export type ScormType =
 
 export type LikertType = typeof otherTypes.likert;
 export type QuizType = typeof otherTypes.quiz;
+export type PasswordType = typeof otherTypes.password;
 
-export type OtherType = LikertType | QuizType;
+export type OtherType = LikertType | QuizType | PasswordType;

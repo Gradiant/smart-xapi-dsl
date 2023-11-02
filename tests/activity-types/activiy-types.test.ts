@@ -138,6 +138,10 @@ describe('Activity Types', () => {
     it('should include quiz', () => {
       expect(otherTypes.quiz).to.be.equal(types.smart.quiz);
     });
+
+    it('should include password', () => {
+      expect(otherTypes.password).to.be.equal(types.smart.password);
+    });
   });
 
   describe('Scorm', () => {

@@ -73,6 +73,7 @@ export namespace audioVideoTypes {
 export namespace otherTypes {
   export const quiz = types.smart.quiz;
   export const likert = types.smart.likert;
+  export const password = types.smart.password;
 }
 
 export namespace feedbackTypes {

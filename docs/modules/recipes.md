@@ -10,6 +10,7 @@
 * [closedResponse](recipes.md#closedresponse)
 * [discussion](recipes.md#discussion)
 * [likert](recipes.md#likert)
+* [minigame](recipes.md#minigame)
 * [nonInteractive](recipes.md#noninteractive)
 * [openAnswer](recipes.md#openanswer)
 * [scorm](recipes.md#scorm)
@@ -52,6 +53,15 @@ ___
 **● likert**: *"https://w3id.org/xapi/smart/activity/recipe/likert"* =  categoryIdentifiers.smart.recipeLikert
 
 *Defined in [src/recipes/recipes.ts:10](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/recipes/recipes.ts#L10)*
+
+___
+<a id="minigame"></a>
+
+### `<Const>` minigame
+
+**● minigame**: *"https://w3id.org/xapi/smart/activity/recipe/minigame"* =  categoryIdentifiers.smart.recipeMinigame
+
+*Defined in [src/recipes/recipes.ts:11](https://github.com/Gradiant/smart-xapi-dsl/blob/master/src/recipes/recipes.ts#L11)*
 
 ___
 <a id="noninteractive"></a>
